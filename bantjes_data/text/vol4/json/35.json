@@ -1,0 +1,108 @@
+{
+  "first_name": "Antonius",
+  "last_name": "TRUTIUS LYRANUS",
+  "birth_date": "13",
+  "birth_place": "Lier",
+  "death_date": "7603",
+  "death_place": "Leiden",
+  "education": null,
+  "careers": [
+    {
+      "job": "Hoogleraar Redeneer- en Leiden",
+      "location": "Leiden",
+      "date": "12-05-1582",
+      "source": "13"
+    },
+    {
+      "job": "Natuurkunde",
+      "location": null,
+      "date": "01-07-1582",
+      "source": "73"
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Woont Pieterskerkstraat 10/12",
+      "source": "34"
+    },
+    {
+      "particularity": "Salaris: f400(1582),f450(1597)",
+      "source": "34"
+    }
+  ],
+  "spouses": [
+    {
+      "first_name": "Catharina",
+      "last_name": "de Succa",
+      "birth_date": null,
+      "birth_place": null,
+      "death_date": null,
+      "death_place": null,
+      "marriage": null,
+      "extra_info": null,
+      "source": null
+    }
+  ],
+  "parents": [
+    {
+      "first_name": "Willem",
+      "last_name": "de Succa",
+      "extra_info": null,
+      "source": "34"
+    },
+    {
+      "first_name": "Catharina",
+      "last_name": "van Mierop",
+      "extra_info": null,
+      "source": "54"
+    }
+  ],
+  "grand_parents_father": null,
+  "grand_parents_mother": null,
+  "in_laws": null,
+  "children": [
+    {
+      "first_name": "Cathelijntje",
+      "last_name": null,
+      "extra_info": null,
+      "source": null
+    },
+    {
+      "first_name": "Janneken",
+      "last_name": null,
+      "extra_info": null,
+      "source": null
+    },
+    {
+      "first_name": "Magken",
+      "last_name": null,
+      "extra_info": null,
+      "source": null
+    },
+    {
+      "first_name": "Jan",
+      "last_name": null,
+      "extra_info": null,
+      "source": null
+    },
+    {
+      "first_name": "Willem",
+      "last_name": null,
+      "extra_info": null,
+      "source": null
+    },
+    {
+      "first_name": "Susanneken",
+      "last_name": null,
+      "extra_info": null,
+      "source": null
+    },
+    {
+      "first_name": "Antony",
+      "last_name": null,
+      "extra_info": null,
+      "source": null
+    }
+  ],
+  "far_family": null
+}

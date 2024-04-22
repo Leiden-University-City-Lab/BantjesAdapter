@@ -1,0 +1,192 @@
+{
+  "first_name": "Pieter",
+  "last_name": "NIEUWLAND",
+  "birth_date": "06-11-1764",
+  "birth_place": "Diemermeer",
+  "death_date": "14-11-1794",
+  "death_place": "Leiden",
+  "education": [
+    {
+      "study": "Les vader Diemermeer",
+      "location": "1774",
+      "date": null,
+      "source": null
+    },
+    {
+      "study": "Onderwijs Hendrik Aen.e Amsterdam",
+      "location": "1774",
+      "date": null,
+      "source": null
+    },
+    {
+      "study": "Onderwijs Aenae en Jeronimo Amsterdarn",
+      "location": "1775",
+      "date": null,
+      "source": null
+    },
+    {
+      "study": "Stud. Amsterdam",
+      "location": null,
+      "date": "10-1777",
+      "source": null
+    },
+    {
+      "study": "Diss. Amsterdam",
+      "location": null,
+      "date": "14-04-1783",
+      "source": null
+    },
+    {
+      "study": "Stud. Phil. Leiden",
+      "location": null,
+      "date": "12-09-17:4",
+      "source": null
+    },
+    {
+      "study": "Cand,Nat,Wis.en Wijsb. Amsterdalm",
+      "location": null,
+      "date": "1785",
+      "source": null
+    },
+    {
+      "study": "Stud. Leiden",
+      "location": null,
+      "date": "21-05-1786",
+      "source": null
+    },
+    {
+      "study": "Doct.h.C. Leiden",
+      "location": null,
+      "date": "24-09-1793",
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lid cCommissie lengtebepaling",
+      "location": "op zee",
+      "date": "04-1787",
+      "source": null
+    },
+    {
+      "job": "Lector Zeevaartkunde",
+      "location": "Amsterdam",
+      "date": "29-04-1789",
+      "source": null
+    },
+    {
+      "job": "Reis Duitsland",
+      "location": "Gotha, G\u00f6ttingen",
+      "date": "herfst1792",
+      "source": null
+    },
+    {
+      "job": "Hoogleraar Natuur-, Wis-,Burgerlijke, Vaterweg- en Sterrekunde",
+      "location": "Leiden",
+      "date": "01-06-1795",
+      "source": null
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Dichter",
+      "source": "(13)"
+    },
+    {
+      "particularity": "Wonderkind, opgevoed door Bernhardus de Bosch",
+      "source": "(13)"
+    },
+    {
+      "particularity": "Diss. De musonio bij prof.Wijttenbach",
+      "source": "(49)"
+    },
+    {
+      "particularity": "Luthers gedoopt, Doopsgezind in Amsterdam, Waals in Leiden",
+      "source": "(49)"
+    },
+    {
+      "particularity": "Patricot",
+      "source": "(49)"
+    },
+    {
+      "particularity": "Op nominatie Franeker 1784",
+      "source": "(49)"
+    },
+    {
+      "particularity": "Aanstelling tot hoogleraar in Utrecht ingetrokken na Pruisische inval in 17:7",
+      "source": "(14)"
+    },
+    {
+      "particularity": "Lid Felix Meritis 1788, Utrechts Genootschap 1788, Haarlemse Maatschappij 1789, Bataafs Genootschap voor proefondervindelijke wijsbegeerte 1789, Maatschappij der Nederlandse Letterkunde Leiden 1790, Zeeuwsch Genootschap der Wetenschappen, Academies van Wetenschappen te Erfurt 1793 en GSttingen 1794",
+      "source": "(49)"
+    },
+    {
+      "particularity": "Erft f44.000 van zijn vrouw",
+      "source": "(4)"
+    },
+    {
+      "particularity": "Salaris: f1600(1793)",
+      "source": "(9)"
+    },
+    {
+      "particularity": "Prof. van Swinden helpt hem in zeecommissie 1787",
+      "source": "(49)"
+    },
+    {
+      "particularity": "Jz",
+      "source": "(13)"
+    }
+  ],
+  "spouses": [
+    {
+      "first_name": "Anna Hartwigina",
+      "last_name": "Pruyssenaar",
+      "birth_date": "17-07-1770",
+      "birth_place": "Amsterdam",
+      "death_date": "29-03-1792",
+      "death_place": "Amsterdam",
+      "marriage": "24-07-1791",
+      "extra_info": null,
+      "source": null
+    }
+  ],
+  "parents": [
+    {
+      "first_name": "Barend",
+      "last_name": "Nieuwland",
+      "extra_info": "onbemiddelde timmerman met veel boeken Sn wiskundige, luthers",
+      "source": "(46,49)"
+    },
+    {
+      "first_name": "Marretje",
+      "last_name": "Klinkert",
+      "extra_info": "doopsgezind",
+      "source": "(46,49)"
+    }
+  ],
+  "grand_parents_father": null,
+  "grand_parents_mother": null,
+  "in_laws": [
+    {
+      "first_name": "Jan Coenraad",
+      "last_name": "Pruyssenaar",
+      "extra_info": "Rijk suikerraffinadeur",
+      "source": "(49)"
+    },
+    {
+      "first_name": "Aletta Catharina",
+      "last_name": "Meurs",
+      "extra_info": null,
+      "source": "(49)"
+    }
+  ],
+  "children": [
+    {
+      "first_name": "Daughter",
+      "last_name": null,
+      "extra_info": "Geb. Amsterdam 29-03-1792, Gest.Amsterdam 31-03-1792",
+      "source": "(49)"
+    }
+  ],
+  "far_family": null
+}

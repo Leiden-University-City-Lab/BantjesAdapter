@@ -1,0 +1,80 @@
+{
+  "first_name": "Simon Fransz",
+  "last_name": "VAN DER MERWEN",
+  "birth_date": null,
+  "birth_place": null,
+  "death_date": null,
+  "death_place": null,
+  "education": null,
+  "careers": [
+    {
+      "job": "Burgemeester Leiden",
+      "location": "Leiden",
+      "date": "1596,1599",
+      "source": "(21)"
+    },
+    {
+      "job": "Schepen Leiden",
+      "location": "Leiden",
+      "date": "1600",
+      "source": "(21)"
+    },
+    {
+      "job": "Lector Wiskunde en Nederduitsche",
+      "location": "Leiden",
+      "date": null,
+      "source": "(13)"
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Woont Breestraat",
+      "source": "(B)"
+    }
+  ],
+  "spouses": [
+    {
+      "first_name": "Maritgen Cornelisd.",
+      "last_name": "van Aecken",
+      "birth_date": "79-10-1577",
+      "birth_place": null,
+      "death_date": null,
+      "death_place": null,
+      "marriage": null,
+      "extra_info": null,
+      "source": "(a)"
+    }
+  ],
+  "parents": [
+    {
+      "first_name": "Mr.",
+      "last_name": "VAN DER MERWEN",
+      "extra_info": "Organist",
+      "source": "(b)"
+    },
+    {
+      "first_name": "Neeltgen",
+      "last_name": "SIMONS",
+      "extra_info": null,
+      "source": "(b)"
+    }
+  ],
+  "grand_parents_father": null,
+  "grand_parents_mother": null,
+  "in_laws": null,
+  "children": [
+    {
+      "first_name": "Dr.",
+      "last_name": "VAN DER MERWEN",
+      "extra_info": "Ondt. Leiden",
+      "source": "a"
+    },
+    {
+      "first_name": "Claesken",
+      "last_name": "VAN DER MERWEN",
+      "extra_info": null,
+      "source": "b"
+    }
+  ],
+  "far_family": null
+}

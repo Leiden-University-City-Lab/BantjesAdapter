@@ -1,0 +1,31 @@
+{
+  "first_name": "Frans",
+  "last_name": "VAN SCHOOTEN",
+  "birth_date": "1615",
+  "birth_place": "Leiden",
+  "death_date": "29-05-1660",
+  "death_place": null,
+  "education": [
+    {
+      "study": "Onderwijs Remonstrantse Leiden",
+      "location": null,
+      "date": null,
+      "source": "(3)"
+    },
+    {
+      "study": "Remonstrantse Leiden",
+      "location": null,
+      "date": "15-05-1631",
+      "source": "(14)"
+    }
+  ],
+  "careers": null,
+  "particularities": null,
+  "spouses": null,
+  "parents": null,
+  "grand_parents_father": null,
+  "grand_parents_mother": null,
+  "in_laws": null,
+  "children": null,
+  "far_family": null
+}

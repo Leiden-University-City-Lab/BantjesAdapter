@@ -1,0 +1,92 @@
+{
+  "first_name": "Samuel Carolus",
+  "last_name": "KECHEL(IUS) (VAN HOLLESTEYN)",
+  "birth_date": "1611",
+  "birth_place": "Praag",
+  "death_date": "maart 1668",
+  "death_place": null,
+  "education": [
+    {
+      "study": "PHil.",
+      "location": "Leiden",
+      "date": "16-10-1632",
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": "Mathematicus",
+      "location": "Leiden",
+      "date": null,
+      "source": null
+    },
+    {
+      "job": "Toekenning jaarwedde ad f200 voor Leiden vs8-402-1662",
+      "location": null,
+      "date": "32 jaar diensten tot voortzetting",
+      "source": null
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Bekend met Hevelius, Chr. Huygens, van Schooten",
+      "source": null
+    },
+    {
+      "particularity": "Woont Klokstraat Rapenburg 30",
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "first_name": "Alida",
+      "last_name": "Lus",
+      "birth_date": null,
+      "birth_place": "Amsterdam",
+      "death_date": null,
+      "death_place": null,
+      "marriage": null,
+      "extra_info": "Ondt.Leiden 05-11-1643",
+      "source": null
+    }
+  ],
+  "parents": [
+    {
+      "first_name": "Jan/Hans",
+      "last_name": "Kechel von Hollenstein",
+      "extra_info": "rijke burger Praag, als calvinist gevlucht in 1620",
+      "source": null
+    }
+  ],
+  "grand_parents_father": null,
+  "grand_parents_mother": null,
+  "in_laws": [
+    {
+      "first_name": "Anna",
+      "last_name": "Baudius",
+      "extra_info": null,
+      "source": null
+    }
+  ],
+  "children": [
+    {
+      "first_name": "Johannes",
+      "last_name": null,
+      "extra_info": "Ged. Leiden 17-08-1644",
+      "source": null
+    },
+    {
+      "first_name": "Johannes",
+      "last_name": null,
+      "extra_info": "Ged. Leiden 08-08-1645",
+      "source": null
+    },
+    {
+      "first_name": "Anna Elisabeth",
+      "last_name": null,
+      "extra_info": "Ged. Leiden 03-10-1646",
+      "source": null
+    }
+  ],
+  "far_family": null
+}
