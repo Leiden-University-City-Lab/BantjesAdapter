@@ -25,7 +25,7 @@ def ocr_images(input_dir, output_dir, custom_psm_config):
 
             print(f"OCR completed for {filename}. Text saved to {output_filename}")
 
-# Example usage
+
 input_directory = "/Users/zahraabedi/Desktop/screenshot_3"
 output_directory = "/Users/zahraabedi/Desktop/txt_3"
 custom_psm_config = r'--psm 4'
