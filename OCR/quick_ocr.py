@@ -13,5 +13,5 @@ def perform_ocr(image_path):
     image = Image.open(image_path)
     text = pytesseract.image_to_string(image, config=custom_psm_config, lang='alg')
     return text.strip()
-ocr_text = perform_ocr('bantjes_data/png_processed/vol4/person/page_21.png')
+ocr_text = perform_ocr('../bantjes_data/png_processed/vol4/person/page_21.png')
 print(ocr_text)

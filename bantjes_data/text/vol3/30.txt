@@ -1,0 +1,45 @@
+../bantjes_data/png_processed/vol3/person/page_68.png
+-------------------------
+
+RÜCKER(RUKKERS),Johann Conrad
+
+1.Geb. Windesheim 30-07-1691 (26a,26b)
+Gest. Leiden 08-03-1778 (2)
+2.Opleiding:
+-Stud.Iur. Leiden 14-09-1717 (26)
+-Stud4Iur. Franeker 13-06-1718 (11)
+-Doct.Iur. Franeker 06-10-1718 (12)
+3.Loopbaan:
+-Lector Burgerlijk Leiden 14-03-1733 (25)
+Recht 0:17-04-1733 (25)
+-Hoogleraar Rechten Leiden 12-07-1734 (25)
+(Burgerlijk Recht) 0:20-09-1734 (25)
+-Nam “Tus belli et Leiden 1746 -1747 (25)
+Pacis waar 1759 -1760 (25)
+-Eervol ontslag wegens Leiden 06-11-1769 (25)
+
+leeftijd,behoud titel
+
+5.Bijzonderheden:
+
+-Diss. De poenis bij prof.Westenberg (12)
+9.Echtgenote:
+Adriana Matjeu (a)
+
+11.Kinderen:
+
+1.Maria Bata (a)
+Ged. Leiden 09-02-1719
+
+2.Angelica Maria (a)
+Ged. Leiden 03-01-1722
+
+3.Adriana Sybilla (a)
+
+Ged. Leiden 14-06-1725
+12.Verdere familie:
+
+-Zijn neef(zoon van broer) is Johann Gerhard Christiaan Rücker, (2)
+hoogleraar rechten Sroningen(1752-1760) Utrecht(1760-1768)
+
+a) DTB GA Leiden
