@@ -1,7 +1,7 @@
 ../bantjes_data/png_processed/vol4/person/page_62.png
 ../bantjes_data/png_processed/vol4/person/page_63.png
 -------------------------
-SPEYERT VAN DER EyYK,Simon
+SPEYERT VAN DER EYK,Simon
 
 1.Geb. Den Briel 26-03-1771 (13)
 Ged. Den Briel 29-03-1771 (32)

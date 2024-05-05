@@ -37,7 +37,7 @@ class Career(OpenAISchema):
     date: Optional[str] = Field(None, description='The date of the job')
     source: Optional[str] = Field(None, description='The source of the info mentioned in parentheses, e.g. (6)')
     # vol1
-    type_job: type_of_job = Field(None, description='Is this the main job mentioned by Carrière or a side job mentioned by Nevenfuncties?')
+    is_side_job: Optional[bool] = Field(None, description='Is this the main job mentioned by Carrière or a side job mentioned by Nevenfuncties? In case of Nevenfuncties the value is true')
     # vol2-7
     # type_job: type_of_job = Field(None, description='Is this the main job mentioned by Loopbaan or a side job mentioned by Nevenfuncties?')
 
@@ -46,15 +46,12 @@ class Family(OpenAISchema):
 
     first_name: str = Field(..., description="The first name of a person, e.g. Cornelis")
     last_name: str = Field(..., description="The last name of a person, e.g. EKAMA. If this is this is mentioned under 'Kinderen', you should take the last name of the main person(father)")
-    birth_date: Optional[str] = Field(None,
-                                      description="The birth date of the peron, mentioned after geb. e.g. 28-03-1794")
+    birth_date: Optional[str] = Field(None, description="The birth date of the peron, mentioned after geb. e.g. 28-03-1794")
     birth_place: Optional[str] = Field(None, description="The birth place of the peron")
-    baptized_date: Optional[str] = Field(None,
-                                         description="The date in which this person has been baptized, mentioned after ged. e.g. 28-03-1794")
+    baptized_date: Optional[str] = Field(None, description="The date in which this person has been baptized, mentioned after ged. e.g. 28-03-1794")
     death_date: Optional[str] = Field(None, description="The death date of the peron mentioned after gest.")
     death_place: Optional[str] = Field(None, description="The place where this person has died")
-    extra_info: Optional[str] = Field(None,
-                                      description="Extra info about that specific person such as education and job.")
+    extra_info: Optional[str] = Field(None, description="Extra info about that specific person such as education and job.")
     relation_type: OrderRelation = Field(..., description="The type of relation from the main person to this person. So if this person in mentioned below Kinderen, "
                                                      "the relation_type from the main person to this peron will be 'Vader' if the main person is a man and 'Moeder' if a woman.")
     source: Optional[str] = Field(None, description='The source of the info mentioned in parentheses, e.g. (6)')
@@ -78,6 +75,7 @@ class Person(OpenAISchema):
     second_names: Optional[str] = Field(None, description="The second names of a person separated by comma's, e.g. Jacob in Jacobus (Jacob)")
     alternative_last_names: Optional[str] = Field(None, description="The alternative last name of a person separated by comma's, e.g. HERMINIUS in ARMINIUS (HERMINIUS)")
     birth_date: Optional[str] = Field(None, description="The birth date of a person, e.g. 28-03-1794")
+    birth_year: Optional[str] = Field(None, description="The birth year of a person, e.g. 1794")
     birth_country: Optional[str] = Field(None, description="The birth country of the person")
     birth_city: Optional[str] = Field(None, description="The birth city of the person")
     baptized_date: Optional[str] = Field(None, description="The date in which this person has been baptized, mentioned after ged. e.g. 28-03-1794")

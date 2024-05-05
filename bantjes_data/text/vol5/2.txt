@@ -2,10 +2,10 @@
 ../bantjes_data/png_processed/vol5/person/page_14.png
 ../bantjes_data/png_processed/vol5/person/page_15.png
 -------------------------
-BARLAEUS (VAN BAERLE) Caspar
+BARLAEUS (VAN BAERLE), Caspar
 
-1.Geb. Antwerpen 17-03-1584 2
-Gest. Amsterdam 1I4-01-1648
+1.Geb. Antwerpen 12-02-1584 (2)
+Gest. Amsterdam 14-01-1648
 2.Opleiding:
 -Latijnse School(vader) Zaltbommel voor 1595 (78)
 -Latijnse School Dordrecht 1595 -1596 (2)

@@ -1,7 +1,6 @@
 ../bantjes_data/png_processed/vol4/person/page_42.png
 ../bantjes_data/png_processed/vol4/person/page_43.png
 -------------------------
-38L
 
 MARKGRAVE (MARGGRAF),Christiaan
 

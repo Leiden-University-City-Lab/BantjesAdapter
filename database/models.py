@@ -1,4 +1,4 @@
-from sqlalchemy import Column, String, Integer, ForeignKey
+from sqlalchemy import Column, String, Integer, ForeignKey, Boolean
 from sqlalchemy.orm import declarative_base
 
 Base = declarative_base()
@@ -16,6 +16,7 @@ class Person(Base):
     Gender = Column(String(45))
     TypeOfPerson = Column(Integer, ForeignKey('univercity.type_of_person.PersonID'))
     BirthDate = Column(String(50))
+    BirthYear = Column(String(50))
     BirthCountry = Column(String(50))
     BirthCity = Column(String(50))
     BaptizedDate = Column(String(50))
@@ -23,6 +24,7 @@ class Person(Base):
     DeathCity = Column(String(50))
     DeathCountry = Column(String(50))
     Faculty = Column(String(50))
+    Rating = Column(Integer)
 
 
 class Education(Base):
@@ -45,20 +47,10 @@ class Career(Base):
     Location = Column(String(50))
     Date = Column(String(50))
     Source = Column(String(50))
+    IsSideJob = Column(Boolean, default=False)
 
 
-class SideJob(Base):
-    __tablename__ = 'side_job'
-    __table_args__ = {'schema': 'univercity'}
-    SideJobID = Column(Integer, primary_key=True, autoincrement=True)
-    personPersonID = Column(Integer, ForeignKey('univercity.person.personPersonID'))
-    SideJob = Column(String(500))
-    Location = Column(String(50))
-    Date = Column(String(50))
-    Source = Column(String(50))
-
-
-class Particularity:
+class Particularity(Base):
     __tablename__ = 'particularity'
     __table_args__ = {'schema': 'univercity'}
     ParticularityID = Column(Integer, primary_key=True, autoincrement=True)
@@ -69,19 +61,55 @@ class Particularity:
     Source = Column(String(50))
 
 
-class Family:
+class Family(Base):
     __tablename__ = 'family'
     __table_args__ = {'schema': 'univercity'}
     FamilyID = Column(Integer, primary_key=True, autoincrement=True)
+    FirstName = Column(String(50))
+    LastName = Column(String(50))
+    BirthPlace = Column(String(50))
+    BaptizedDate = Column(String(50))
+    DeathDate = Column(String(50))
+    DeathPlace = Column(String(50))
+    Source = Column(String(50))
 
 
+class Relation(Base):
+    __tablename__ = 'relation'
+    __table_args__ = {'schema': 'univercity'}
+    RelationID = Column(Integer, primary_key=True, autoincrement=True)
+    TypeOfRelation = Column(Integer, ForeignKey('univercity.type_of_relation.RelationID'))
+    FromPersonID = Column(Integer, ForeignKey('univercity.person.personPersonID'))
+    ToPersonID = Column(Integer, ForeignKey('univercity.person.personPersonID'))
+    ToFamilyID = Column(Integer, ForeignKey('univercity.family.FamilyID'))
 
 
-class PersonSource:
+class TypeOfRelation(Base):
+    __tablename__ = 'type_of_relation'
+    __table_args__ = {'schema': 'univercity'}
+    RelationID = Column(Integer, primary_key=True, autoincrement=True)
+    RelationType = Column(String(100), nullable=False)
+
+
+class PersonSource(Base):
     __tablename__ = 'person_source'
     __table_args__ = {'schema': 'univercity'}
     PersonID = Column(Integer, primary_key=True)
 
+
+class Location(Base):
+    __tablename__ = 'location'
+    __table_args__ = {'schema': 'univercity'}
+    LocationID = Column(Integer, primary_key=True, autoincrement=True)
+    TypeOfLocation = Column(Integer, ForeignKey('univercity.type_of_location.LocationID'))
+    locationPersonID = Column(Integer, ForeignKey('univercity.person.personPersonID'))
+    Country = Column(String(100))
+    City = Column(String(100))
+    Street = Column(String(100))
+    HouseNumber = Column(String(10))
+    Region = Column(String(100))
+    locationStartDate = Column(String(20))
+    locationEndDate = Column(String(20))
 
 
 # class Location(Base):

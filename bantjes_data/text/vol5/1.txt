@@ -1,7 +1,7 @@
 ../bantjes_data/png_processed/vol5/person/page_11.png
 ../bantjes_data/png_processed/vol5/person/page_12.png
 -------------------------
-ANTHONIDES Johannes (Jan Theunisz. (Barbarossius))
+ANTHONIDES, Johannes (Jan Theunisz. (Barbarossius))
 
 1.Geb. Alkmaar 1569 (27)
 Begr.Amsterdam 29-09-1638 (80)

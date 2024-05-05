@@ -18,6 +18,8 @@ from pydantic import Field, ValidationError
 dotenv_path = join(dirname(__file__), '.env')
 load_dotenv(dotenv_path)
 
+response = get_person('ALBERTI', 'Johannus', '1698', 'Assen')
+
 sys.exit()
 
 # Add your own OpenAI API key
@@ -41,8 +43,8 @@ input_directory = '../bantjes_data/text/vol1'
 output_directory = '../bantjes_data/text/vol1/json'
 file_count = 1
 
-
-person_files = sorted(os.listdir(input_directory), key=lambda x: int(x.split('.')[0]) if x.split('.')[0].isdigit() else float('inf'))
+person_files = sorted(os.listdir(input_directory),
+                      key=lambda x: int(x.split('.')[0]) if x.split('.')[0].isdigit() else float('inf'))
 
 for filename in person_files:
     if filename.endswith('.txt'):

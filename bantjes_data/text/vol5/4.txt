@@ -2,7 +2,6 @@
 ../bantjes_data/png_processed/vol5/person/page_18.png
 ../bantjes_data/png_processed/vol5/person/page_19.png
 -------------------------
-7/
 
 BERTIUS (DE BERT) Petrus
 
