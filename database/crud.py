@@ -9,75 +9,57 @@ session = Session()
 
 def get_person(family_name: str, first_name: str, birth_year: str, birth_place: str):
     # add table names we want to get back in the response
-    return session.query(Person,
-                         TypeOfPerson,
-                         Relation,
-                         TypeOfRelation,
-                         Location,
-                         TypeOfLocation,
-                         Particularity,
-                         Education,
-                         Career).join(
-        Location,
-        and_(Location.locationPersonID == Person.personPersonID,
-             Person.TypeOfPerson == 1
-             )).outerjoin(
-        Relation,
-        Relation.FromPersonID == Person.personPersonID
-    ).outerjoin(
-        TypeOfLocation,
-        Location.TypeOfLocation == TypeOfLocation.LocationID
-    ).outerjoin(
-        TypeOfRelation,
-        Relation.RelationID == TypeOfRelation.RelationID
-    ).outerjoin(
-        Education,
-        Person.personPersonID == Education.personPersonID
-    ).outerjoin(
-        Career,
-        Person.personPersonID == Career.personPersonID
-    ).outerjoin(
+    return session.query(Person, Location).join(Location, and_(Location.locationPersonID == Person.personPersonID,
+                                                               Person.TypeOfPerson == 1)
+                                                ).outerjoin(
         TypeOfPerson,
         Person.TypeOfPerson == TypeOfPerson.PersonID
-    ).outerjoin(
-        Particularity,
-        Person.personPersonID == Particularity.personPersonID
     ).filter(
-        or_(
-            and_(
-                Person.FirstName.like(f'%{first_name}%'),
-                Person.LastName.like(f'%{family_name}%'),
-                or_(
-                    func.extract('YEAR', Location.locationStartDate) == f'{birth_year}',
-                    Location.locationStartDate is None
-                ),
-                or_(
-                    Location.City == f'{birth_place}',
-                    Location.City is None
-                )
-            ),
-            and_(
-                Person.LastName.like(f'%{family_name}%'),
-                func.extract('YEAR', Location.locationStartDate) == f'{birth_year}',
-                or_(
-                    Location.City == f'{birth_place}',
-                    Location.City is None
-                )
-            ),
-            and_(
-                Person.LastName.like(f'%{family_name}%'),
-                or_(
-                    func.extract('YEAR', Location.locationStartDate) == f'{birth_year}',
-                    Location.locationStartDate is None
-                ),
-                Location.City == f'{birth_place}'
-            )
-        )
-    ).all()
+        and_(Location.TypeOfLocation == 1,
+             or_(
+                 and_(
+                     Person.FirstName.like(f'%{first_name}%'),
+                     Person.LastName.like(f'%{family_name}%'),
+                     or_(
+                         func.extract('YEAR', Location.locationStartDate) == f'{birth_year}',
+                         Location.locationStartDate is None
+                     ),
+                     or_(
+                         Location.City == f'{birth_place}',
+                         Location.City is None
+                     )
+                 ),
+                 and_(
+                     Person.LastName.like(f'%{family_name}%'),
+                     func.extract('YEAR', Location.locationStartDate) == f'{birth_year}',
+                     or_(
+                         Location.City == f'{birth_place}',
+                         Location.City is None
+                     )
+                 ),
+                 and_(
+                     Person.LastName.like(f'%{family_name}%'),
+                     or_(
+                         func.extract('YEAR', Location.locationStartDate) == f'{birth_year}',
+                         Location.locationStartDate is None
+                     ),
+                     Location.City == f'{birth_place}'
+                 )
+             )
+             )).one_or_none()
+
+
+def get_education_count(person_id: int):
+    return session.query(func.count(Education.EducationID))\
+        .filter(Education.personPersonID == person_id).scalar()
+
+
+def get_particularity_count(person_id: int):
+    return session.query(func.count(Particularity.ParticularityID))\
+        .filter(Particularity.personPersonID == person_id).scalar()
 
 
 def update_person(person_ocr: schemas.Person, person_db: Person):
-
     if person_db is None:
         return None
 
@@ -90,20 +72,32 @@ def update_person(person_ocr: schemas.Person, person_db: Person):
     return person_db
 
 
-def update_education(education_ocr: schemas.Education, education_db: Education, person_id: int):
-    if education_db is None:
-        return None
+def update_education(person_ocr: schemas.Person, person_id: int):
+    for education in person_ocr.education:
+        response = Education(Subject=education.subject,
+                        Location=education.location,
+                        Date=education.date,
+                        Source=education.source,
+                        personPersonID=person_id)
 
-    for education in education_ocr:
-        education_db.personPersonID = person_id
-        education_db.Subject = education.subject
-        education_db.Location = education.location
-        education_db.Date = education.date
-        education_db.Source = education.source
-
-        session.add(education_db)
+        session.add(response)
         session.commit()
-        session.refresh(education_db)
+        session.refresh(response)
+        print(response)
+
+
+def update_particularity(person_ocr: schemas.Person, person_id: int):
+    for particularity in person_ocr.particularities:
+        response = Particularity(Particularity=particularity.particularity,
+                        Location=particularity.location,
+                        Date=particularity.date,
+                        Source=particularity.source,
+                        personPersonID=person_id)
+
+        session.add(response)
+        session.commit()
+        session.refresh(response)
+        print(response)
 
 
 # def get_birth_year():
@@ -120,20 +114,20 @@ def update_education(education_ocr: schemas.Education, education_db: Education, 
 
 def create_person(person: schemas.Person):
     db_user = Person(FirstName=person.first_name,
-                            LastName=person.last_name,
-                            FamilyName=person.last_name,
-                            Affix=person.affix,
-                            Nickname=person.alternative_last_names,
-                            Gender=person.gender,
-                            TypeOfPerson=person.type_of_person,
-                            BirthDate=person.birth_date,
-                            BirthCountry=person.birth_country,
-                            BirthCity=person.birth_city,
-                            BaptizedDate=person.baptized_date,
-                            DeathDate=person.death_date,
-                            DeathCity=person.death_city,
-                            DeathCountry=person.death_country,
-                            Faculty=person.faculty)
+                     LastName=person.last_name,
+                     FamilyName=person.last_name,
+                     Affix=person.affix,
+                     Nickname=person.alternative_last_names,
+                     Gender=person.gender,
+                     TypeOfPerson=person.type_of_person,
+                     BirthDate=person.birth_date,
+                     BirthCountry=person.birth_country,
+                     BirthCity=person.birth_city,
+                     BaptizedDate=person.baptized_date,
+                     DeathDate=person.death_date,
+                     DeathCity=person.death_city,
+                     DeathCountry=person.death_country,
+                     Faculty=person.faculty)
     session.add(db_user)
     session.commit()
     session.refresh(db_user)
