@@ -64,17 +64,16 @@ class Family(OpenAISchema):
 
     FirstName: str = Field(..., description="The first name of a person, e.g. Cornelis")
     LastName: str = Field(..., description="The last name of a person, e.g. EKAMA. If this is this is mentioned under 'Kinderen', you should take the last name of the main person(father)")
-    extra_info: Optional[str] = Field(None, description="Extra info about that specific person such as education and job.")
+    Affix: Optional[str] = Field(None, description="The affix of a person, e.g. van de, van den, van der")
+    Gender: Optional[str] = Field(None, description="The gender of the person, based on their names e.g. Man / Vrouw")
     source: Optional[str] = Field(None, description='The source of the info mentioned in parentheses, e.g. (6)')
-
-
-class Location(OpenAISchema):
-    """Identifying information about the person's family."""
-
-    Country: Optional[str] = Field(None, description="Country of birth, e.g. Nederland")
-    City: Optional[str] = Field(None, description="City of birth, e.g. Leiden. Usually found after Geb.")
-    locationStartDate: Optional[str] = Field(None, description="Birth date, e.g. 1849-01-15")
-    locationEndDate: Optional[str] = Field(None, description='Death date, e.g. 1849-01-15')
+    alternative_last_names: Optional[str] = Field(None,
+                                                 description="The alternative last name of a person separated by comma's, e.g. HERMINIUS in ARMINIUS (HERMINIUS)")
+    BirthCountry: Optional[str] = Field(None, description="Country of birth, e.g. Nederland")
+    BirthCity: Optional[str] = Field(None, description="City of birth, e.g. Leiden. Usually found after Geb.")
+    BirthDate: Optional[str] = Field(None, description="Birth date, e.g. 1849-01-15")
+    DeathDate: Optional[str] = Field(None, description='Death date, e.g. 1849-01-15')
+    DeathCity: Optional[str] = Field(None, description='City of death, e.g. Leiden. Usually found after Gest.')
 
 
 class Person(OpenAISchema):
@@ -122,7 +121,8 @@ class Person(OpenAISchema):
     # faculty: str = "Addenda"
     # vol7 or maybe none
     # faculty: str = "Curatoren"
-    location: Location = Field(..., description="Information about persons birth date, birth city etc.")
-
-
-
+    BirthCountry: Optional[str] = Field(None, description="Country of birth, e.g. Nederland")
+    BirthCity: Optional[str] = Field(None, description="City of birth, e.g. Leiden. Usually found after Geb.")
+    BirthDate: Optional[str] = Field(None, description="Birth date, e.g. 1849-01-15")
+    DeathDate: Optional[str] = Field(None, description='Death date, e.g. 1849-01-15')
+    DeathCity: Optional[str] = Field(None, description='City of death, e.g. Leiden. Usually found after Gest.')
