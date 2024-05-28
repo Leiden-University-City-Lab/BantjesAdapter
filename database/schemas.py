@@ -89,17 +89,17 @@ class Person(OpenAISchema):
     second_names: Optional[str] = Field(None, description="The second names of a person separated by comma's, e.g. Jacob in Jacobus (Jacob)")
     alternative_last_names: Optional[str] = Field(None, description="The alternative last name of a person separated by comma's, e.g. HERMINIUS in ARMINIUS (HERMINIUS)")
     education: List[Education] = Field(..., description='Education of the person, mentioned after Opleiding:')
-    careers: Optional[List[Career]] = Field(None, description='Careers of the person, mentioned after Carrière: or Loopbaan:')
-    particularities: Optional[List[Particularity]] = Field(None, description='extra information, mentioned after Bijzonderheden:')
-    spouses: Optional[List[Family]] = Field(None, description='Spouses of the person, mentioned after Echtgenote:')
-    parents: Optional[List[Family]] = Field(None, description='Information about a persons mother or father, mentioned after Ouders:')
-    grand_parents: Optional[List[Family]] = Field(None, description="Information about a person's grand mother or grand father, mentioned after Grootouders:")
+    careers: Optional[List[Career]] = Field([], description='Careers of the person, mentioned after Carrière: or Loopbaan:')
+    particularities: Optional[List[Particularity]] = Field([], description='extra information, mentioned after Bijzonderheden:')
+    spouses: Optional[List[Family]] = Field([], description='Spouses of the person, mentioned after Echtgenote:')
+    parents: Optional[List[Family]] = Field([], description='Information about a persons mother or father, mentioned after Ouders:')
+    grand_parents: Optional[List[Family]] = Field([], description="Information about a person's grand mother or grand father, mentioned after Grootouders:")
     # use for vol2,3,4,5,6,7
     # grand_parents_mother: Optional[List[Family]] = Field(None, description="Information about a person's grand mother or grand father, mentioned after Ouders Moeder:")
     # grand_parents_vader: Optional[List[Family]] = Field(None, description="Information about a person's grand mother or grand father, mentioned after Ouders Vader:")
-    in_laws: Optional[List[Family]] = Field(None, description="Information about a person's mother in-law or  father in-law, mentioned after Ouder(s) Echtgenote(s):")
-    children: Optional[List[Family]] = Field(None, description="Information about a person's children, mentioned after Kinderen:")
-    far_family: Optional[List[Family]] = Field(None, description="Information about a person's far family, mentioned after Verdere familie:")
+    in_laws: Optional[List[Family]] = Field([], description="Information about a person's mother in-law or  father in-law, mentioned after Ouder(s) Echtgenote(s):")
+    children: Optional[List[Family]] = Field([], description="Information about a person's children, mentioned after Kinderen:")
+    far_family: Optional[List[Family]] = Field([], description="Information about a person's far family, mentioned after Verdere familie:")
     # vol1-5
     type_of_person: int = 1
     # vol6

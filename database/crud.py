@@ -27,9 +27,9 @@ def get_maybe_same_person(family_name: str, first_name: str, birth_year: str, bi
 
 def get_person(family_name: str, first_name: str, birth_year: str, birth_place: str):
     # add table names we want to get back in the response
-    return session.query(Person, Location).join(Location, and_(Location.locationPersonID == Person.personPersonID,
-                                                               Person.TypeOfPerson == 1)
-                                                ).outerjoin(
+    return session.query(Person).join(Location, and_(Location.locationPersonID == Person.personPersonID,
+                                                     Person.TypeOfPerson == 1)
+                                      ).outerjoin(
         TypeOfPerson,
         Person.TypeOfPerson == TypeOfPerson.PersonID
     ).filter(
@@ -80,6 +80,11 @@ def get_particularity_count(person_id: int):
 def get_career_count(person_id: int):
     return session.query(func.count(Career.CareerID)) \
         .filter(Career.personPersonID == person_id).scalar()
+
+
+def get_relations_count(person_id: int):
+    return session.query(func.count(Relation.FromPersonID)) \
+        .filter(Relation.FromPersonID == person_id).scalar()
 
 
 def update_person(person_ocr: schemas.Person, person_db: Person):
@@ -149,7 +154,7 @@ def create_location(person_id: int, date: str, type_of_location: int, city: str)
     print(f"Location {db_location.LocationID} added to location table for person {person_id}.")
 
 
-def create_person(person: schemas.Person):
+def create_person(person):
     db_user = Person(FirstName=person.FirstName,
                      LastName=person.LastName,
                      FamilyName=person.LastName,
