@@ -1,26 +1,27 @@
 from sqlalchemy import and_, or_, func, update
 from database import Session
-from .models import Person, Location, TypeOfPerson, Relation, TypeOfRelation, Education, Particularity, \
-    Career, TypeOfLocation
+from .models import Person, Location, TypeOfPerson, Relation, Education, Particularity, Career
 from . import schemas
 
 session = Session()
 
 
-def get_maybe_same_person(family_name: str, first_name: str, birth_year: str, birth_place: str):
+def get_maybe_same_person(family_name: str, first_name: str, alternative_last_names: str, second_names: str,
+                          birth_year: str,
+                          birth_place: str):
     # add table names we want to get back in the response
-    return session.query(Person, Location).join(Location, and_(Location.locationPersonID == Person.personPersonID,
-                                                               Person.TypeOfPerson == 1)
-                                                ).outerjoin(
+    return session.query(Person).join(Location, and_(Location.locationPersonID == Person.personPersonID,
+                                                     Person.TypeOfPerson == 1)
+                                      ).outerjoin(
         TypeOfPerson,
         Person.TypeOfPerson == TypeOfPerson.PersonID
     ).filter(
         and_(Location.TypeOfLocation == 1,
              and_(
-                 Person.LastName.like(f'%{family_name}%'),
-                 Person.FirstName.like(f'%{first_name}%'),
                  func.extract('YEAR', Location.locationStartDate) != f'{birth_year}',
-                 Location.City != f'{birth_place}'
+                 Location.City != f'{birth_place}',
+                 or_(Person.LastName.like(f'%{family_name}%'), Person.LastName.like(f'%{alternative_last_names}%')),
+                 or_(Person.FirstName.like(f'%{first_name}%'), Person.FirstName.like(f'%{second_names}%'))
              )
              )).one_or_none()
 

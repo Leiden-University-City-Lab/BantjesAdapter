@@ -1,7 +1,7 @@
-from typing import Optional, List, Literal, Annotated
-from enum import Enum, IntEnum
+from typing import Optional, List, Literal
+from enum import IntEnum
 from instructor import OpenAISchema
-from pydantic import Field, ConfigDict, AfterValidator
+from pydantic import Field, ConfigDict
 
 type_of_job = Literal['Carriere', 'Nevenfuncties']
 
@@ -67,6 +67,8 @@ class Family(OpenAISchema):
     Affix: Optional[str] = Field(None, description="The affix of a person, e.g. van de, van den, van der")
     Gender: Optional[str] = Field(None, description="The gender of the person, based on their names e.g. Man / Vrouw")
     source: Optional[str] = Field(None, description='The source of the info mentioned in parentheses, e.g. (6)')
+    second_names: Optional[str] = Field(None,
+                                        description="The second names of a person separated by comma's, e.g. Jacob in Jacobus (Jacob)")
     alternative_last_names: Optional[str] = Field(None,
                                                  description="The alternative last name of a person separated by comma's, e.g. HERMINIUS in ARMINIUS (HERMINIUS)")
     BirthCountry: Optional[str] = Field(None, description="Country of birth, e.g. Nederland")
@@ -88,7 +90,7 @@ class Person(OpenAISchema):
     Gender: Optional[str] = Field(None, description="The gender of the person, based on their names e.g. Man / Vrouw")
     second_names: Optional[str] = Field(None, description="The second names of a person separated by comma's, e.g. Jacob in Jacobus (Jacob)")
     alternative_last_names: Optional[str] = Field(None, description="The alternative last name of a person separated by comma's, e.g. HERMINIUS in ARMINIUS (HERMINIUS)")
-    education: List[Education] = Field(..., description='Education of the person, mentioned after Opleiding:')
+    education: Optional[List[Education]] = Field(None, description='Education of the person, mentioned after Opleiding:')
     careers: Optional[List[Career]] = Field([], description='Careers of the person, mentioned after Carrière: or Loopbaan:')
     particularities: Optional[List[Particularity]] = Field([], description='extra information, mentioned after Bijzonderheden:')
     spouses: Optional[List[Family]] = Field([], description='Spouses of the person, mentioned after Echtgenote:')
