@@ -1,0 +1,31 @@
+{
+  "first_name": "Rudolph",
+  "last_name": "SNELLIUS",
+  "birth_date": "08-10-1546",
+  "birth_place": "Oudewater",
+  "death_date": "v1-03-1613",
+  "death_place": null,
+  "education": [
+    {
+      "study": "Stud.Litt. Wittenberg",
+      "location": null,
+      "date": "08-08-1564",
+      "source": "(19)"
+    },
+    {
+      "study": "Stug.Med. Leiden",
+      "location": null,
+      "date": "26-101573",
+      "source": "(14)"
+    }
+  ],
+  "careers": null,
+  "particularities": null,
+  "spouses": null,
+  "parents": null,
+  "grand_parents_father": null,
+  "grand_parents_mother": null,
+  "in_laws": null,
+  "children": null,
+  "far_family": null
+}

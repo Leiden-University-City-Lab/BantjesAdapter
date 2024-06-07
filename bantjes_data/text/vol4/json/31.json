@@ -1,0 +1,135 @@
+{
+  "first_name": "Willibrord",
+  "last_name": "SNELLIUS",
+  "birth_date": "1580",
+  "birth_place": "Leiden",
+  "death_date": "30-10-1626",
+  "death_place": null,
+  "education": [
+    {
+      "study": "Litt.",
+      "location": "Leiden",
+      "date": "01-09-1590",
+      "source": null
+    },
+    {
+      "study": null,
+      "location": "Wurzburg, Praag, Altdorf, T\u00fcbingen",
+      "date": null,
+      "source": null
+    },
+    {
+      "study": null,
+      "location": null,
+      "date": "08-08-1602",
+      "source": "3"
+    },
+    {
+      "study": null,
+      "location": "Zwitserland",
+      "date": "1603 -1604",
+      "source": "3"
+    },
+    {
+      "study": "Mag. Artium",
+      "location": "Leiden",
+      "date": "12-07-1608",
+      "source": "3"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lessen astronomie",
+      "location": "Leiden",
+      "date": "07-05-1600",
+      "source": "29"
+    },
+    {
+      "job": "Lector Astronomie",
+      "location": "Leiden",
+      "date": "05-11-1609",
+      "source": "13"
+    },
+    {
+      "job": "Buitengewoon Hoogleraar",
+      "location": "Leiden",
+      "date": "09-02-1613",
+      "source": "13"
+    },
+    {
+      "job": "Hoogleraar Wiskunde en Astronomie",
+      "location": "Leiden",
+      "date": "08-02-1615",
+      "source": "13"
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Bevriend met van Ceulen, Blaeu, Is. Beeckman, Rivet",
+      "source": "3"
+    },
+    {
+      "particularity": "Weduwe kreeg een jaar salaris",
+      "source": "3"
+    },
+    {
+      "particularity": "Erft huis vader in Doezastraat",
+      "source": "29"
+    },
+    {
+      "particularity": "Salaris: f300(1613), f400(1614), f5000(1616), f600(1618)",
+      "source": "3"
+    }
+  ],
+  "spouses": [
+    {
+      "first_name": "Maria",
+      "last_name": "de Lange",
+      "birth_date": null,
+      "birth_place": "Leiden",
+      "death_date": "11-11-1627",
+      "death_place": null,
+      "marriage": "Leiden 01-08-1608",
+      "extra_info": null,
+      "source": "3,29"
+    }
+  ],
+  "parents": [
+    {
+      "first_name": "Rudolph",
+      "last_name": "Snel van Royen",
+      "extra_info": "Hoogleraar Wiskunde Leiden",
+      "source": null
+    },
+    {
+      "first_name": "Machteld",
+      "last_name": null,
+      "extra_info": "Cornelisd",
+      "source": null
+    }
+  ],
+  "grand_parents_father": null,
+  "grand_parents_mother": null,
+  "in_laws": null,
+  "children": [
+    {
+      "first_name": "Rudolph",
+      "last_name": null,
+      "extra_info": null,
+      "source": "3"
+    },
+    {
+      "first_name": "Laurens",
+      "last_name": null,
+      "extra_info": "Ged. Leiden 13-10-1623",
+      "source": "3"
+    },
+    {
+      "first_name": "Johanna",
+      "last_name": null,
+      "extra_info": "Ged. Leiden 26-06-1622, Getr. Adriaen Adriaensz.Vroesen, Burgemeester Rotterdam",
+      "source": "2,29"
+    }
+  ],
+  "far_family": null
+}

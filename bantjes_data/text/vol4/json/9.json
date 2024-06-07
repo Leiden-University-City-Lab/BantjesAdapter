@@ -1,0 +1,98 @@
+{
+  "first_name": "Carolus (Charles)",
+  "last_name": "CLUSIUS",
+  "birth_date": "19-02-1526",
+  "birth_place": "Atrecht",
+  "death_date": "04-04-1609",
+  "death_place": null,
+  "education": [
+    {
+      "study": "Kapittelschool",
+      "location": "st.Vaast",
+      "date": "1540 -1542",
+      "source": null
+    },
+    {
+      "study": "Latijnse school",
+      "location": "Gent",
+      "date": "1543 -1546",
+      "source": null
+    },
+    {
+      "study": "Stud.Iur.",
+      "location": "Leuven",
+      "date": "07-1546",
+      "source": null
+    },
+    {
+      "study": "Lic.Iur.",
+      "location": "Leuven",
+      "date": null,
+      "source": null
+    },
+    {
+      "study": "Stud.Iur.Theol.",
+      "location": "Marburg",
+      "date": "1548 -1549",
+      "source": null
+    },
+    {
+      "study": "Stud.Med.",
+      "location": "Wittenberg",
+      "date": "1549 -1550",
+      "source": null
+    },
+    {
+      "study": "Stud. FrankfortaMain",
+      "location": null,
+      "date": "1550",
+      "source": null
+    },
+    {
+      "study": "Stud. Straatsburg",
+      "location": null,
+      "date": "1550",
+      "source": null
+    },
+    {
+      "study": "Stud. Lausanne,Gen\u00e8ve",
+      "location": null,
+      "date": "1551",
+      "source": null
+    },
+    {
+      "study": "Stud.Med.",
+      "location": "Montpellier",
+      "date": "1561 -7554",
+      "source": null
+    },
+    {
+      "study": "Stud. Marburg ",
+      "location": "Gen8ve ",
+      "date": "1540 -1542",
+      "source": null
+    },
+    {
+      "study": null,
+      "location": "FrankfortaMain",
+      "date": "1550",
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": null,
+      "location": null,
+      "date": "1587",
+      "source": null
+    }
+  ],
+  "particularities": null,
+  "spouses": null,
+  "parents": null,
+  "grand_parents_father": null,
+  "grand_parents_mother": null,
+  "in_laws": null,
+  "children": null,
+  "far_family": null
+}

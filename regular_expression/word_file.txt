@@ -1,0 +1,67 @@
+Opleiding:
+Loopbaan:
+Nevenfuncties:
+Bijzonderheden:
+Ouders:
+Ouders Vader:
+Ouders Moeder:
+Echtgenote:
+Echtgenotes:
+Ouders Echtgenote:
+Ouders Echtgenotes:
+Kinderen:
+ALBINUS,Bernhardus
+ALBINUS,Bernhardus Siegfried
+ALBINUS,Fredericus Bernhardus
+BIDLOO,Gavert
+de la BOF SYLVIUS,Franciscus
+BOERHAAVE,Hermannus
+BONTIUS,Gerardus
+BONTIUS,Reinier
+BROEN,Jehannes
+BRUGMANS,Sebald Justinus
+BIJLIUS,Hubertus
+CRAANEN,Theodorus
+DECKFRS,Frededericus
+DEMATIUS,Carel
+DODONAEUS,Rembertus
+van DOEVEREN,Gualtherus
+DRELINCOURT,Carelus
+FALCOBURGUS,Adrianus
+FLORENTIUS,Henricus
+van FOREEST,Pieter
+GAUBIUS,Hieronymus David
+HAHN,Johannes David
+HERMAN,Paulus
+HEURNIUS,Johannes
+HEURNIUS,Otto
+HORNIUS,Johannes
+HOTTON,Petrus
+KRAUSS,Johan Carl
+KYPER,Albertus
+van der LINDEN,Jehannes Antonides
+Le MORT,Jacobus
+NUCK,Antonius
+van OORSCHOT,Laurens
+OOSTERDIJK,Nicolaas George
+OOSTERDIJK SCHACHT,Hermannus
+PARADIJS,Nicolaas
+PAEUW,Pieter
+PITCAIRNE,Archibald
+de PUI,Meinard Simon
+RAEI,Johannes
+RAU,Johannes Jacobus
+van ROYEN,Adriaan
+van ROYEN,David
+SANDIFORT,Eduard
+SANDIFORT,Gerard
+SCHACHT,Lucas
+SCHREVELIUS,Ewaldus
+SCHUYL,Florentius
+SEIJEN,Arnoldus
+VOLTELEN,Floris Jacob
+VORSTIUS,Adolphus
+VORSTIUS,Aelius Everhardus
+WALAFUS,Johannes
+WINTER,Frederik
+YPEY,Adolphus
