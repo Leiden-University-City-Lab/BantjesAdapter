@@ -1,0 +1,32 @@
+{
+  "FirstName": "Henricus",
+  "LastName": "TAYLOR",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": null,
+  "careers": [
+    {
+      "job": "Lector Bespiegelende Wijsbegeerte en Letteren",
+      "location": "Leiden",
+      "date": "10-12-1814",
+      "source": "27",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Letteren",
+  "BirthCountry": null,
+  "BirthCity": null,
+  "BirthDate": null,
+  "DeathDate": null,
+  "DeathCity": null
+}

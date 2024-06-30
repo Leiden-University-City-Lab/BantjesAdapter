@@ -1,9 +1,9 @@
 from AI.openai_tools_pydantic import process_person_data
 
 
-def main(volume):
-    process_person_data(volume)
+def main(path, volume):
+    process_person_data(path, volume)
 
 
 if __name__ == "__main__":
-    main('vol1')
+    main(f'evaluation_json/generated_jsons/correct_text/', 'vol1')

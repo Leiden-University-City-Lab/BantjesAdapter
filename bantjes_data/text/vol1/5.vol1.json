@@ -1,0 +1,136 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "BOLLIUS",
+  "Affix": null,
+  "Gender": null,
+  "second_names": null,
+  "alternative_last_names": null,
+  "education": [
+    {
+      "subject": null,
+      "location": "Lenven",
+      "date": "1566",
+      "source": null
+    },
+    {
+      "subject": null,
+      "location": "Heidelberg",
+      "date": "1572-10-03",
+      "source": null
+    },
+    {
+      "subject": "Doct.",
+      "location": "Heidelberg",
+      "date": "1576-12-18",
+      "source": null
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Leiden",
+      "date": "1577-11-23",
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lector Theol.",
+      "location": "Leiden",
+      "date": "1577-11-16",
+      "source": "(14)",
+      "is_side_job": null
+    },
+    {
+      "job": "Pred.",
+      "location": "Gent",
+      "date": "1578",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Pred.",
+      "location": "Vlaamse kerk Frankenthal (Paltz)",
+      "date": "1588",
+      "source": null,
+      "is_side_job": null
+    },
+    {
+      "job": "Pred. Holl. en Waalse kerk",
+      "location": "Staden",
+      "date": "1588-12",
+      "source": "(2,27)",
+      "is_side_job": null
+    }
+  ],
+  "particularities": [],
+  "spouses": [
+    {
+      "FirstName": "Susanna",
+      "LastName": "Alarts",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "(2)",
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cathelyne of Catharina",
+      "LastName": "Anthoni",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "(2)",
+      "second_names": "Anthoni",
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1568-02-29",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Abraham",
+      "LastName": "BOLLIUS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1585",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cathelyne",
+      "LastName": "BOLLIUS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": null,
+      "alternative_last_names": null,
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1589",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Nieukerk (bij Gent)",
+  "BirthDate": null,
+  "DeathDate": "voor 1621-08-15",
+  "DeathCity": "Staden (bij Hamburg)"
+}

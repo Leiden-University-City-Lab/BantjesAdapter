@@ -6,9 +6,7 @@ from . import schemas
 session = Session()
 
 
-def get_maybe_same_person(family_name: str, first_name: str, alternative_last_names: str, second_names: str,
-                          birth_year: str,
-                          birth_place: str):
+def get_maybe_same_person(person: schemas.Person, birth_year: str):
     # add table names we want to get back in the response
     return session.query(Person).join(Location, and_(Location.locationPersonID == Person.personPersonID,
                                                      Person.TypeOfPerson == 1)
@@ -19,14 +17,14 @@ def get_maybe_same_person(family_name: str, first_name: str, alternative_last_na
         and_(Location.TypeOfLocation == 1,
              and_(
                  func.extract('YEAR', Location.locationStartDate) != f'{birth_year}',
-                 Location.City != f'{birth_place}',
-                 or_(Person.LastName.like(f'%{family_name}%'), Person.LastName.like(f'%{alternative_last_names}%')),
-                 or_(Person.FirstName.like(f'%{first_name}%'), Person.FirstName.like(f'%{second_names}%'))
+                 Location.City != f'{person.BirthCity}',
+                 or_(Person.LastName.like(f'%{person.LastName}%'), Person.LastName.like(f'%{person.alternative_last_names}%')),
+                 or_(Person.FirstName.like(f'%{person.FirstName}%'), Person.FirstName.like(f'%{person.second_names}%'))
              )
              )).one_or_none()
 
 
-def get_person(family_name: str, first_name: str, birth_year: str, birth_place: str):
+def get_person(person: schemas.Person, birth_year: str):
     # add table names we want to get back in the response
     return session.query(Person).join(Location, and_(Location.locationPersonID == Person.personPersonID,
                                                      Person.TypeOfPerson == 1)
@@ -37,35 +35,20 @@ def get_person(family_name: str, first_name: str, birth_year: str, birth_place: 
         and_(Location.TypeOfLocation == 1,
              or_(
                  and_(
-                     Person.FirstName.like(f'%{first_name}%'),
-                     Person.LastName.like(f'%{family_name}%'),
+                     or_(Person.LastName.like(f'%{person.LastName}%'), Person.LastName.like(f'%{person.alternative_last_names}%')),
+                     or_(Person.FirstName.like(f'%{person.FirstName}%'), Person.FirstName.like(f'%{person.second_names}%')),
                      or_(
                          func.extract('YEAR', Location.locationStartDate) == f'{birth_year}',
-                         Location.locationStartDate is None
-                     ),
-                     or_(
-                         Location.City == f'{birth_place}',
-                         Location.City is None
+                         Location.City == f'{person.BirthCity}'
                      )
                  ),
                  and_(
-                     Person.LastName.like(f'%{family_name}%'),
+                     Person.LastName.like(f'%{person.LastName}%'),
                      func.extract('YEAR', Location.locationStartDate) == f'{birth_year}',
-                     or_(
-                         Location.City == f'{birth_place}',
-                         Location.City is None
-                     )
-                 ),
-                 and_(
-                     Person.LastName.like(f'%{family_name}%'),
-                     or_(
-                         func.extract('YEAR', Location.locationStartDate) == f'{birth_year}',
-                         Location.locationStartDate is None
-                     ),
-                     Location.City == f'{birth_place}'
+                     Location.City == f'{person.BirthCity}'
                  )
              )
-             )).one_or_none()
+             )).first()
 
 
 def get_education_count(person_id: int):
@@ -160,7 +143,7 @@ def create_person(person):
                      LastName=person.LastName,
                      FamilyName=person.LastName,
                      Affix=person.Affix,
-                     Nickname=person.alternative_last_names,
+                     Nickname=None if not person.alternative_last_names else person.alternative_last_names,
                      Gender=person.Gender,
                      Rating=1)
     session.add(db_user)

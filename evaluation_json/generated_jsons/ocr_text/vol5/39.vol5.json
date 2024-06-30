@@ -1,0 +1,407 @@
+{
+  "FirstName": "Petrus",
+  "LastName": "MOLINAEUS (DU MOULIN)",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud. Sedan",
+      "location": "Sedan",
+      "date": "1578-1588",
+      "source": "66"
+    },
+    {
+      "subject": "Bediende graaf Rutland Londen",
+      "location": "Londen",
+      "date": "1589",
+      "source": "66"
+    },
+    {
+      "subject": "Stud.Theol. (Bennett college) Cambridge",
+      "location": "Cambridge",
+      "date": "1589-1592",
+      "source": "66"
+    },
+    {
+      "subject": "Doct.Theol. Cambridge",
+      "location": "Cambridge",
+      "date": "1615",
+      "source": "66"
+    }
+  ],
+  "careers": [
+    {
+      "job": "rector Latijnse school",
+      "location": "Leiden",
+      "date": "1593",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Repetitor Grieks aan Leiden",
+      "location": "Leiden",
+      "date": "1593",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Leiden",
+      "location": "Leiden",
+      "date": "1593-06-11",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant Parijs",
+      "location": null,
+      "date": "1599-1620",
+      "source": "66",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant en Hoogleraar Sedan",
+      "location": null,
+      "date": "1621",
+      "source": "66",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Aaanbod predikant Parijs te worden 1591 afgeslagen",
+      "location": null,
+      "date": "1591",
+      "source": "66"
+    },
+    {
+      "particularity": "Steun Louise de Coligny, Catharina de Bourbon, de Buzenval",
+      "location": null,
+      "date": null,
+      "source": "66"
+    },
+    {
+      "particularity": "Aanbiedingen Leiden (ad f1300 1611) en Saumur afgeslagen",
+      "location": null,
+      "date": "1611",
+      "source": "72,8"
+    },
+    {
+      "particularity": "Uitreisverbod 1618 \u201eniet bij Synode van Dordrecht",
+      "location": null,
+      "date": "1618",
+      "source": "66"
+    },
+    {
+      "particularity": "Woonde Rapenburg 52",
+      "location": "Rapenburg 52",
+      "date": null,
+      "source": "a"
+    },
+    {
+      "particularity": "Salaris: f300 (1593), E350 (1595)",
+      "location": null,
+      "date": null,
+      "source": "27"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Marie",
+      "LastName": "Colignon",
+      "Affix": null,
+      "Gender": null,
+      "source": "66",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1622-08-12",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sara",
+      "LastName": "de Gelhay",
+      "Affix": null,
+      "Gender": null,
+      "source": "66",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Joachim",
+      "LastName": "DU MOULIN",
+      "Affix": "seigneur de Lorme Grigny",
+      "Gender": "Man",
+      "source": "66",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Frangoise",
+      "LastName": "Gabet",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "66",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Innocent",
+      "LastName": "Gabet",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "66",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Bonne",
+      "LastName": "de Gellonne",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "66",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Nicolas",
+      "LastName": "Colignon",
+      "Affix": "seigneur de Chalette et Partois, intendant",
+      "Gender": "Man",
+      "source": "66",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "huis van Lotharingen",
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jeanne",
+      "LastName": "Prudhomme",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "66",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Louis",
+      "LastName": "de Gelhay",
+      "Affix": "kapitein-commandant Epernay",
+      "Gender": "Man",
+      "source": "66",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "N.",
+      "LastName": "Destancelle",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "66",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Louis",
+      "LastName": "MOLINAEUS (DU MOULIN)",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "8,66",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1606",
+      "DeathDate": "1683-10-20",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cyrus",
+      "LastName": "MOLINAEUS (DU MOULIN)",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "8,66",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Pierre",
+      "LastName": "MOLINAEUS (DU MOULIN)",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "8,66",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1600",
+      "DeathDate": "1684-10-20",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Theophile",
+      "LastName": "MOLINAEUS (DU MOULIN)",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "8,66",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Daniel",
+      "LastName": "MOLINAEUS (DU MOULIN)",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "8,66",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Henri",
+      "LastName": "MOLINAEUS (DU MOULIN)",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "66",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Marthe",
+      "LastName": "MOLINAEUS (DU MOULIN)",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "66",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Esther",
+      "LastName": "MOLINAEUS (DU MOULIN)",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "66",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Marie",
+      "LastName": "MOLINAEUS (DU MOULIN)",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "66",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Marie",
+      "LastName": "MOLINAEUS (DU MOULIN)",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "66",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Letteren",
+  "BirthCountry": null,
+  "BirthCity": "Vexin",
+  "BirthDate": "1568-10-16",
+  "DeathDate": "1658-03-10",
+  "DeathCity": "Sedan"
+}

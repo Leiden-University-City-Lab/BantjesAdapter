@@ -1,0 +1,266 @@
+{
+  "FirstName": "Willem",
+  "LastName": "VAN WASSENAER",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [],
+  "careers": [
+    {
+      "job": "Gezant Frankrijk",
+      "location": "Frankrijk",
+      "date": "1680 -1686",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gezant Frankrijk",
+      "location": "Frankrijk",
+      "date": "1686 -1688",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Admiraliteit",
+      "location": "Maas Rotterdam",
+      "date": "1688",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogheemraad",
+      "location": "Schieland",
+      "date": "1690",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Ridderschap",
+      "location": "Holland Den Haag",
+      "date": "31-07-1702",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Voorzitter Gecommitteerde Raden",
+      "location": "Den Haag",
+      "date": "1707",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Curator Universiteit",
+      "location": "Leiden",
+      "date": "19-10-1714",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Grootzegelbewaarder en",
+      "location": "Den Haag",
+      "date": "1718",
+      "source": "3",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [],
+  "spouses": [
+    {
+      "FirstName": "Josina",
+      "LastName": "van der Does",
+      "Affix": null,
+      "Gender": null,
+      "source": "22",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Noordwijk",
+      "BirthDate": "1648-08-26",
+      "DeathDate": "1677-10-21",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Pieter",
+      "LastName": "van Wassenaer",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1616",
+      "DeathDate": "1669",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "van Cats",
+      "Affix": null,
+      "Gender": null,
+      "source": "21",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1625",
+      "DeathDate": "1657",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johan",
+      "LastName": "van Wassenaer",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1577",
+      "DeathDate": "1645",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Clara",
+      "LastName": "de Hinojosa",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Theophilus",
+      "LastName": "van Cats",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": "19",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Deliana",
+      "LastName": "van Brederode",
+      "Affix": "barones",
+      "Gender": null,
+      "source": "19",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Pieter",
+      "LastName": "van Wassenaer",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Steven",
+      "LastName": "van Wassenaer",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jean Theophile",
+      "LastName": "van Ruyven",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Willem Lodewijk",
+      "LastName": "van Starrenburg",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Josina",
+      "LastName": "van Wassenaer",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna Jacoba",
+      "LastName": "van Wassenaer",
+      "Affix": "van",
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Letteren",
+  "BirthCountry": null,
+  "BirthCity": null,
+  "BirthDate": null,
+  "DeathDate": null,
+  "DeathCity": null
+}

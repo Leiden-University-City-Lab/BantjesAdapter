@@ -1,0 +1,254 @@
+{
+  "FirstName": "Sebald Fulco Johannes",
+  "LastName": "RAU",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.Theol.",
+      "location": "Utrecht",
+      "date": "1784",
+      "source": "18"
+    },
+    {
+      "subject": "Proponent",
+      "location": "Utrecht",
+      "date": "1784",
+      "source": "42"
+    },
+    {
+      "subject": "Proponent",
+      "location": "Leiden",
+      "date": "1785",
+      "source": "2"
+    },
+    {
+      "subject": "Doct. Theol. Hon. Causa",
+      "location": "Leiden",
+      "date": "01-03-1788",
+      "source": "2"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Waals Pred.",
+      "location": "Harderwijk",
+      "date": "18-06-1786",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Waals Pred.",
+      "location": "Leiden",
+      "date": "19-11-1786",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "17-11-1787",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Oostersche Talen en Hebreeuwse Ondheden",
+      "location": "Leiden",
+      "date": "13-09-1794",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Interpres legati Warneriand",
+      "location": "Leiden",
+      "date": "21-02-1795",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogl. Gewijde Dicht- en Redekunde",
+      "location": "Leiden",
+      "date": "08-02-1799",
+      "source": "5",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogd. Oosterse talen en Oudheden",
+      "location": "Leiden",
+      "date": "04-05-1799",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1797-1798",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1804-1805",
+      "source": null,
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Aanhanger stadhouderlijke partij",
+      "location": null,
+      "date": null,
+      "source": "14"
+    },
+    {
+      "particularity": "Lid Genootschap \"Dulces ante omnia Musae rondom Bellamy 1780",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Geridderd",
+      "location": null,
+      "date": "01-1807",
+      "source": "2"
+    },
+    {
+      "particularity": "Salaris: eind 18e eeuw: 7 2500",
+      "location": null,
+      "date": null,
+      "source": "34"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Jonkvrouwe Geertruyda Stephania (Gertrude Stephanie)",
+      "LastName": "van Randwijk",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Nijmegen",
+      "BirthDate": "24-04-1771",
+      "DeathDate": "05-12-1842",
+      "DeathCity": "Wijck Lent (Elst)"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Sebald",
+      "LastName": "RAU",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Herborn",
+      "BirthDate": "04-10-1721",
+      "DeathDate": "10-01-1818",
+      "DeathCity": "Utrecht"
+    },
+    {
+      "FirstName": "Susanna Sebina",
+      "LastName": "REYTSMa",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1803",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Johann Eberhard",
+      "LastName": "RAU",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Altenbach",
+      "BirthDate": "16-07-1695",
+      "DeathDate": "24-03-1770",
+      "DeathCity": "Herborn"
+    },
+    {
+      "FirstName": "Augusta Catharina",
+      "LastName": "HAMEL",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Tiberius",
+      "LastName": "REYTSMa",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Magdalena Henriette",
+      "LastName": "BAELDE",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Jacob",
+      "LastName": "RAU",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Leiden",
+      "BirthDate": "28-09-1799",
+      "DeathDate": "05-03-1876",
+      "DeathCity": "Arnhem"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": null,
+  "BirthDate": null,
+  "DeathDate": null,
+  "DeathCity": null
+}

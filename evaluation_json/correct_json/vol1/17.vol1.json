@@ -1,0 +1,109 @@
+{
+  "FirstName": "Gulielmus",
+  "LastName": "FEUGERAEUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": ["Guillaume"],
+  "alternative_last_names": ["FEUGERAY", "FEUGÈRE", "FEUGRET"],
+  "education": [],
+  "careers": [
+    {
+      "job": "Pred.",
+      "location": "Dieppe, Vire, Quévilly",
+      "date": "1562",
+      "source": "6,14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Pred.",
+      "location": "Esneval (bij Pavilly), Longueville",
+      "date": "1565",
+      "source": "6,14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Pred.",
+      "location": "Rouen",
+      "date": null,
+      "source": "6,14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1575-07-17",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Waals Pred.",
+      "location": "Leiden",
+      "date": null,
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Opvoeder Justinus van\nNassau, zn. Prins Willem",
+      "location": "Leiden",
+      "date": null,
+      "source": "6,14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1576/1577",
+      "source": "6,14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Pred.",
+      "location": "Rouen",
+      "date": "1583",
+      "source": "6,14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Assesor Universiteit",
+      "location": "Leiden",
+      "date": "1575",
+      "source": "2",
+      "is_side_job": 1
+    },
+    {
+      "job": "Lid Nationale Synode",
+      "location": "Dordrecht",
+      "date": "1578",
+      "source": "6",
+      "is_side_job": 1
+    },
+    {
+      "job": "Lid Waalse Synode",
+      "location": "Dordrecht",
+      "date": "1577",
+      "source": "6",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Salaris: f 600 en huishuur",
+      "location": null,
+      "date": null,
+      "source": "2"
+    }
+  ],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": "Frankrijk",
+  "BirthCity": "Rouen",
+  "BirthDate": null,
+  "DeathDate": "1613",
+  "DeathCity": "Rouen (of Dieppe)"
+}

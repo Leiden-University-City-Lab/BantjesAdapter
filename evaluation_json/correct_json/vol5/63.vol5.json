@@ -1,0 +1,148 @@
+{
+  "FirstName": "David",
+  "LastName": "STUART",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [],
+  "careers": [
+    {
+      "job": "Lector Wijsbegeerte op proef",
+      "location": "Leiden",
+      "date": "1661-06-10",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Wijsbegeerte",
+      "location": "Leiden",
+      "date": "1662-08-21",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Wijsbegeerte tot dood in Parijs waar hij om gezondheidsredenen heen was gereisd",
+      "location": "Leiden",
+      "date": "1664-10-18",
+      "source": "27",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [],
+  "spouses": [
+    {
+      "FirstName": "Anthonia",
+      "LastName": "L\u2019Empereur van Opwyck",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Den Haag",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Adam",
+      "LastName": "STUART",
+      "Affix": null,
+      "Gender": null,
+      "source": "27",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1591",
+      "DeathDate": "1654",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "L\u2019Empereur van Opwyck",
+      "Affix": null,
+      "Gender": null,
+      "source": "58",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Abigael",
+      "LastName": "Thysius",
+      "Affix": null,
+      "Gender": null,
+      "source": "58",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [],
+  "far_family": [
+    {
+      "FirstName": "Constantijn",
+      "LastName": "L\u2019Empereur van Opwyck",
+      "Affix": null,
+      "Gender": null,
+      "source": "58",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Antonius",
+      "LastName": "Thysius",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "58",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Antonius",
+      "LastName": "Thysius",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "58",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 1,
+  "faculty": "Letteren",
+  "BirthCountry": "Schotland",
+  "BirthCity": "Halrich",
+  "BirthDate": null,
+  "DeathDate": "1669",
+  "DeathCity": "Parijs"
+}

@@ -1,0 +1,192 @@
+{
+  "FirstName": "Gerard",
+  "LastName": "VAN HOOGEVEEN",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [],
+  "careers": [
+    {
+      "job": "Advocaat",
+      "location": null,
+      "date": null,
+      "source": "1",
+      "is_side_job": 0
+    },
+    {
+      "job": "Pensionaris van Leiden",
+      "location": "Leiden",
+      "date": "1564",
+      "source": "1",
+      "is_side_job": 0
+    },
+    {
+      "job": "Curator Universiteit Leiden",
+      "location": "Leiden",
+      "date": "1575-01-06",
+      "source": "8",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [],
+  "spouses": [
+    {
+      "FirstName": "Eva",
+      "LastName": "VAN QUAKENBOSCH",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "1, a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1608-12-13",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Melis",
+      "LastName": "VAN HOOGEVEEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "16",
+      "second_names": [
+        "Adriaansz."
+      ],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "BISCOP",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "16",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Albert",
+      "LastName": "VAN QUAKENBOSCH",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Albert",
+      "LastName": "VAN HOOGEVEEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1594-09-30",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Amelis",
+      "LastName": "VAN HOOGEVEEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": null,
+      "DeathDate": "1620-02-02",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Adriaan",
+      "LastName": "VAN HOOGEVEEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1620",
+      "DeathCity": "Dordrecht"
+    },
+    {
+      "FirstName": "Willem",
+      "LastName": "VAN HOOGEVEEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": null,
+      "DeathDate": "1604",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Dirk",
+      "LastName": "VAN HOOGEVEEN",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cornelia",
+      "LastName": "VAN HOOGEVEEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1620-08-11",
+      "DeathCity": "den Haag"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Leiden",
+  "BirthDate": "1524",
+  "DeathDate": "1580-12-07",
+  "DeathCity": "Leiden"
+}

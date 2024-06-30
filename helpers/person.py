@@ -36,10 +36,11 @@ def extract_birth_year(birth_date: str):
             return None
 
 
-def save_person_info(text, directory, file_counter):
-    file_name = f"{file_counter}.json"
+def save_person_info(text, directory, file_counter, volume):
+    file_name = f"{file_counter}.{volume}.json"
 
     file_path = os.path.join(directory, file_name)
+    print(f'Write person info to: {file_path}')
 
     # Write the text to the file
     with open(file_path, 'w') as output_file:
@@ -54,27 +55,33 @@ def update_relations(person: schemas.Person, person_db, same_person: bool = Fals
         if same_person:
             enrich_relations(person, person_db, 7)
 
-        for spouse in person.spouses:
-            enrich_relations(spouse, person_db, 3)
+        if person.spouses is not None:
+            for spouse in person.spouses:
+                enrich_relations(spouse, person_db, 3)
 
-        for in_law in person.in_laws:
-            enrich_relations(in_law, person_db, 4)
+        if person.in_laws is not None:
+            for in_law in person.in_laws:
+                enrich_relations(in_law, person_db, 4)
 
-        for grand_parent in person.grand_parents:
-            enrich_relations(grand_parent, person_db, 2)
+        if person.grand_parents is not None:
+            for grand_parent in person.grand_parents:
+                enrich_relations(grand_parent, person_db, 2)
 
-        for parent in person.parents:
-            enrich_relations(parent, person_db, 1)
+        if person.parents is not None:
+            for parent in person.parents:
+                enrich_relations(parent, person_db, 1)
 
-        for far_fam in person.far_family:
-            enrich_relations(far_fam, person_db, 6)
+        if person.far_family is not None:
+            for far_fam in person.far_family:
+                enrich_relations(far_fam, person_db, 6)
 
-        for child in person.children:
-            # Assign last name of person to child if not exists
-            if not hasattr(child, "LastName") or child.LastName is None:
-                child.LastName = person_db.LastName
+        if person.children is not None:
+            for child in person.children:
+                # Assign last name of person to child if not exists
+                if not hasattr(child, "LastName") or child.LastName is None:
+                    child.LastName = person_db.LastName
 
-            enrich_relations(child, person_db, 5)
+                enrich_relations(child, person_db, 5)
     else:
         print("Relations already exists.")
 
@@ -134,3 +141,9 @@ def enrich_personal_information(person, person_from_db):
         update_career(person, person_from_db.personPersonID)
     else:
         print("Career already exists.")
+
+
+def join_person_names(person):
+    alternative_last_names = ' '.join(person.alternative_last_names)
+    second_names = ' '.join(person.second_names)
+    return alternative_last_names, second_names
