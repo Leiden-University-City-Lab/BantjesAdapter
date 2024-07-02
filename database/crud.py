@@ -9,46 +9,75 @@ session = Session()
 def get_maybe_same_person(person: schemas.Person, birth_year: str):
     # add table names we want to get back in the response
     return session.query(Person).join(Location, and_(Location.locationPersonID == Person.personPersonID,
-                                                     Person.TypeOfPerson == 1)
-                                      ).outerjoin(
-        TypeOfPerson,
-        Person.TypeOfPerson == TypeOfPerson.PersonID
-    ).filter(
-        and_(Location.TypeOfLocation == 1,
-             and_(
-                 func.extract('YEAR', Location.locationStartDate) != f'{birth_year}',
-                 Location.City != f'{person.BirthCity}',
-                 or_(Person.LastName.like(f'%{person.LastName}%'), Person.LastName.like(f'%{person.alternative_last_names}%')),
-                 or_(Person.FirstName.like(f'%{person.FirstName}%'), Person.FirstName.like(f'%{person.second_names}%'))
-             )
-             )).one_or_none()
-
-
-def get_person(person: schemas.Person, birth_year: str):
-    # add table names we want to get back in the response
-    return session.query(Person).join(Location, and_(Location.locationPersonID == Person.personPersonID,
-                                                     Person.TypeOfPerson == 1)
-                                      ).outerjoin(
-        TypeOfPerson,
-        Person.TypeOfPerson == TypeOfPerson.PersonID
-    ).filter(
+                                                     Person.TypeOfPerson == 1)).filter(
         and_(Location.TypeOfLocation == 1,
              or_(
                  and_(
+                     func.extract('YEAR', Location.locationStartDate) != f'{birth_year}',
+                     Location.City != f'{person.BirthCity}',
                      or_(Person.LastName.like(f'%{person.LastName}%'), Person.LastName.like(f'%{person.alternative_last_names}%')),
-                     or_(Person.FirstName.like(f'%{person.FirstName}%'), Person.FirstName.like(f'%{person.second_names}%')),
-                     or_(
-                         func.extract('YEAR', Location.locationStartDate) == f'{birth_year}',
-                         Location.City == f'{person.BirthCity}'
-                     )
+                     or_(Person.FirstName.like(f'%{person.FirstName}%'), Person.FirstName.like(f'%{person.second_names}%'))
                  ),
                  and_(
-                     Person.LastName.like(f'%{person.LastName}%'),
                      func.extract('YEAR', Location.locationStartDate) == f'{birth_year}',
-                     Location.City == f'{person.BirthCity}'
+                     Location.City != f'{person.BirthCity}',
+                     or_(Person.LastName.like(f'%{person.LastName}%'),
+                         Person.LastName.like(f'%{person.alternative_last_names}%'))
+                 ),
+                 and_(
+                     func.extract('YEAR', Location.locationStartDate) != f'{birth_year}',
+                     Location.City.like(f'%{person.BirthCity}%'),
+                     or_(Person.LastName.like(f'%{person.LastName}%'),
+                         Person.LastName.like(f'%{person.alternative_last_names}%'))
                  )
              )
              )).first()
+
+
+def get_person(person: schemas.Person, birth_year: str):
+    # Split first and last names into parts
+    first_name_parts = person.FirstName.split()
+    last_name_parts = person.LastName.split()
+
+    # Create conditions for matching first names and last names
+    first_name_conditions = or_(
+        *[Person.FirstName.ilike(f'%{part}%') for part in first_name_parts],
+        *[func.lower(f'{part}').ilike(func.lower(Person.FirstName)) for part in first_name_parts]
+    )
+
+    last_name_conditions = or_(
+        *[Person.LastName.ilike(f'%{part}%') for part in last_name_parts],
+        *[func.lower(f'{part}').ilike(func.lower(Person.LastName)) for part in last_name_parts]
+    )
+
+    return session.query(Person).join(Location, and_(
+        Location.locationPersonID == Person.personPersonID,
+        Person.TypeOfPerson == 1
+    )).filter(
+        and_(
+            Location.TypeOfLocation == 1,
+            or_(
+                and_(
+                    first_name_conditions,
+                    last_name_conditions,
+                    or_(
+                        func.extract('YEAR', Location.locationStartDate) == birth_year,
+                        Location.City.ilike(f'%{person.BirthCity}%'),
+                        # Location.Country.ilike(f'%{person.BirthCountry}%')
+                    )
+                ),
+                and_(
+                    last_name_conditions,
+                    Location.locationStartDate.isnot(None),
+                    func.extract('YEAR', Location.locationStartDate) == birth_year,
+                    or_(
+                        Location.City.ilike(f'%{person.BirthCity}%'),
+                        Location.Country.ilike(f'%{person.BirthCountry}%')
+                    )
+                )
+            )
+        )
+    ).first()
 
 
 def get_education_count(person_id: int):

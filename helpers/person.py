@@ -143,7 +143,21 @@ def enrich_personal_information(person, person_from_db):
         print("Career already exists.")
 
 
+# def join_person_names(person):
+#     alternative_last_names = ' '.join(person.alternative_last_names)
+#     second_names = ' '.join(person.second_names)
+#     return alternative_last_names, second_names
 def join_person_names(person):
-    alternative_last_names = ' '.join(person.alternative_last_names)
-    second_names = ' '.join(person.second_names)
+    # Ensure alternative_last_names is always treated as a list
+    if isinstance(person.alternative_last_names, list):
+        alternative_last_names = ' '.join(person.alternative_last_names)
+    else:
+        alternative_last_names = str(person.alternative_last_names)  # Handle non-list case
+
+    # Similarly, ensure second_names is treated as a list if applicable
+    if isinstance(person.second_names, list):
+        second_names = ' '.join(person.second_names)
+    else:
+        second_names = str(person.second_names)  # Handle non-list case
+
     return alternative_last_names, second_names

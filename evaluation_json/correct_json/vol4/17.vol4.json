@@ -1,10 +1,10 @@
 {
   "FirstName": "Samuel Carolus",
-  "LastName": "KECHEL(IUS)",
+  "LastName": "KECHEL",
   "Affix": null,
   "Gender": "Man",
   "second_names": [],
-  "alternative_last_names": ["VAN HOLLESTEYN"],
+  "alternative_last_names": ["Kechelius","VAN HOLLESTEYN"],
   "education": [
     {
       "subject": "Stud.PHil.",
