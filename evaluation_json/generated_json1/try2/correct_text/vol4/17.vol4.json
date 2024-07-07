@@ -1,0 +1,139 @@
+{
+  "FirstName": "Samuel Carolus",
+  "LastName": "KECHEL(IUS)",
+  "Affix": "VAN HOLLESTEYN",
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.PHil.",
+      "location": "Leiden",
+      "date": "1632-10-16",
+      "source": "14"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Mathematicus",
+      "location": "Leiden",
+      "date": "1662-02-08",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Permissie astronomische demonstraties voor f400 per jaar",
+      "location": "Leiden",
+      "date": null,
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Verzoek Golius op te volgen afgewezen",
+      "location": "Leiden",
+      "date": "1667-11-08",
+      "source": "13",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Bekend met Hevelius, Chr. Huygens, van Schooten",
+      "location": "Leiden",
+      "date": null,
+      "source": "3"
+    },
+    {
+      "particularity": "Woont Klokstraat Rapenburg 30",
+      "location": "Leiden",
+      "date": null,
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Alida",
+      "LastName": "LUS",
+      "Affix": null,
+      "Gender": null,
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Amsterdam",
+      "BirthDate": null,
+      "DeathDate": "1643-11-05",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Anna",
+      "LastName": "BAUDIUS",
+      "Affix": null,
+      "Gender": null,
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "KECHEL(IUS)",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Leiden",
+      "BirthDate": "1644-08-17",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johannes",
+      "LastName": "KECHEL(IUS)",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Leiden",
+      "BirthDate": "1645-08-08",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna Elisabeth",
+      "LastName": "KECHEL(IUS)",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Leiden",
+      "BirthDate": "1646-10-03",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Wiskunde En Natuurwetenschappen",
+  "BirthCountry": null,
+  "BirthCity": "Praag",
+  "BirthDate": "1611",
+  "DeathDate": "1668-03",
+  "DeathCity": "Leiden"
+}

@@ -1,0 +1,39 @@
+{
+  "FirstName": "Christiaan",
+  "LastName": "MARKGRAVE (MARGGRAF)",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [],
+  "careers": [],
+  "particularities": [],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [
+    {
+      "FirstName": "Georg",
+      "LastName": "Marggraf",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "40",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 1,
+  "faculty": "Wiskunde En Natuurwetenschappen",
+  "BirthCountry": null,
+  "BirthCity": null,
+  "BirthDate": null,
+  "DeathDate": null,
+  "DeathCity": null
+}

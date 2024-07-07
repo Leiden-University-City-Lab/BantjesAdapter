@@ -1,0 +1,132 @@
+{
+  "FirstName": "Philippus",
+  "LastName": "FERDINANDUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Reis Oost-Europa",
+      "location": "Oost-Europa",
+      "date": "79",
+      "source": null
+    },
+    {
+      "subject": "Verblijf Constantinopel",
+      "location": "Constantinopel",
+      "date": "1580 -1585",
+      "source": "79"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hoogleraar Hebreeuws",
+      "location": "Oxford",
+      "date": "21-06-1595",
+      "source": "79",
+      "is_side_job": 0
+    },
+    {
+      "job": "Stud. Cambridge",
+      "location": "Cambridge",
+      "date": "16-12-1596",
+      "source": "79",
+      "is_side_job": 0
+    },
+    {
+      "job": "Mag.art.lib.7 Engeland?",
+      "location": null,
+      "date": null,
+      "source": "79",
+      "is_side_job": 0
+    },
+    {
+      "job": "Docent Hebreeuws",
+      "location": "Cambridge",
+      "date": "1597",
+      "source": "79",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar? Arabisch voor Leiden",
+      "location": null,
+      "date": "09/10-08-1599, 6 months on trial",
+      "source": "79",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Arabisch, verlengd Leiden",
+      "location": null,
+      "date": "06-11-1599",
+      "source": "679",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Bekeerd",
+      "location": null,
+      "date": "1585",
+      "source": "79"
+    },
+    {
+      "particularity": "Woonde bij R.Snellius",
+      "location": null,
+      "date": null,
+      "source": "79"
+    },
+    {
+      "particularity": "Innov. 1599 request for more money to bring over family from England",
+      "location": null,
+      "date": null,
+      "source": "79"
+    },
+    {
+      "particularity": "Left only debts behind",
+      "location": null,
+      "date": null,
+      "source": "79"
+    },
+    {
+      "particularity": "Supported by Scaliger, Drusius, and Snellius",
+      "location": null,
+      "date": null,
+      "source": "79"
+    },
+    {
+      "particularity": "Salary: f300 (1599)",
+      "location": null,
+      "date": null,
+      "source": "79"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Elisabeth (Sara?)",
+      "LastName": "Furdinando",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Engeland",
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Letteren",
+  "BirthCountry": "Polen",
+  "BirthCity": null,
+  "BirthDate": "1555",
+  "DeathDate": "1599",
+  "DeathCity": "Leiden"
+}

@@ -1,0 +1,275 @@
+{
+  "FirstName": "Sebald Justinus",
+  "LastName": "BRUGMANS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Huisles vad6r",
+      "location": "Franeker",
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "Latijnse School",
+      "location": "Groningen",
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "Stud.Phil.",
+      "location": "Groningen",
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "Stud.Med.",
+      "location": "Groningen",
+      "date": "1778-02-02",
+      "source": null
+    },
+    {
+      "subject": "Doct.Phil.",
+      "location": "Groningen",
+      "date": "1784-06-23",
+      "source": null
+    },
+    {
+      "subject": "Cand.Med.",
+      "location": "Groningen",
+      "date": "1783",
+      "source": null
+    },
+    {
+      "subject": "Studehe",
+      "location": "Leiden",
+      "date": "1783-09-07",
+      "source": null
+    },
+    {
+      "subject": "DocteMed.",
+      "location": "Groningen",
+      "date": "1785-06-15",
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hoogleraar Natuurkunde, Logica",
+      "location": "Franeker",
+      "date": "1785-11-01",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Botanie",
+      "location": "Groningen",
+      "date": "1786-06-01",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Natuurlijke Historie",
+      "location": "Leiden",
+      "date": "1767-03-10",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Medicijnen",
+      "location": "Leiden",
+      "date": "1795-05-13",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Medicijnen",
+      "location": "Leiden",
+      "date": "1795-09-19",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Les Chemie",
+      "location": "Leiden",
+      "date": "1795-10-10",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Chemie",
+      "location": "Leiden",
+      "date": "1799-11-09",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1813",
+      "source": null,
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss.Phil. De lapidibus et saxris: agri Groningani",
+      "location": "Groningen",
+      "date": "1773",
+      "source": null
+    },
+    {
+      "particularity": "Diss.Med. De puogeni=sive mediis quibus natura utitur in .s creando pure",
+      "location": "Groningen",
+      "date": "1775",
+      "source": null
+    },
+    {
+      "particularity": "Wint prijsvragen Dijon, Bordeaux en Berlijn",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Gemmatigd Orangist",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Reizen in Duitsland (Brunswijk, Berlijn, Dresden) in 1797, 1797",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Reis naar Parijs in 1805, 1811, 1815",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Salaris: f1800,- (1786)",
+      "location": null,
+      "date": null,
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Gatharina Maria",
+      "LastName": "van DAM",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Leiden",
+      "BirthDate": "1776-10-17",
+      "DeathDate": "1836-03-13",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Antonius",
+      "LastName": "BRUGMANS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1732",
+      "DeathDate": "1789",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna Frederika",
+      "LastName": "MANGER",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Mr.IJsbrand",
+      "LastName": "DAM",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Merie Frangoise",
+      "LastName": "DROLENVAUX",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Johanna Maria",
+      "LastName": "BRUGMANS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Leiden",
+      "BirthDate": "1800-05-24",
+      "DeathDate": "1857-06-11",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Louise Frangoise",
+      "LastName": "BRUGMANS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Leiden",
+      "BirthDate": "1804",
+      "DeathDate": "1858-05-08",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Medicijnen",
+  "BirthCountry": null,
+  "BirthCity": "Franeker",
+  "BirthDate": "1763-03-24",
+  "DeathDate": "1819-07-22",
+  "DeathCity": null
+}

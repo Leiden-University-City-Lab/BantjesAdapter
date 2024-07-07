@@ -1,0 +1,287 @@
+{
+  "FirstName": "Cornelis",
+  "LastName": "PYNACKER",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Latijnse school",
+      "location": "Delft",
+      "date": "1577",
+      "source": "10"
+    },
+    {
+      "subject": "Stud.Litt(Theol.7)",
+      "location": "Leiden",
+      "date": "1586-11-06",
+      "source": "2,10,26"
+    },
+    {
+      "subject": "Disputatie Theol.",
+      "location": "Leiden",
+      "date": "1591-04-06",
+      "source": "2,10,26"
+    },
+    {
+      "subject": "Stud. Heidelberg",
+      "location": "Heidelberg",
+      "date": "1591-09-28",
+      "source": "2,23"
+    },
+    {
+      "subject": "Stud. Padua",
+      "location": "Padua",
+      "date": "1593-01-30",
+      "source": "29"
+    },
+    {
+      "subject": "Stud.Iur.",
+      "location": "Leiden",
+      "date": "1594-05-05",
+      "source": "26"
+    },
+    {
+      "subject": "Cand. ur.",
+      "location": "Leiden",
+      "date": "1597-03-25",
+      "source": "10"
+    },
+    {
+      "subject": "Doct.Iur.",
+      "location": "Leiden",
+      "date": "1597-05-16",
+      "source": "2,26b"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Advocaat Hof van Holland",
+      "location": null,
+      "date": "1597",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Rechten Leiden",
+      "location": null,
+      "date": "1597-11-09",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten Leiden",
+      "location": null,
+      "date": "1611-02-12",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten Groningen",
+      "location": null,
+      "date": "1614",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus Groningen",
+      "location": null,
+      "date": "1616-1617",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gezant naar Tunis en Algiers",
+      "location": "Tunis, Algiers",
+      "date": "1622, 1625",
+      "source": "2,10",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ambteloos burger",
+      "location": "Meppel",
+      "date": "1626-1636",
+      "source": "2,67,10",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten Franeker",
+      "location": null,
+      "date": "1636",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus Franeker",
+      "location": null,
+      "date": "1638, 1642",
+      "source": "2",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss.Iur.De iureiunrando bij prof. Bronckhorst",
+      "location": null,
+      "date": null,
+      "source": "2,26b"
+    },
+    {
+      "particularity": "In 1614 met Pauw op nominatie rectoraat Leiden,Pauw rector",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Woont Aduarderhuis,later Ebbingestraat te Groningen",
+      "location": null,
+      "date": null,
+      "source": "101"
+    },
+    {
+      "particularity": "Gezant o.a. door zijn kennis van het Italiaans en Arabisch",
+      "location": null,
+      "date": null,
+      "source": "10107"
+    },
+    {
+      "particularity": "Hij koopt gevangenen los(ook Fransen).De eerste reis was van 07-07-1622 tot mrt.1623 in gezelschap van de Llatere prof. Golius,,de tweede van 1625 tot 1626",
+      "location": null,
+      "date": null,
+      "source": "NA"
+    },
+    {
+      "particularity": "Zijn kaart van Drenthe uit 1634 in 1639 door de Staten van Overijssel als partijdig afgewezen",
+      "location": null,
+      "date": null,
+      "source": "101"
+    },
+    {
+      "particularity": "Beveelt zichzelf aan in Franeker",
+      "location": null,
+      "date": null,
+      "source": "10"
+    },
+    {
+      "particularity": "Salaris: f500(1603)",
+      "location": null,
+      "date": null,
+      "source": "54"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Suzanna",
+      "LastName": "van Blois van Treslong",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Leiden",
+      "BirthDate": "1608-10-10",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Suzanna",
+      "LastName": "Boterpot",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Vianen",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Adam",
+      "LastName": "van Kerkhoffe",
+      "Affix": "van",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "van Polanen",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Willem",
+      "LastName": "Blois van Treslong",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Adriana",
+      "LastName": "van Egmond van Kenenburg",
+      "Affix": "van",
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cornelia",
+      "LastName": "van den Heuvel",
+      "Affix": "van",
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Rechten",
+  "BirthCountry": null,
+  "BirthCity": "Pijnacker",
+  "BirthDate": "1570-07-06",
+  "DeathDate": "1645-01-12",
+  "DeathCity": "Franeker"
+}

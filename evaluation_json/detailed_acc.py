@@ -125,7 +125,7 @@ def collect_accuracy_data(correct_folder, generated_folder):
     return category_accuracies
 
 def report_accuracy_per_volume(correct_root_folder, generated_root_folder):
-    volumes = os.listdir(correct_root_folder)
+    volumes = [d for d in os.listdir(correct_root_folder) if not d.startswith('.')]
     all_results = defaultdict(lambda: {'correct_text': [0, 0, 0], 'ocr_text': [0, 0, 0]})
 
     for volume in volumes:
@@ -170,5 +170,5 @@ def report_accuracy_per_volume(correct_root_folder, generated_root_folder):
 
 
 correct_root_folder = 'correct_json'
-generated_root_folder = 'generated_jsons'
+generated_root_folder = 'generated_json1/try2'
 report_accuracy_per_volume(correct_root_folder, generated_root_folder)

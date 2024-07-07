@@ -1,0 +1,39 @@
+{
+  "FirstName": "Johannes",
+  "LastName": "VAN ROUVEROT",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [],
+  "careers": [],
+  "particularities": [],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [
+    {
+      "FirstName": "Robert",
+      "LastName": "AEMILIUS",
+      "Affix": null,
+      "Gender": null,
+      "source": "NA",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 4,
+  "faculty": "Addenda",
+  "BirthCountry": null,
+  "BirthCity": null,
+  "BirthDate": null,
+  "DeathDate": null,
+  "DeathCity": null
+}

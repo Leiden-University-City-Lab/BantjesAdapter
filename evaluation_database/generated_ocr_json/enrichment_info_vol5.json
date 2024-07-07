@@ -1,0 +1,42 @@
+{
+  "1.vol5.txt": {
+    "person_id": 65732,
+    "new_person": true,
+    "maybe_same_person": true
+  },
+  "2.vol5.txt": {
+    "person_id": 56,
+    "new_person": false,
+    "maybe_same_person": false
+  },
+  "18.vol5.txt": {
+    "person_id": 410,
+    "new_person": false,
+    "maybe_same_person": false
+  },
+  "24.vol5.txt": {
+    "person_id": 65743,
+    "new_person": true,
+    "maybe_same_person": true
+  },
+  "39.vol5.txt": {
+    "person_id": 902,
+    "new_person": false,
+    "maybe_same_person": false
+  },
+  "51.vol5.txt": {
+    "person_id": 65745,
+    "new_person": true,
+    "maybe_same_person": true
+  },
+  "63.vol5.txt": {
+    "person_id": 65757,
+    "new_person": true,
+    "maybe_same_person": true
+  },
+  "65.vol5.txt": {
+    "person_id": 65766,
+    "new_person": true,
+    "maybe_same_person": true
+  }
+}

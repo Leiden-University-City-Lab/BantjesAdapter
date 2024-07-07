@@ -1,0 +1,139 @@
+{
+  "FirstName": "Willem baron",
+  "LastName": "VAN WASSENAER",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [],
+  "careers": [
+    {
+      "job": "Gezant Frankrijk",
+      "location": "Frankrijk",
+      "date": "1680",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gezant Frankrijk",
+      "location": "Frankrijk",
+      "date": "1686",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Admiraliteit",
+      "location": "Maas Rotterdam",
+      "date": "1688",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogheemraad",
+      "location": "Schieland",
+      "date": "1690",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Ridderschap",
+      "location": "Holland Den Haag",
+      "date": "1702-07-31",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Voorzitter Gecommitteerde Raden",
+      "location": "Den Haag",
+      "date": "1707",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Curator Universiteit",
+      "location": "Leiden Leiden",
+      "date": "1714-10-19",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Grootzegelbewaarder",
+      "location": "Den Haag",
+      "date": "1718",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Luitenant-Houtvester",
+      "location": "Stadhouder Lenen van Holland",
+      "date": "1718-1722",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Commissie geldmiddelen",
+      "location": "Den Haag",
+      "date": "1721",
+      "source": "22",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [],
+  "spouses": [
+    {
+      "FirstName": "Josina",
+      "LastName": "van der Does",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Noordwijk",
+      "BirthDate": "1648-08-26",
+      "DeathDate": "1677-10-21",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Pieter",
+      "LastName": "van Wassenaer",
+      "Affix": "heer",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Den Haag",
+      "BirthDate": "1616",
+      "DeathDate": "1669",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "van Cats",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1625",
+      "DeathDate": "1657",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": null,
+  "BirthCity": "Den Haag",
+  "BirthDate": "1649-06-06",
+  "DeathDate": "1723-08-06",
+  "DeathCity": null
+}
