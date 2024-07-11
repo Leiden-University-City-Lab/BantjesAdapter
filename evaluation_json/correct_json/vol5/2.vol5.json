@@ -1,0 +1,458 @@
+{
+  "FirstName": "Caspar",
+  "LastName": "BARLAEUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Latijnse School(vader)",
+      "location": "Zaltbommel",
+      "date": "1595",
+      "source": "78"
+    },
+    {
+      "subject": "Latijnse School",
+      "location": "Dordrecht",
+      "date": "1595-1596",
+      "source": "2"
+    },
+    {
+      "subject": "Latijnse School(oom Jacobus)",
+      "location": "Brielle",
+      "date": "1596-1600",
+      "source": "2"
+    },
+    {
+      "subject": "Statencollege",
+      "location": "Leiden",
+      "date": "1600-11-01",
+      "source": "78"
+    },
+    {
+      "subject": "Stud.Theol.",
+      "location": "Leiden",
+      "date": "1600-12-15",
+      "source": "28"
+    },
+    {
+      "subject": "Cand.",
+      "location": "Leiden",
+      "date": "1604",
+      "source": "2"
+    },
+    {
+      "subject": "Statencollege",
+      "location": "Leiden",
+      "date": "1606-11-01",
+      "source": "2"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Privaatdocent",
+      "location": "Leiden",
+      "date": "1606-1608",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Nieuwe Tonge",
+      "date": "1608-1612",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderregent Statencollege",
+      "location": "Leiden",
+      "date": "1612-05-08",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Redeneerkunst",
+      "location": "Leiden",
+      "date": "1617-11-28",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag als onderregent",
+      "location": "Leiden",
+      "date": "1619-06-20",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag als hoogleraar",
+      "location": "Leiden",
+      "date": "1619-08-31",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Reis naar en studie te Caen",
+      "location": "Caen",
+      "date": "1620-1621",
+      "source": "78",
+      "is_side_job": 0
+    },
+    {
+      "job": "Arts",
+      "location": "Leiden",
+      "date": "1621-1631",
+      "source": "78",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geschiedenis van de Wijsbegeerte",
+      "location": "Amsterdam",
+      "date": "1631-01-08",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Toehoorder Synode van Dordrecht",
+      "location": "Dordrecht",
+      "date": null,
+      "source": "2",
+      "is_side_job": 1
+    },
+    {
+      "job": "Schrijver van lofdichten",
+      "location": null,
+      "date": null,
+      "source": "78",
+      "is_side_job": 1
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Remonstrants gezind",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Bevriend met P.C.Hooft,Tesselschade,Schrevelius,,Cats,Vossius,van der Mijle",
+      "location": null,
+      "date": null,
+      "source": "78"
+    },
+    {
+      "particularity": "Huyghens helpt hem aan opdrachten voor dlofdichten en een pensioen van F200 van Frederik Hendrik en Willem II",
+      "location": null,
+      "date": null,
+      "source": "2,78"
+    },
+    {
+      "particularity": "De vriendschap van zijn om Jacobus, rector te Brielle,met regent Cuchlinus helpt hem aan een plaats in het Statencollege voor Geertruidenberg",
+      "location": null,
+      "date": null,
+      "source": "78"
+    },
+    {
+      "particularity": "In 1611 polst Bertius hem tweemaal voor het onderregentschap van het Statencollege",
+      "location": null,
+      "date": "1611",
+      "source": "78"
+    },
+    {
+      "particularity": "Woont in Leiden in Breestraat als buurman van prof.Polyander, later op het Rapenburg tussen Vliet en Kaiserstraat en in Amsterdam in Spinhuissteeg en op Achterburgwal",
+      "location": null,
+      "date": null,
+      "source": "78"
+    },
+    {
+      "particularity": "Testament not.A.Paedts",
+      "location": "Leiden",
+      "date": "1623-03-27",
+      "source": "78"
+    },
+    {
+      "particularity": "Salaris: f1500 (1632), £1700 (1641)",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Vaak depressief, wellicht door zelfmoord omgekomen",
+      "location": null,
+      "date": null,
+      "source": "41"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Barbara",
+      "LastName": "SAYON",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1635",
+      "DeathCity": "Amsterdam"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Caspar",
+      "LastName": "VAN BAERLE",
+      "Affix": "Van",
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1595",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cornelia",
+      "LastName": "EERDEWIJNS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Lambertus",
+      "LastName": "van Baerle",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "Jacobs",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Antony",
+      "LastName": "SAYON",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,78",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Caspar",
+      "LastName": "BARLAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "78",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1611-07-18",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Adriana",
+      "LastName": "BARLAEUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1613-01-16",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "BARLAEUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1615-12-17",
+      "DeathDate": "1676-10",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Josina",
+      "LastName": "BARLAEUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2,78",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1617-01-14",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Caspar",
+      "LastName": "BARLAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,70",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Leiden",
+      "BirthDate": "1619-06-13",
+      "DeathDate": null,
+      "DeathCity":null
+    },
+    {
+      "FirstName": "Suzanna",
+      "LastName": "BARLAEUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1622-01-20",
+      "DeathDate": "1674-06-11",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elizabeth",
+      "LastName": "BARLAEUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1624-08-01",
+      "DeathDate": "1651-04-22",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anthony",
+      "LastName": "BARLAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2,78",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1626",
+      "DeathDate": "1666",
+      "DeathCity": "Den Haag"
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "BARLAEUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "78",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1630-08-06",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacobus",
+      "LastName": "BARLAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "78",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1632-01-13",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacobus",
+      "LastName": "BARLAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "78",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1634-02-24",
+      "DeathDate": "1634-03-02",
+      "DeathCity": "Amsterdam"
+    }
+  ],
+  "far_family": [
+    {
+      "FirstName": "Lambertus",
+      "LastName": "BARLAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 1,
+  "faculty": "Letteren",
+  "BirthCountry": "België",
+  "BirthCity": "Antwerpen",
+  "BirthDate": "1584-02-12",
+  "DeathDate": "1648-01-14",
+  "DeathCity": "Amsterdam"
+}

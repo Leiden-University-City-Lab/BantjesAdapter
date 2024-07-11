@@ -1,0 +1,45 @@
+{
+  "1.vol5.txt": {
+    "person_id": 27,
+    "new_person": false,
+    "maybe_same_person": false
+  },
+  "2.vol5.txt": {
+    "person_id": 56,
+    "new_person": false,
+    "maybe_same_person": false
+  },
+  "18.vol5.txt": {
+    "person_id": 410,
+    "new_person": false,
+    "maybe_same_person": false
+  },
+  "24.vol5.txt": {
+    "person_id": 65337,
+    "new_person": true,
+    "maybe_same_person": true,
+    "why": "No birth related info available"
+  },
+  "39.vol5.txt": {
+    "person_id": 902,
+    "new_person": false,
+    "maybe_same_person": false
+  },
+  "51.vol5.txt": {
+    "person_id": 1070,
+    "new_person": false,
+    "maybe_same_person": false,
+    "why": "variations in last name"
+  },
+  "63.vol5.txt": {
+    "person_id": 1267,
+    "new_person": false,
+    "maybe_same_person": false
+  },
+  "65.vol5.txt": {
+    "person_id": 65350,
+    "new_person": true,
+    "maybe_same_person": true,
+    "why": "No birth related info available"
+  }
+}

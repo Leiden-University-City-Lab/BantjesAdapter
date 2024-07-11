@@ -1,0 +1,43 @@
+{
+  "FirstName": "Anton",
+  "LastName": "SCHULTINGH",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [],
+  "careers": [],
+  "particularities": [
+    {
+      "particularity": "Kiest rechten als hoofdvak door prof.Rijcke",
+      "location": null,
+      "date": null,
+      "source": "10"
+    },
+    {
+      "particularity": "Disp.De naturali obligatione bij prof. Voet",
+      "location": null,
+      "date": null,
+      "source": "26a"
+    },
+    {
+      "particularity": "Prof.R\u00fccker erft zijn manuscripten en geeft ze uit",
+      "location": null,
+      "date": null,
+      "source": "10"
+    }
+  ],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Rechten",
+  "BirthCountry": null,
+  "BirthCity": null,
+  "BirthDate": null,
+  "DeathDate": null,
+  "DeathCity": null
+}

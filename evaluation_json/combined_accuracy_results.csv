@@ -1,0 +1,13 @@
+accuracy_try1,accuracy_try1,accuracy_try1,accuracy_try2,accuracy_try2,accuracy_try2,accuracy_try3,accuracy_try3,accuracy_try3,accuracy_try4,accuracy_try4,accuracy_try4,accuracy_try5,accuracy_try5,accuracy_try5
+Category,Correct_Text_Accuracy,OCR_Text_Accuracy,Category,Correct_Text_Accuracy,OCR_Text_Accuracy,Category,Correct_Text_Accuracy,OCR_Text_Accuracy,Category,Correct_Text_Accuracy,OCR_Text_Accuracy,Category,Correct_Text_Accuracy,OCR_Text_Accuracy
+Main_person,73.71%,74.46%,Main_person,72.94%,70.26%,Main_person,73.65%,75.00%,Main_person,75.48%,68.90%,Main_person,71.86%,72.84%
+Education,70.69%,61.19%,Education,71.54%,59.89%,Education,75.36%,68.01%,Education,63.57%,57.10%,Education,60.29%,69.90%
+Careers,68.80%,66.27%,Careers,63.72%,63.83%,Careers,66.61%,64.04%,Careers,72.04%,63.13%,Careers,63.01%,63.00%
+Particularities,63.09%,43.44%,Particularities,56.57%,55.56%,Particularities,55.11%,57.67%,Particularities,58.93%,52.89%,Particularities,57.99%,55.70%
+Spouses,66.67%,63.13%,Spouses,59.43%,63.22%,Spouses,60.71%,61.54%,Spouses,65.96%,60.75%,Spouses,63.38%,60.62%
+Parents,75.64%,67.72%,Parents,67.79%,68.76%,Parents,68.05%,65.18%,Parents,70.48%,64.69%,Parents,68.70%,71.07%
+Grand_parents,69.47%,55.29%,Grand_parents,63.38%,64.95%,Grand_parents,66.97%,53.08%,Grand_parents,64.45%,56.72%,Grand_parents,66.20%,56.59%
+In_laws,66.44%,65.91%,In_laws,46.10%,61.54%,In_laws,49.62%,68.72%,In_laws,50.71%,37.27%,In_laws,59.44%,62.36%
+Children,71.45%,67.24%,Children,70.14%,67.41%,Children,71.35%,67.30%,Children,71.78%,68.72%,Children,63.35%,61.98%
+Far_family,58.02%,60.81%,Far_family,65.26%,70.11%,Far_family,63.10%,63.93%,Far_family,52.11%,53.54%,Far_family,60.78%,62.96%
+Average,68.40%,62.55%,Average,63.69%,64.55%,Average,65.05%,64.45%,Average,64.55%,58.37%,Average,63.50%,63.70%

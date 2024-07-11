@@ -1,0 +1,12 @@
+Category,Correct_Text_Accuracy,OCR_Text_Accuracy
+Main_person,72.94%,70.26%
+Education,71.54%,59.89%
+Careers,63.72%,63.83%
+Particularities,56.57%,55.56%
+Spouses,59.43%,63.22%
+Parents,67.79%,68.76%
+Grand_parents,63.38%,64.95%
+In_laws,46.10%,61.54%
+Children,70.14%,67.41%
+Far_family,65.26%,70.11%
+Average,63.69%,64.55%

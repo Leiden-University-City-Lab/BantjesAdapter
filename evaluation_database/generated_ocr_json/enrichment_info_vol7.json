@@ -1,0 +1,37 @@
+{
+  "11.vol7.txt": {
+    "person_id": 65798,
+    "new_person": true,
+    "maybe_same_person": true
+  },
+  "17.vol7.txt": {
+    "person_id": 65806,
+    "new_person": true,
+    "maybe_same_person": true
+  },
+  "29.vol7.txt": {
+    "person_id": 65815,
+    "new_person": true,
+    "maybe_same_person": true
+  },
+  "44.vol7.txt": {
+    "person_id": 65828,
+    "new_person": true,
+    "maybe_same_person": true
+  },
+  "45.vol7.txt": {
+    "person_id": 65841,
+    "new_person": true,
+    "maybe_same_person": true
+  },
+  "58.vol7.txt": {
+    "person_id": 65845,
+    "new_person": true,
+    "maybe_same_person": true
+  },
+  "59.vol7.txt": {
+    "person_id": 65860,
+    "new_person": true,
+    "maybe_same_person": true
+  }
+}

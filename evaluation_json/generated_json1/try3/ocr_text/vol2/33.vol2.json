@@ -1,0 +1,249 @@
+{
+  "FirstName": "Nicolaas George",
+  "LastName": "OOSTERDIJK",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Bevordord tot academische",
+      "location": "Utrecht",
+      "date": "1754-01-24",
+      "source": "2"
+    },
+    {
+      "subject": "Stud.Med.h.c.",
+      "location": "Leiden",
+      "date": "1760-06-30",
+      "source": "20"
+    },
+    {
+      "subject": "Stud.Natuurkunde en Med.",
+      "location": "Utrecht",
+      "date": "1761",
+      "source": "26"
+    },
+    {
+      "subject": "Doct. Med",
+      "location": "Utrecht",
+      "date": "1762-06-15",
+      "source": "27"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Stadsarts",
+      "location": "Utrecht",
+      "date": "1763-04-18",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Medicijnen",
+      "location": "Harderwijk",
+      "date": "1770-10-23",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Scheikunde en Kruidkunde",
+      "location": "Harderwijk",
+      "date": "1771-06-12",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Harderwijk",
+      "date": "1773-06-16",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geneeskunde (Theoretische Genceskunde)",
+      "location": "Leiden",
+      "date": "1775-04-24",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs Practische Geneeskunde",
+      "location": "Leiden",
+      "date": "1778-06-12",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Emeritus met behoud van titel Buitengewoon Hoogleraar",
+      "location": "Leiden",
+      "date": "1785-10-16",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rectoe Magnificus",
+      "location": "Leiden",
+      "date": "1786-1787",
+      "source": "2",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [],
+  "spouses": [
+    {
+      "FirstName": "Bartha",
+      "LastName": "Weveringh",
+      "Affix": null,
+      "Gender": null,
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1783",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cornelia Wilhelmina",
+      "LastName": "Graswinckel",
+      "Affix": null,
+      "Gender": null,
+      "source": "38",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Eindhoven",
+      "BirthDate": "1754-10-31",
+      "DeathDate": "1807-01-26",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Jonannes",
+      "LastName": "Oosterdijk Schacht",
+      "Affix": null,
+      "Gender": null,
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1704",
+      "DeathDate": "1755",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna Aletta",
+      "LastName": "Mol",
+      "Affix": null,
+      "Gender": null,
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "Unknown",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Herman",
+      "LastName": "Oosterdijk Schacht",
+      "Affix": null,
+      "Gender": null,
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1672",
+      "DeathDate": "1744",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "van der Stoffe",
+      "Affix": null,
+      "Gender": null,
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "Unknown",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Mr.Adriaan",
+      "LastName": "Weveringh",
+      "Affix": null,
+      "Gender": null,
+      "source": "156",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1700",
+      "DeathDate": "1768",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Martina",
+      "LastName": "Baert",
+      "Affix": null,
+      "Gender": null,
+      "source": "46",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1705",
+      "DeathDate": "1783",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Gerard Johan",
+      "LastName": "Graswinckel",
+      "Affix": null,
+      "Gender": null,
+      "source": "38",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1712",
+      "DeathDate": "1770",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria Geertruid",
+      "LastName": "van Alphen",
+      "Affix": null,
+      "Gender": null,
+      "source": "38",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1714",
+      "DeathDate": "1779",
+      "DeathCity": null
+    }
+  ],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Medicijnen",
+  "BirthCountry": null,
+  "BirthCity": "Utrecht",
+  "BirthDate": "1740-02-16",
+  "DeathDate": "1817-09-03",
+  "DeathCity": null
+}

@@ -1,0 +1,176 @@
+{
+  "FirstName": "Anton",
+  "LastName": "SCHULTINGH",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Triviale school",
+      "location": "Leiden",
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "Stud.Litt.",
+      "location": "Leiden",
+      "date": "1675-09-19",
+      "source": "10,26"
+    },
+    {
+      "subject": "Doct.Iur",
+      "location": "Leiden",
+      "date": "1683-10-19",
+      "source": "26a"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Privaatdocent",
+      "location": "Leiden",
+      "date": null,
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Harderwijk",
+      "date": "1691-04-07",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificnus",
+      "location": "Harderwijk",
+      "date": "1693-1694",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Franeker",
+      "date": "1694-11-16",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Franeker",
+      "date": "1701, 1711",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten",
+      "location": "Leiden",
+      "date": "1713-10-09",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1717-1718",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Vervangen wegens leeftijd",
+      "location": "Leiden",
+      "date": "1733-03-14",
+      "source": "25",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Kiest rechten als hoofdvak door prof.Rijcke",
+      "location": "Leiden",
+      "date": null,
+      "source": "10"
+    },
+    {
+      "particularity": "Disp.De naturali obligatione bij prof. Voet",
+      "location": null,
+      "date": null,
+      "source": "26a"
+    },
+    {
+      "particularity": "Prof.R\u00fcicker erft zijn manuscripten en geeft ze uit",
+      "location": null,
+      "date": null,
+      "source": "10"
+    }
+  ],
+  "spouses": [],
+  "parents": [
+    {
+      "FirstName": "Johannes",
+      "LastName": "SCHULTINGH",
+      "Affix": null,
+      "Gender": null,
+      "source": "2528",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1630-01-01",
+      "DeathDate": "1666-01-01",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "van den Bergh",
+      "Affix": null,
+      "Gender": null,
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "Unknown",
+      "DeathDate": "Unknown",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Isaac",
+      "LastName": "van den Bergh",
+      "Affix": null,
+      "Gender": null,
+      "source": "a,28",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1595-01-01",
+      "DeathDate": "1665-01-01",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria Buissonet de la",
+      "LastName": "Cane",
+      "Affix": null,
+      "Gender": null,
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1599-01-01",
+      "DeathDate": "1669-01-01",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Rechten",
+  "BirthCountry": null,
+  "BirthCity": null,
+  "BirthDate": null,
+  "DeathDate": null,
+  "DeathCity": null
+}

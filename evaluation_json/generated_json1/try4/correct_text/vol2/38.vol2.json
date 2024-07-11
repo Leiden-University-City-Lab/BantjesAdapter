@@ -1,0 +1,275 @@
+{
+  "FirstName": "Meinard Simon",
+  "LastName": "DUV PUI",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Latijnse school",
+      "location": "'s-Hertogenbosch",
+      "date": "1800",
+      "source": null
+    },
+    {
+      "subject": "Latijnse school",
+      "location": "Enkhuizen",
+      "date": "1800",
+      "source": null
+    },
+    {
+      "subject": "Stud.Phil.",
+      "location": "Groningen",
+      "date": "1771-09-12",
+      "source": null
+    },
+    {
+      "subject": "Doct.Phil.",
+      "location": "Groningen",
+      "date": "1775-06-28",
+      "source": null
+    },
+    {
+      "subject": "Stud. Med.",
+      "location": "Leiden",
+      "date": "1775-09-14",
+      "source": null
+    },
+    {
+      "subject": "Studiereis",
+      "location": "Londen",
+      "date": "1779-1779",
+      "source": null
+    },
+    {
+      "subject": "Studiereis",
+      "location": "Parijs",
+      "date": "1779-1780",
+      "source": null
+    },
+    {
+      "subject": "Doct.Med.",
+      "location": "Leiden",
+      "date": "1780-02-25",
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": "Stadsarts",
+      "location": "Kampen",
+      "date": "1780-01-27",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Heel-,Ontleed- en Verloskunde",
+      "location": "Kampen",
+      "date": "1780-01-27",
+      "source": null,
+      "is_side_job": 1
+    },
+    {
+      "job": "Honorair Professor",
+      "location": "Alkmaar",
+      "date": "1780-01-15",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Assessor Collegium",
+      "location": "Alkmaar",
+      "date": "1791",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar",
+      "location": "Leiden",
+      "date": "1791-05-14",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geneeskunde",
+      "location": "Leiden",
+      "date": "1795-09-19",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Professor Collegii",
+      "location": "Leiden",
+      "date": "1798-11-14",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "hoogleraar Geneeskunde",
+      "location": "Leiden",
+      "date": "1801-02-02",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1799-1800,1819-1820",
+      "source": null,
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss. De homine dextro et sinistro",
+      "location": "Leiden",
+      "date": "1780",
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Maria Digna",
+      "LastName": "Balkman",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Kampen",
+      "BirthDate": "1767-03-30",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Dr. Pieter",
+      "LastName": "DUV PUI",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1766",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Antonius",
+      "LastName": "DU PUI",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1685",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Marie",
+      "LastName": "Monsarrat",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Dr. Abraham",
+      "LastName": "Balkman",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1778",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna Catherina",
+      "LastName": "Wesselink",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1767",
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Mr. Pierre Antoine",
+      "LastName": "DUV PUI",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Kampen",
+      "BirthDate": "1785-06-27",
+      "DeathDate": "1838-08-05",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catherine Marie",
+      "LastName": "DU PUI",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Kampen",
+      "BirthDate": "1787-06-08",
+      "DeathDate": "1826-05-26",
+      "DeathCity": "Leiden"
+    },
+    {
+      "FirstName": "Caroline Jeanne",
+      "LastName": "DU PUI",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Leiden",
+      "BirthDate": "1791-11-21",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Medicijnen",
+  "BirthCountry": null,
+  "BirthCity": "Enkhuizen",
+  "BirthDate": "1754-03-21",
+  "DeathDate": "1834-06-14",
+  "DeathCity": "Leiden"
+}

@@ -1,0 +1,188 @@
+{
+  "FirstName": "Simon",
+  "LastName": "VAN DER EYK",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.Iur.",
+      "location": "Leiden",
+      "date": "1789-09-01",
+      "source": "14"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Diaken Waalse kerk Den Briel",
+      "location": "Den Briel",
+      "date": "before 1796-06-11",
+      "source": "32",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Natuurkunde en Hogere Wiskunde",
+      "location": "Leiden",
+      "date": "1796-06-11",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Leiden",
+      "location": "Leiden",
+      "date": "1797-06-03",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Natuurkunde en Hogere Wiskunde",
+      "location": "Leiden",
+      "date": "1799-05-31",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs Mathesis en Physiologie",
+      "location": "Leiden",
+      "date": "1812",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus Leiden",
+      "location": "Leiden",
+      "date": "1807-1818",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Emeritus",
+      "location": "Leiden",
+      "date": "1835",
+      "source": "13",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Lid Genootschap der proefondervindelijke wijsbegeerte te Rotterdam, Zeeuwsch Genootschap der Wetenschappen te Vlissingen",
+      "location": null,
+      "date": null,
+      "source": "3"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Jacoba Christina",
+      "LastName": "SPRECHER DE BERNEGG",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "32",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Breda",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Mr.Adriaan Dirk",
+      "LastName": "VAN DER EYK",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "32,49",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1741",
+      "DeathDate": "1817",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "SPEYERT",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "32,49",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1737",
+      "DeathDate": "1802",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Adriaan",
+      "LastName": "VAN DER EYK",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "32",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna Jacoba",
+      "LastName": "VAN DER BURG",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "32",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Simon",
+      "LastName": "SPEYERT",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "32",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Wijnanda Maria",
+      "LastName": "VAN HAAFTEN",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "32",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Wiskunde En Natuurwetenschappen",
+  "BirthCountry": null,
+  "BirthCity": null,
+  "BirthDate": null,
+  "DeathDate": null,
+  "DeathCity": null
+}
