@@ -12,6 +12,8 @@ from helpers.person import save_person_info, extract_birth_year, enrich_personal
     join_person_names
 
 main_model_schema = Person.model_json_schema()
+
+
 # print(json.dumps(main_model_schema, indent=2))
 # sys.exit()
 
@@ -41,12 +43,14 @@ def chat_completion(person_info):
         tool_choice="auto"
     )
 
+
 # Define a dictionary to store enrichment information
 enrichment_info = {}
 
 
 def process_person_data(path, volume):
     input_directory = f'{path}{volume}'
+    output_dir = 'evaluation_json/generated_json/try1/ocr_text/vol1'
 
     person_files = sorted(os.listdir(input_directory),
                           key=lambda x: int(x.split('.')[0]) if x.split('.')[0].isdigit() else float('inf'))
@@ -65,10 +69,11 @@ def process_person_data(path, volume):
                         print(f"No digits found in {filename}")
                         continue
 
-                    if f'{file_count}.{volume}.json' in person_files:
+                    json_file_path = os.path.join(output_dir, f'{file_count}.{volume}.json')
+                    if os.path.isfile(json_file_path):
                         print("Get person from JSON file")
                         try:
-                            with open(os.path.join(input_directory, f'{file_count}.{volume}.json'), 'r') as json_file:
+                            with open(json_file_path, 'r') as json_file:
                                 person_data_json = json.load(json_file)
                                 person = Person(**person_data_json)
                         except ValueError as e:
@@ -76,12 +81,11 @@ def process_person_data(path, volume):
                     else:
                         print("Get person from OpenAI")
                         person = chat_completion(person_data)
-                        save_person_info(json.dumps(person.model_dump(), indent=2), input_directory, file_count, volume)
+                        save_person_info(json.dumps(person.model_dump(), indent=2), output_dir, file_count, volume)
 
                         # continue
 
                     print(f'Processing person {file_count} with name {person.FirstName} {person.LastName}')
-
                     # continue
 
                     # Verify birth_year of person
@@ -107,12 +111,11 @@ def process_person_data(path, volume):
                         enrichment_info[filename] = {'person_id': person_db.personPersonID, 'new_person': False,
                                                      'maybe_same_person': False}
 
-
                     else:
-
                         get_maybe_same_person_from_db = get_maybe_same_person(person, extracted_birth_year)
                         if get_maybe_same_person_from_db:
-                            print(f'Processing existing potential person with ID {get_maybe_same_person_from_db.personPersonID}')
+                            print(
+                                f'Processing existing potential person with ID {get_maybe_same_person_from_db.personPersonID}')
                             maybe_same_person_db = create_person(person)
                             enrich_personal_information(person, maybe_same_person_db)
 
@@ -141,7 +144,8 @@ def process_person_data(path, volume):
                     print("Retry attempts: ", e.n_attempts)
                     print("Last completion: ", e.last_completion)
                     pass
-    # print(enrichment_info)
+
+    print(enrichment_info)
     # Save enrichment_info to a JSON file
-    # with open('enrichment_info_vol7b.json', 'w') as json_file:
-    #     json.dump(enrichment_info, json_file, indent=2)
+    with open('enrichment_info_vol1n.json', 'w') as json_file:
+        json.dump(enrichment_info, json_file, indent=2)

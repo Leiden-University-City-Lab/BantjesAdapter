@@ -36,15 +36,24 @@ def extract_birth_year(birth_date: str):
             return None
 
 
-def save_person_info(text, directory, file_counter, volume):
-    file_name = f"{file_counter}.{volume}.json"
+# def save_person_info(text, directory, file_counter, volume):
+#     file_name = f"{file_counter}.{volume}.json"
+#
+#     file_path = os.path.join(directory, file_name)
+#     print(f'Write person info to: {file_path}')
+#
+#     # Write the text to the file
+#     with open(file_path, 'w') as output_file:
+#         output_file.write(text)
 
-    file_path = os.path.join(directory, file_name)
-    print(f'Write person info to: {file_path}')
 
-    # Write the text to the file
-    with open(file_path, 'w') as output_file:
-        output_file.write(text)
+def save_person_info(person_json, new_directory, file_count, volume):
+    if not os.path.exists(new_directory):
+        os.makedirs(new_directory)
+
+    json_filename = f'{file_count}.{volume}.json'
+    with open(os.path.join(new_directory, json_filename), 'w') as json_file:
+        json_file.write(person_json)
 
 
 def update_relations(person: schemas.Person, person_db, same_person: bool = False):

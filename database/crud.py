@@ -13,20 +13,21 @@ def get_maybe_same_person(person: schemas.Person, birth_year: str):
         and_(Location.TypeOfLocation == 1,
              or_(
                  and_(
-                     func.extract('YEAR', Location.locationStartDate) != f'{birth_year}',
-                     Location.City != f'{person.BirthCity}',
+                     and_(Location.locationStartDate.isnot(None),
+                          func.extract('YEAR', Location.locationStartDate) != f'{birth_year}'),
+                     and_(Location.City.isnot(None), Location.City != f'{person.BirthCity}'),
                      or_(Person.LastName.like(f'%{person.LastName}%'), Person.LastName.like(f'%{person.alternative_last_names}%')),
                      or_(Person.FirstName.like(f'%{person.FirstName}%'), Person.FirstName.like(f'%{person.second_names}%'))
                  ),
                  and_(
-                     func.extract('YEAR', Location.locationStartDate) == f'{birth_year}',
+                     and_(Location.locationStartDate.isnot(None), func.extract('YEAR', Location.locationStartDate) == birth_year),
                      Location.City != f'{person.BirthCity}',
                      or_(Person.LastName.like(f'%{person.LastName}%'),
                          Person.LastName.like(f'%{person.alternative_last_names}%'))
                  ),
                  and_(
                      func.extract('YEAR', Location.locationStartDate) != f'{birth_year}',
-                     Location.City.like(f'%{person.BirthCity}%'),
+                     and_(Location.City.isnot(None), Location.City.ilike(f'%{person.BirthCity}%')),
                      or_(Person.LastName.like(f'%{person.LastName}%'),
                          Person.LastName.like(f'%{person.alternative_last_names}%'))
                  )
@@ -61,8 +62,8 @@ def get_person(person: schemas.Person, birth_year: str):
                     first_name_conditions,
                     last_name_conditions,
                     or_(
-                        func.extract('YEAR', Location.locationStartDate) == birth_year,
-                        Location.City.ilike(f'%{person.BirthCity}%'),
+                        and_(Location.locationStartDate.isnot(None), func.extract('YEAR', Location.locationStartDate) == birth_year),
+                        and_(Location.City.isnot(None), Location.City.ilike(f'%{person.BirthCity}%'))
                         # Location.Country.ilike(f'%{person.BirthCountry}%')
                     )
                 ),
@@ -71,8 +72,8 @@ def get_person(person: schemas.Person, birth_year: str):
                     Location.locationStartDate.isnot(None),
                     func.extract('YEAR', Location.locationStartDate) == birth_year,
                     or_(
-                        Location.City.ilike(f'%{person.BirthCity}%'),
-                        Location.Country.ilike(f'%{person.BirthCountry}%')
+                        and_(Location.City.isnot(None), Location.City.ilike(f'%{person.BirthCity}%')),
+                        and_(Location.Country.isnot(None), Location.Country.ilike(f'%{person.BirthCountry}%'))
                     )
                 )
             )

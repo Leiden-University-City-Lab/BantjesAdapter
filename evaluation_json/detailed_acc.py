@@ -170,5 +170,5 @@ def report_accuracy_per_volume(correct_root_folder, generated_root_folder):
 
 
 correct_root_folder = 'correct_json'
-generated_root_folder = 'generated_json1/try2'
+generated_root_folder = 'generated_json/try2'
 report_accuracy_per_volume(correct_root_folder, generated_root_folder)

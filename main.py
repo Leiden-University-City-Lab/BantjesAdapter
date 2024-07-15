@@ -7,4 +7,6 @@ def main(path, volume):
 
 
 if __name__ == "__main__":
-    main(f'evaluation_json/correct_json/', 'vol7')
+    path = f'evaluation_json/generated_json/try1/ocr_text/'
+    volume = 'vol1'
+    main(path, volume)
