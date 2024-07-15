@@ -1,0 +1,22 @@
+{
+  "25.vol6.txt": {
+    "person_id": 65382,
+    "new_person": true,
+    "maybe_same_person": false
+  },
+  "28.vol6.txt": {
+    "person_id": 65384,
+    "new_person": true,
+    "maybe_same_person": false
+  },
+  "30.vol6.txt": {
+    "person_id": 65396,
+    "new_person": true,
+    "maybe_same_person": false
+  },
+  "32.vol6.txt": {
+    "person_id": 1437,
+    "new_person": false,
+    "maybe_same_person": false
+  }
+}

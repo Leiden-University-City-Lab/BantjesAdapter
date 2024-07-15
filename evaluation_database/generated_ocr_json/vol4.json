@@ -1,0 +1,17 @@
+{
+  "17.vol4.txt": {
+    "person_id": 65711,
+    "new_person": true,
+    "maybe_same_person": false
+  },
+  "19.vol4.txt": {
+    "person_id": 65719,
+    "new_person": true,
+    "maybe_same_person": false
+  },
+  "30.vol4.txt": {
+    "person_id": 1233,
+    "new_person": false,
+    "maybe_same_person": false
+  }
+}

@@ -1,0 +1,8 @@
+Volume,Accuracy_Person_ID,Accuracy_New_Person,Accuracy_Maybe_Same_Person,Correct_New_Person_Count,Generated_New_Person_Count,Correct_Maybe_Same_Person_Count,Generated_Maybe_Same_Person_Count
+vol1,0.5714285714285714,0.5714285714285714,1.0,0,3,0,0
+vol2,0.6,0.6,0.8,0,2,0,1
+vol3,0.8333333333333334,0.8333333333333334,1.0,1,2,0,0
+vol4,0.6666666666666666,0.6666666666666666,1.0,1,2,0,0
+vol5,0.625,0.625,1.0,2,5,2,2
+vol6,1.0,1.0,0.75,3,3,1,0
+vol7,1.0,1.0,0.8571428571428571,7,7,1,0
