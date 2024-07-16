@@ -26,10 +26,20 @@ Execute the program by running the `main.py` file. The main function within this
 
 **Path:** The file path to the directory which contains different subdirectories( vol1 to vol7).\
 **Volume:** The directory of the volume to be processed. This directory contains .txt files of different persons.
+## Preprocessing
+To preprocess the images, [`img_prep_ocr.py`](OCR/img_prep_ocr.py) is used.
 
 ## OCR
 
-Text of the images are extracted and divided per person with the [`split_persons_img.py`](OCR/split_persons_img.py). 
+### Training Tesseract
+For this project we have trained the tesseract program using a training set of image-text pairs of all the volumes. 
+As our base language dataset we took the [Dutch base data](https://github.com/tesseract-ocr/langdata/tree/main/nld).
+The steps that need to be followed to train Tesseract can be found [here](https://github.com/tesseract-ocr/tesstrain).
+
+
+Text of the images are extracted and divided per person with the [`split_persons_img.py`](OCR/split_persons_img.py).
+
+
 
 ## OpenAI
 

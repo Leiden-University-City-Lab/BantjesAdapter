@@ -3,7 +3,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from collections import defaultdict
 
-
 def levenshtein_distance(ref, hyp):
     ref_len = len(ref)
     hyp_len = len(hyp)
@@ -27,7 +26,6 @@ def levenshtein_distance(ref, hyp):
 
     return distance_matrix[ref_len][hyp_len]
 
-
 def cer(ref, hyp):
     # Calculate CER
     ref = list(ref)
@@ -35,14 +33,12 @@ def cer(ref, hyp):
     distance = levenshtein_distance(ref, hyp)
     return distance / len(ref)
 
-
 def wer(ref, hyp):
     # Calculate WER
     ref = ref.split()
     hyp = hyp.split()
     distance = levenshtein_distance(ref, hyp)
     return distance / len(ref)
-
 
 def process_directory(correct_dir, generated_dir):
     volume_data = defaultdict(lambda: {'cer_scores': [], 'wer_scores': []})
@@ -78,17 +74,16 @@ def process_directory(correct_dir, generated_dir):
 
     return average_errors
 
-
 def plot_error_rates(average_errors_per_volume):
     volumes = sorted(average_errors_per_volume.keys())
-    average_cers = [average_errors_per_volume[volume][0] for volume in volumes]
-    average_wers = [average_errors_per_volume[volume][1] for volume in volumes]
+    average_cers = [average_errors_per_volume[volume][0] * 100 for volume in volumes]  # Convert to percentage
+    average_wers = [average_errors_per_volume[volume][1] * 100 for volume in volumes]  # Convert to percentage
 
     # Plot CER
     plt.figure(figsize=(6, 4))
-    plt.plot(volumes, average_cers, marker='o', linestyle='-', color='b', label='CER')
+    plt.plot(volumes, average_cers, marker='o', linestyle='-', color='b', label='CER (%)')
     plt.xlabel('Volume', fontsize=12)
-    plt.ylabel('Error Rate', fontsize=12)
+    plt.ylabel('Error Rate (%)', fontsize=12)
     plt.title('Character Error Rate (CER) per Volume', fontsize=13)
     plt.grid(True)
     plt.legend()
@@ -97,15 +92,14 @@ def plot_error_rates(average_errors_per_volume):
 
     # Plot WER
     plt.figure(figsize=(6, 4))
-    plt.plot(volumes, average_wers, marker='o', linestyle='-', color='r', label='WER')
+    plt.plot(volumes, average_wers, marker='o', linestyle='-', color='r', label='WER (%)')
     plt.xlabel('Volume', fontsize=12)
-    plt.ylabel('Error Rate', fontsize=12)
+    plt.ylabel('Error Rate (%)', fontsize=12)
     plt.title('Word Error Rate (WER) per Volume', fontsize=13)
     plt.grid(True)
     plt.legend()
     plt.tight_layout()
     plt.show()
-
 
 correct_directory = 'sample_text_corrected'
 generated_directory = 'sample_text_original'
