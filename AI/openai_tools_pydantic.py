@@ -26,16 +26,15 @@ def chat_completion(person_info):
         messages=[
             {
                 "role": "system",
-                "content": f'''You're a person extracting data system.
-                                        - The data can contain multiple persons
-                                        - In case of multiple persons, you can identify each person by surname
-                                        - The surname is always with capitals followed by the middle / first name
-                                        - If you can't determine the field value, look at the examples
+                "content": f'''You are an advanced data extraction system..
+                                        - You can identify each person by surname
+                                        - The surname is always in uppercase letters, followed by the middle and/or first name
+                                        - If you can't determine the field value, refer to the examples
                                         '''
             },
             {
                 "role": "user",
-                "content": f'The data of the following person or persons: {person_info}'
+                "content": f'Please extract the data for the following person: {person_info}'
             }
         ],
         response_model=Person,
