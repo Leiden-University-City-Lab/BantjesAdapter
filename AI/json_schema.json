@@ -1,0 +1,772 @@
+{
+  "$defs": {
+    "Career": {
+      "description": "Identifying information about the person's career.",
+      "properties": {
+        "job": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "The type of job",
+          "examples": [
+            "Hoogleraar Geschiedenis"
+          ],
+          "title": "Job"
+        },
+        "location": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "The location of the job",
+          "examples": [
+            "Leiden"
+          ],
+          "title": "Location"
+        },
+        "date": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "The date of the job. In this format: 1849-01-15 or just the year",
+          "examples": [
+            "1601-10-20",
+            "1601",
+            "1601-10"
+          ],
+          "title": "Date"
+        },
+        "source": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "The source of the info mentioned in parentheses",
+          "examples": [
+            "6"
+          ],
+          "title": "Source"
+        },
+        "is_side_job": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": 0,
+          "description": "If it is mentioned under Nevenfuncties the value should be 1",
+          "title": "Is Side Job"
+        }
+      },
+      "title": "Career",
+      "type": "object"
+    },
+    "Education": {
+      "properties": {
+        "subject": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "The subject of study",
+          "examples": [
+            "Stud.Theol."
+          ],
+          "title": "Subject"
+        },
+        "location": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "The location of study",
+          "examples": [
+            "Leiden"
+          ],
+          "title": "Location"
+        },
+        "date": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "The date of the education. In this format: 1849-01-15 or just the year",
+          "examples": [
+            "1601-10-20",
+            "1601",
+            "1601-10"
+          ],
+          "title": "Date"
+        },
+        "source": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "The source of the info mentioned in parentheses",
+          "examples": [
+            "6"
+          ],
+          "title": "Source"
+        }
+      },
+      "title": "Education",
+      "type": "object"
+    },
+    "Family": {
+      "description": "Identifying information about the person's family.",
+      "properties": {
+        "FirstName": {
+          "description": "The first name of a person",
+          "examples": [
+            "Cornelis",
+            "Johannes"
+          ],
+          "title": "Firstname",
+          "type": "string"
+        },
+        "LastName": {
+          "description": "The last name of a person. If this is this is mentioned under 'Kinderen', you should take the last name of the main person(father)",
+          "examples": [
+            "EKAMA"
+          ],
+          "title": "Lastname",
+          "type": "string"
+        },
+        "Affix": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "The affix of a person.",
+          "examples": [
+            "van der",
+            "van den"
+          ],
+          "title": "Affix"
+        },
+        "Gender": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "The gender of the person, based on their first name. The name are old dutch names.",
+          "examples": [
+            "Man",
+            "Vrouw"
+          ],
+          "title": "Gender"
+        },
+        "source": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "The source of the info mentioned in parentheses",
+          "examples": [
+            "6"
+          ],
+          "title": "Source"
+        },
+        "second_names": {
+          "anyOf": [
+            {
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": [],
+          "description": "The second names of a person separated by commas",
+          "examples": [
+            "'Jacob' in Jacobus (Jacob)"
+          ],
+          "title": "Second Names"
+        },
+        "alternative_last_names": {
+          "anyOf": [
+            {
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": [],
+          "description": "The alternative last name of a person separated by commas",
+          "examples": [
+            "'HERMINIUS' in ARMINIUS (HERMINIUS)"
+          ],
+          "title": "Alternative Last Names"
+        },
+        "BirthCountry": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Fill in the birth country based on the mentioned birth city. It should be in dutch",
+          "examples": [
+            "Nederland"
+          ],
+          "title": "Birthcountry"
+        },
+        "BirthCity": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "City of birth. Usually found after Geb.",
+          "examples": [
+            "Leiden"
+          ],
+          "title": "Birthcity"
+        },
+        "BirthDate": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Birth date, Usually found after Geb.",
+          "examples": [
+            "1601-10-20",
+            "1601",
+            "1601-10"
+          ],
+          "title": "Birthdate"
+        },
+        "DeathDate": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Death date, Usually found Gest",
+          "examples": [
+            "1601-10-20",
+            "1601",
+            "1601-10"
+          ],
+          "title": "Deathdate"
+        },
+        "DeathCity": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "City of death, Usually found \"Gest.\"",
+          "examples": [
+            "Leiden"
+          ],
+          "title": "Deathcity"
+        }
+      },
+      "required": [
+        "FirstName",
+        "LastName"
+      ],
+      "title": "Family",
+      "type": "object"
+    },
+    "Particularity": {
+      "description": "Identifying extra information about a person.",
+      "properties": {
+        "particularity": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Extra information, mentioned after Bijzonderheden",
+          "examples": [
+            "Salaris: f 800"
+          ],
+          "title": "Particularity"
+        },
+        "location": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "The location mentioned for this particularity",
+          "examples": [
+            "Leiden"
+          ],
+          "title": "Location"
+        },
+        "date": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "The date mentioned for this particularity. In this format: 1849-01-15 or just the year",
+          "examples": [
+            "1601-10-20",
+            "1601",
+            "1601-10"
+          ],
+          "title": "Date"
+        },
+        "source": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "The source of the info mentioned in parentheses",
+          "examples": [
+            "6"
+          ],
+          "title": "Source"
+        }
+      },
+      "title": "Particularity",
+      "type": "object"
+    }
+  },
+  "description": "\"Correctly extracted person information",
+  "properties": {
+    "FirstName": {
+      "description": "The first name of a person, mentioned after the last name",
+      "examples": [
+        "Cornelis",
+        "Johannes"
+      ],
+      "title": "Firstname",
+      "type": "string"
+    },
+    "LastName": {
+      "description": "The last name of a person,mentioned in all capital letters",
+      "examples": [
+        "EKAMA"
+      ],
+      "title": "Lastname",
+      "type": "string"
+    },
+    "Affix": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "The affix of a person",
+      "examples": [
+        "van der",
+        "van den"
+      ],
+      "title": "Affix"
+    },
+    "Gender": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": "Man",
+      "description": "The gender of the person, based on their first name.The name are old dutch names.",
+      "examples": [
+        "Man",
+        "Vrouw"
+      ],
+      "title": "Gender"
+    },
+    "second_names": {
+      "anyOf": [
+        {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": [],
+      "description": "The second names of a person separated by commas",
+      "examples": [
+        "'Jacob' in Jacobus (Jacob)"
+      ],
+      "title": "Second Names"
+    },
+    "alternative_last_names": {
+      "anyOf": [
+        {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": [],
+      "description": "The alternative last name of a person separated by commas",
+      "examples": [
+        "'HERMINIUS' in ARMINIUS (HERMINIUS)"
+      ],
+      "title": "Alternative Last Names"
+    },
+    "education": {
+      "anyOf": [
+        {
+          "items": {
+            "$ref": "#/$defs/Education"
+          },
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": [],
+      "description": "Education of the person, mentioned after Opleiding",
+      "title": "Education"
+    },
+    "careers": {
+      "anyOf": [
+        {
+          "items": {
+            "$ref": "#/$defs/Career"
+          },
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": [],
+      "description": "Careers of the person, mentioned after Carri\u00e8re or Loopbaan",
+      "title": "Careers"
+    },
+    "particularities": {
+      "anyOf": [
+        {
+          "items": {
+            "$ref": "#/$defs/Particularity"
+          },
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": [],
+      "description": "Extra information about the person mentioned after Bijzonderheden",
+      "title": "Particularities"
+    },
+    "spouses": {
+      "anyOf": [
+        {
+          "items": {
+            "$ref": "#/$defs/Family"
+          },
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": [],
+      "description": "Spouse(s) of the person, mentioned after Echtgenote(s)",
+      "title": "Spouses"
+    },
+    "parents": {
+      "anyOf": [
+        {
+          "items": {
+            "$ref": "#/$defs/Family"
+          },
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": [],
+      "description": "Information about a person's mother or father, mentioned after Ouders, Vader or Moeder",
+      "title": "Parents"
+    },
+    "grand_parents": {
+      "anyOf": [
+        {
+          "items": {
+            "$ref": "#/$defs/Family"
+          },
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": [],
+      "description": "Information about a person's grand mother or grand father, mentioned after Grootouders, Grootvader, Grootmoeder or Vader Vader",
+      "title": "Grand Parents"
+    },
+    "in_laws": {
+      "anyOf": [
+        {
+          "items": {
+            "$ref": "#/$defs/Family"
+          },
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": [],
+      "description": "Information about a person's mother in-law or father in-law, mentioned after Ouder(s) Echtgenote(s)",
+      "title": "In Laws"
+    },
+    "children": {
+      "anyOf": [
+        {
+          "items": {
+            "$ref": "#/$defs/Family"
+          },
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": [],
+      "description": "Information about a person's child(ren), mentioned after Kinderen",
+      "title": "Children"
+    },
+    "far_family": {
+      "anyOf": [
+        {
+          "items": {
+            "$ref": "#/$defs/Family"
+          },
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": [],
+      "description": "Information about a person's far family, mentioned after Verdere familie",
+      "title": "Far Family"
+    },
+    "type_of_person": {
+      "default": 3,
+      "title": "Type Of Person",
+      "type": "integer"
+    },
+    "faculty": {
+      "default": "Curatoren",
+      "title": "Faculty",
+      "type": "string"
+    },
+    "BirthCountry": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Fill in the birth country based on the mentioned birth city. It should be in dutch",
+      "examples": [
+        "Nederland"
+      ],
+      "title": "Birthcountry"
+    },
+    "BirthCity": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "City of birth, e.g. Leiden. Mentioned after Geb",
+      "examples": [
+        "Leiden"
+      ],
+      "title": "Birthcity"
+    },
+    "BirthDate": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Birth date, Mentioned after Geb",
+      "examples": [
+        "1601-10-20",
+        "1601",
+        "1601-10"
+      ],
+      "title": "Birthdate"
+    },
+    "DeathDate": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Death date, Mentioned after Gest",
+      "examples": [
+        "1601-10-20",
+        "1601",
+        "1601-10"
+      ],
+      "title": "Deathdate"
+    },
+    "DeathCity": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "City of death, e.g. Leiden.Mentioned after Gest",
+      "examples": [
+        "Leiden"
+      ],
+      "title": "Deathcity"
+    }
+  },
+  "required": [
+    "FirstName",
+    "LastName"
+  ],
+  "title": "Person",
+  "type": "object"
+}
+
