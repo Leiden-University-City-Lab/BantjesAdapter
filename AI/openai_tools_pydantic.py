@@ -20,26 +20,26 @@ main_model_schema = Person.model_json_schema()
 def chat_completion(person_info):
     # Pass person_data to OpenAI
     return client.chat.completions.create(
-        model="gpt-3.5-turbo",
+        model="gpt-3.5-turbo",  # Specify the model to use for the completion
         # model="gpt-4o",
         # model="gpt-4-turbo",
         messages=[
             {
                 "role": "system",
-                "content": f'''You are an advanced data extraction system..
-                                        - You can identify each person by surname
-                                        - The surname is always in uppercase letters, followed by the middle and/or first name
-                                        - If you can't determine the field value, refer to the examples
-                                        '''
+                "content": '''You are an advanced data extraction system..
+                              - You can identify each person by surname
+                              - The surname is always in uppercase letters, followed by the middle and/or first name
+                              - If you can't determine the field value, refer to the examples
+                           '''
             },
             {
                 "role": "user",
                 "content": f'Please extract the data for the following person: {person_info}'
             }
         ],
-        response_model=Person,
-        max_retries=1,
-        tool_choice="auto"
+        response_model=Person,  # Specify the response model to map the completion result
+        max_retries=1,  # Set the maximum number of retries for the completion request
+        tool_choice="auto"  # Automatically choose the tool for the completion
     )
 
 
@@ -48,19 +48,23 @@ enrichment_info = {}
 
 
 def process_person_data(path, volume):
+    # Define input and output directories
     input_directory = f'{path}{volume}'
     output_dir = 'evaluation_json/generated_json/try1/ocr_text/vol1'
 
+    # Get a sorted list of person files in the input directory
     person_files = sorted(os.listdir(input_directory),
                           key=lambda x: int(x.split('.')[0]) if x.split('.')[0].isdigit() else float('inf'))
 
+    # Iterate over each file in the person_files list
     for filename in person_files:
         if filename.endswith('.txt'):
             with open(os.path.join(input_directory, filename), 'r') as input_file:
-                # Read the person data
+                # Read the person data from the file
                 person_data = input_file.read()
 
                 try:
+                    # Extract the file count from the filename
                     file_count_match = re.search(r"(\d+)\.", filename)
                     if file_count_match:
                         file_count = file_count_match.group(1)
@@ -68,6 +72,7 @@ def process_person_data(path, volume):
                         print(f"No digits found in {filename}")
                         continue
 
+                    # Define the path for the JSON file
                     json_file_path = os.path.join(output_dir, f'{file_count}.{volume}.json')
                     if os.path.isfile(json_file_path):
                         print("Get person from JSON file")
@@ -82,20 +87,17 @@ def process_person_data(path, volume):
                         person = chat_completion(person_data)
                         save_person_info(json.dumps(person.model_dump(), indent=2), output_dir, file_count, volume)
 
-                        # continue
-
                     print(f'Processing person {file_count} with name {person.FirstName} {person.LastName}')
-                    # continue
 
-                    # Verify birth_year of person
+                    # Extract the birth year from the person's birth date
                     extracted_birth_year = extract_birth_year(person.BirthDate)
 
-                    # Join the string array by a space
+                    # Join the string array by a space for alternative last names and second names
                     alternative_last_names, second_names = join_person_names(person)
                     person.alternative_last_names = alternative_last_names
                     person.second_names = second_names
 
-                    # Get person from database
+                    # Get the person from the database
                     get_person_from_db = get_person(person, extracted_birth_year)
 
                     if get_person_from_db:
@@ -103,7 +105,7 @@ def process_person_data(path, volume):
                         person_db = get_person_from_db
                         enrich_personal_information(person, person_db)
 
-                        # Update relations
+                        # Update relations in the database
                         update_relations(person, person_db)
 
                         # Update enrichment_info dictionary
@@ -113,12 +115,11 @@ def process_person_data(path, volume):
                     else:
                         get_maybe_same_person_from_db = get_maybe_same_person(person, extracted_birth_year)
                         if get_maybe_same_person_from_db:
-                            print(
-                                f'Processing existing potential person with ID {get_maybe_same_person_from_db.personPersonID}')
+                            print(f'Processing existing potential person with ID {get_maybe_same_person_from_db.personPersonID}')
                             maybe_same_person_db = create_person(person)
                             enrich_personal_information(person, maybe_same_person_db)
 
-                            # Update relations
+                            # Update relations in the database
                             update_relations(person, maybe_same_person_db, True)
 
                             # Update enrichment_info dictionary
@@ -130,6 +131,7 @@ def process_person_data(path, volume):
                             print(f'Processing new person with ID {new_person_db.personPersonID}')
                             enrich_personal_information(person, new_person_db)
 
+                            # Update relations in the database
                             update_relations(person, new_person_db)
 
                             # Update enrichment_info dictionary
