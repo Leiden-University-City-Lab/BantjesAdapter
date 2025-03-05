@@ -1,0 +1,81 @@
+{
+  "FirstName": "Simon",
+  "LastName": "VINNIUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.Iur.",
+      "location": "Leiden",
+      "date": "1637-10-26",
+      "source": "26"
+    },
+    {
+      "subject": "Doct.Iur.",
+      "location": "Leiden",
+      "date": "1648-12-02",
+      "source": "2"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Lector Rechten",
+      "location": "Leiden",
+      "date": "1650-12-01",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Rechten",
+      "location": "Leiden",
+      "date": "1651-01-13",
+      "source": "26b",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [],
+  "spouses": [],
+  "parents": [
+    {
+      "FirstName": "Arnoldus",
+      "LastName": "VINNIUS",
+      "Affix": null,
+      "Gender": null,
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1588",
+      "DeathDate": "1657",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria",
+      "LastName": "VAN DER DOES",
+      "Affix": null,
+      "Gender": null,
+      "source": "76",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1593",
+      "DeathDate": "1657",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Rechten",
+  "BirthCountry": null,
+  "BirthCity": "Den Haag",
+  "BirthDate": "1627",
+  "DeathDate": "1653",
+  "DeathCity": "Leiden"
+}

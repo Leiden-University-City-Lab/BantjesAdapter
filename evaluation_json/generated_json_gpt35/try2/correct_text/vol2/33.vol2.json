@@ -1,0 +1,263 @@
+{
+  "FirstName": "Nicolaas George",
+  "LastName": "OOSTERDIJK",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": null,
+      "location": "Utrecht",
+      "date": "1754-01-24",
+      "source": null
+    },
+    {
+      "subject": "Stud.Med.h.c.",
+      "location": "Leiden",
+      "date": "1760-06-30",
+      "source": null
+    },
+    {
+      "subject": "Stud.Natuurkunde en Med.",
+      "location": "Utrecht",
+      "date": "1761",
+      "source": null
+    },
+    {
+      "subject": "Doct. Med",
+      "location": "Utrecht",
+      "date": "1762-06-15",
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": "Stadsarts",
+      "location": "Utrecht",
+      "date": "1763-04-18",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Medicijnen",
+      "location": "Harderwijk",
+      "date": "1770-10-23",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Scheikunde en Kruidkunde",
+      "location": "Harderwijk",
+      "date": "1771-06-12",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Harderwijk",
+      "date": "1773-06-16",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Geneeskunde",
+      "location": "Leiden",
+      "date": "1775-04-24",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs Practische Geneeskunde",
+      "location": "Leiden",
+      "date": "1778-06-12",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Emeritus met behoud van de titel Buitengewoon Hoogleraar",
+      "location": "Leiden",
+      "date": "1815-10-16",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Rectoe Magnificus",
+      "location": "Leiden",
+      "date": "1786-1787",
+      "source": null,
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Disss.Chemica de aceto bij prof.Hahn (magno omnium cum applausu)",
+      "location": "Leiden",
+      "date": "27",
+      "source": null
+    },
+    {
+      "particularity": "Woont Langebrug bij Zonneveldsteeg",
+      "location": "Leiden",
+      "date": "38",
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Bartha",
+      "LastName": "Weveringh",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cornelia Wilhelmina",
+      "LastName": "Graswinckel",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": "Eindhoven",
+      "BirthDate": "1750-10-31",
+      "DeathDate": "1807-01-26",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Jonannes",
+      "LastName": "Oosterdijk Schacht",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna Aletta",
+      "LastName": "Mol",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Herman",
+      "LastName": "Oosterdijk Schacht",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "van der Stoffe",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Mr.Adriaan",
+      "LastName": "Weveringh",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Martina",
+      "LastName": "Baert",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Gerard Johan",
+      "LastName": "Graswinckel",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Maria Geertruid",
+      "LastName": "van Alphen",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Medicijnen",
+  "BirthCountry": null,
+  "BirthCity": null,
+  "BirthDate": null,
+  "DeathDate": null,
+  "DeathCity": null
+}

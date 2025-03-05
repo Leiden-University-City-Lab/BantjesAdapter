@@ -1,3 +1,4 @@
+
 from sqlalchemy import and_, or_, func, update
 from database import Session
 from .models import Person, Location, TypeOfPerson, Relation, Education, Particularity, Career

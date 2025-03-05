@@ -1,0 +1,182 @@
+{
+  "FirstName": "Bernhardinus",
+  "LastName": "DE MOOR",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud. Litt. en Theol.",
+      "location": "Leiden",
+      "date": "1725-09-14",
+      "source": "2,17"
+    },
+    {
+      "subject": "Doct. Theol.",
+      "location": "Leiden",
+      "date": "1736-09-25",
+      "source": "31"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Geref. Pred.",
+      "location": "Ingen",
+      "date": "1732-02-24",
+      "source": "57",
+      "is_side_job": 0
+    },
+    {
+      "job": "Broek in Waterland",
+      "location": null,
+      "date": "1734-06-13",
+      "source": "26",
+      "is_side_job": 0
+    },
+    {
+      "job": "Zaandarm",
+      "location": null,
+      "date": "1738-10-26",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Enkhuizen",
+      "location": null,
+      "date": "1743-03-24",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Franeker",
+      "date": "1744-03-02",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Academiepred.",
+      "location": "Franeker",
+      "date": "1744-03-02",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1745-03-03",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred.",
+      "location": "Leiden",
+      "date": "1745-10-10/1764",
+      "source": "80 of (halve taak) 08-1745/1769",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1756.1757",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Emeritaat",
+      "location": "Leiden",
+      "date": "1779-04-19",
+      "source": "14",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [],
+  "spouses": [
+    {
+      "FirstName": "Alida Frederica",
+      "LastName": "Montanus",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1768",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Bernhardinus",
+      "LastName": "de Moor",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna Cornelia",
+      "LastName": "Blom",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Bartholomaeus",
+      "LastName": "de Moor",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Kapelle",
+      "BirthDate": "1649-02-11",
+      "DeathDate": "1724-06-23",
+      "DeathCity": "Harderwijk"
+    }
+  ],
+  "in_laws": [],
+  "children": [],
+  "far_family": [
+    {
+      "FirstName": "Bernhardinus",
+      "LastName": "de Moor",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": null,
+  "BirthDate": null,
+  "DeathDate": null,
+  "DeathCity": null
+}

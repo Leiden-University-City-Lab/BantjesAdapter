@@ -1,0 +1,281 @@
+{
+  "FirstName": "Willem baron",
+  "LastName": "VAN WASSENAER",
+  "Affix": "heer van Starrenburg en Ruyven",
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [],
+  "careers": [
+    {
+      "job": "Gezant",
+      "location": "Frankrijk",
+      "date": "1680-1686",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gezant",
+      "location": "Frankrijk",
+      "date": "1686-1688",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Admiraliteit",
+      "location": "Maas Rotterdam",
+      "date": "1688",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogheemraad",
+      "location": "Schieland",
+      "date": "1690",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Ridderschap",
+      "location": "Holland Den Haag",
+      "date": "31-07-1702",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Voorzitter Gecommitteerde Raden",
+      "location": "Den Haag",
+      "date": "1707",
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Curator",
+      "location": "Universiteit Leiden",
+      "date": "19-10-1714",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Grootzegelbewaarder",
+      "location": "Den Haag",
+      "date": "1718",
+      "source": "3",
+      "is_side_job": 0
+    },
+    {
+      "job": "Luitenant-Houtvester",
+      "location": "1718-1722",
+      "date": null,
+      "source": "22",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lid Commissie geldmiddelen",
+      "location": "Den Haag",
+      "date": "1721",
+      "source": "22",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [],
+  "spouses": [
+    {
+      "FirstName": "Josina",
+      "LastName": "VAN WASSENAER",
+      "Affix": null,
+      "Gender": null,
+      "source": "22",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Noordwijk",
+      "BirthDate": "26-08-1648",
+      "DeathDate": "21-10-1677",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Pieter",
+      "LastName": "VAN WASSENAER",
+      "Affix": "heer van Starrenburg,Ruyven en Spanbroek",
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1616",
+      "DeathDate": "1669",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "van Cats",
+      "Affix": null,
+      "Gender": null,
+      "source": "21",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1625",
+      "DeathDate": "1657",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Johan",
+      "LastName": "VAN WASSENAER",
+      "Affix": "heer van Duvenvoorde,Voorschoten,Veur,Starrenburg en het Woud",
+      "Gender": "Man",
+      "source": "21",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1577",
+      "DeathDate": "1645",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Clara",
+      "LastName": "de Hinojosa",
+      "Affix": null,
+      "Gender": null,
+      "source": "21",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Theophilus",
+      "LastName": "van Cats",
+      "Affix": "heer van Heiloo,Oestdom en ter Coulster",
+      "Gender": "Man",
+      "source": "19",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "19",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Deliana",
+      "LastName": "van Brederode",
+      "Affix": "barones van Wesenburg",
+      "Gender": null,
+      "source": "19",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Pieter",
+      "LastName": "VAN WASSENAER",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Steven",
+      "LastName": "VAN WASSENAER",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "Jong gestorven",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jean Theophile",
+      "LastName": "VAN WASSENAER",
+      "Affix": "heer van Ruyven",
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Den Haag",
+      "BirthDate": "22-05-1674",
+      "DeathDate": "20-02-1711",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Willem Lodewijk",
+      "LastName": "VAN WASSENAER",
+      "Affix": "heer van Starrenburg,Ruyven,Maasland en Maassluis",
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Den Haag",
+      "BirthDate": "25-11-1675",
+      "DeathDate": "27-01-1720",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Josina",
+      "LastName": "VAN WASSENAER",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "Jong gestorven",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Anna Jacoba",
+      "LastName": "VAN WASSENAER",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Den Haag",
+      "BirthDate": "30-06-1677",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": null,
+  "BirthCity": null,
+  "BirthDate": null,
+  "DeathDate": null,
+  "DeathCity": null
+}

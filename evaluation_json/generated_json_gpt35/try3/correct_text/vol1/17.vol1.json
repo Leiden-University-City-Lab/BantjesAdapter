@@ -1,0 +1,31 @@
+{
+  "FirstName": "Guillaume",
+  "LastName": "FEUGERAEUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [],
+  "careers": [],
+  "particularities": [
+    {
+      "particularity": "Salaris: f 600 en huishuur",
+      "location": "Leiden",
+      "date": null,
+      "source": "2"
+    }
+  ],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Rouen",
+  "BirthDate": "14",
+  "DeathDate": "1613 (14)",
+  "DeathCity": "Rouen (of Dieppe)"
+}

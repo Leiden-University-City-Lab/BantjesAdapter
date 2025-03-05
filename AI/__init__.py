@@ -1,5 +1,6 @@
 import instructor
 import openai
+
 import os
 from os.path import join, dirname, abspath
 from dotenv import load_dotenv

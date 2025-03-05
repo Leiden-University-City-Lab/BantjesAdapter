@@ -1,0 +1,224 @@
+{
+  "FirstName": "Cornelis",
+  "LastName": "PYNACKER",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.Litt Theol.",
+      "location": "Leiden",
+      "date": "1586-11-06",
+      "source": "2,10,26"
+    },
+    {
+      "subject": "Disputatie Theol.",
+      "location": "Leiden",
+      "date": "1591-04-06",
+      "source": "2,10,26"
+    },
+    {
+      "subject": "Heidelberg",
+      "location": "Heidelberg",
+      "date": "1591-09-28",
+      "source": "2,23"
+    },
+    {
+      "subject": "Padua",
+      "location": "Padua",
+      "date": "1593\u00ac01-30",
+      "source": "29"
+    },
+    {
+      "subject": "Iur.",
+      "location": "Leiden",
+      "date": "1594-05-05",
+      "source": "26"
+    },
+    {
+      "subject": "Cand.Iur.",
+      "location": "Leiden",
+      "date": "1597-03-25",
+      "source": "10"
+    },
+    {
+      "subject": "Doct.Iur.",
+      "location": "Leiden",
+      "date": "1597-05-16",
+      "source": "2,26b"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Advocaat Hof van Holland",
+      "location": null,
+      "date": "1597",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar Rechten Leiden (Instituten)",
+      "location": null,
+      "date": "1597\u00ac11-09",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten Leiden",
+      "location": null,
+      "date": "1611\u00ac02-12",
+      "source": "25",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten Groningen",
+      "location": null,
+      "date": "1614",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus Groningen",
+      "location": null,
+      "date": "1616-1617",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Gezant naar Tunis en Algiers",
+      "location": "Tunis,Algiers",
+      "date": "1622,1625",
+      "source": "2,10",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Rechten Franeker",
+      "location": null,
+      "date": "1636",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus Franeker",
+      "location": null,
+      "date": "1638,1642",
+      "source": "2",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss.Iur.De iureiurando bij prof. Bronckhorst",
+      "location": null,
+      "date": null,
+      "source": "2,26b"
+    },
+    {
+      "particularity": "In 1614 met Pauw op nominatie rectoraat Leiden",
+      "location": null,
+      "date": null,
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Suzanna",
+      "LastName": "VAN BLOIS VAN TRESLONG",
+      "Affix": null,
+      "Gender": null,
+      "source": "87",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Leiden",
+      "BirthDate": "1608-10-10",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Suzanna",
+      "LastName": "BOTERPOT",
+      "Affix": null,
+      "Gender": null,
+      "source": "87",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Vianen",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Adam",
+      "LastName": "VAN KERKHOFFE",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "VAN POLANEN",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Willem",
+      "LastName": "BLOIS VAN TRESLONG",
+      "Affix": null,
+      "Gender": "Man",
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": "Nederland",
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Adriana",
+      "LastName": "VAN EGMOND VAN KENENBURG",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Rechten",
+  "BirthCountry": null,
+  "BirthCity": "Pijnacker",
+  "BirthDate": "1570-07-06",
+  "DeathDate": "1645-01-12",
+  "DeathCity": "Franeker"
+}

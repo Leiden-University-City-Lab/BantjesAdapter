@@ -1,0 +1,379 @@
+{
+  "FirstName": "Petrus",
+  "LastName": "MOLINAEUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.Sedan",
+      "location": "Sedan",
+      "date": "1578-1588",
+      "source": null
+    },
+    {
+      "subject": "Bediende graaf Rutland Londen",
+      "location": "Londen",
+      "date": "1589",
+      "source": null
+    },
+    {
+      "subject": "Stud.Theol. (Bennett college) Cambridge",
+      "location": "Cambridge",
+      "date": "1589-1592",
+      "source": null
+    },
+    {
+      "subject": "Doct.Theol. Cambridge",
+      "location": "Cambridge",
+      "date": "1615",
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hoogleraar Redeneerkunde",
+      "location": "Leiden",
+      "date": "1593-06-11",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Parijs",
+      "date": "1599-1620",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theologie",
+      "location": "Sedan",
+      "date": "1621",
+      "source": null,
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Aaanbod predikant Parijs te worden 1591 afgeslagen",
+      "location": "Onbekend",
+      "date": "1591",
+      "source": null
+    },
+    {
+      "particularity": "Steun Louise de Coligny, Catharina de Bourbon, de Buzenval",
+      "location": "Onbekend",
+      "date": "Onbekend",
+      "source": null
+    },
+    {
+      "particularity": "Aanbiedingen Leiden (ad f1300 1611) en Saumur afgeslagen",
+      "location": "Onbekend",
+      "date": "1611",
+      "source": null
+    },
+    {
+      "particularity": "Uitreisverbod 1618, niet bij Synode van Dordrecht",
+      "location": "Onbekend",
+      "date": "1618",
+      "source": null
+    },
+    {
+      "particularity": "Woonde Rapenburg 52",
+      "location": "a",
+      "date": "Onbekend",
+      "source": null
+    },
+    {
+      "particularity": "Salaris: f300 (1593), E350 (1595)",
+      "location": "Leiden",
+      "date": "1593",
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Marie",
+      "LastName": "Colignon",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1622-08-12",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sara",
+      "LastName": "de Gelhay",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Sedan",
+      "BirthDate": "1623",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Joachim",
+      "LastName": "du Moulin",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": " Grigny",
+      "BirthDate": null,
+      "DeathDate": "Onbekend",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Frangoise",
+      "LastName": "Gabet",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Onbekend",
+      "BirthDate": null,
+      "DeathDate": "Onbekend",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [
+    {
+      "FirstName": "Nicolas",
+      "LastName": "Colignon",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "Onbekend",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jeanne",
+      "LastName": "Prudhomme",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "Onbekend",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Louis",
+      "LastName": "de Gelhay",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Epernay",
+      "BirthDate": null,
+      "DeathDate": "Onbekend",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "N.?",
+      "LastName": "Destancelle",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "Onbekend",
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Louis",
+      "LastName": "MOLINAEUS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1606-01-01",
+      "DeathDate": "1683-10-20",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Cyrus",
+      "LastName": "MOLINAEUS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Pierre",
+      "LastName": "MOLINAEUS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1600-01-01",
+      "DeathDate": "1684-10-20",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Theophile",
+      "LastName": "MOLINAEUS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Daniel",
+      "LastName": "MOLINAEUS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Henri",
+      "LastName": "MOLINAEUS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "Onbekend",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Marthe",
+      "LastName": "MOLINAEUS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "Onbekend",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Esther",
+      "LastName": "MOLINAEUS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Marie",
+      "LastName": "MOLINAEUS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [
+    {
+      "FirstName": "Marie",
+      "LastName": "MOLINAEUS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Esther",
+      "LastName": "MOLINAEUS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 1,
+  "faculty": "Letteren",
+  "BirthCountry": null,
+  "BirthCity": "Vexin",
+  "BirthDate": "1568-10-16",
+  "DeathDate": "1658-03-10",
+  "DeathCity": null
+}

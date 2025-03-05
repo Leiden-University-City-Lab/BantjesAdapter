@@ -1,0 +1,295 @@
+{
+  "FirstName": "Huybert",
+  "LastName": "ROOSENBOOM",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud",
+      "location": "Leiden",
+      "date": "1648-02-19",
+      "source": "9"
+    },
+    {
+      "subject": "Doct.Iur.",
+      "location": "Leiden",
+      "date": "1652-07-11",
+      "source": "10"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Advocaat",
+      "location": null,
+      "date": "1652",
+      "source": "15",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rekestmeester Willem III",
+      "location": null,
+      "date": "1674",
+      "source": "15",
+      "is_side_job": 0
+    },
+    {
+      "job": "Raadsheer Hoge Raad Den Haag",
+      "location": null,
+      "date": "1677",
+      "source": "15",
+      "is_side_job": 0
+    },
+    {
+      "job": "President Hoge Raad Den Haag",
+      "location": null,
+      "date": "1691",
+      "source": "15",
+      "is_side_job": 0
+    },
+    {
+      "job": "Curator Universiteit Leiden Leiden",
+      "location": null,
+      "date": "1694",
+      "source": "8",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoofdingeland Delfland",
+      "location": null,
+      "date": "1698",
+      "source": "15",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [],
+  "spouses": [
+    {
+      "FirstName": "Catharina",
+      "LastName": "de Viry",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1673-04-20",
+      "DeathCity": "Den Haag"
+    },
+    {
+      "FirstName": "Birgitta",
+      "LastName": "Backer",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Amsterdam",
+      "BirthDate": "1643-02-10",
+      "DeathDate": "1717-07-22",
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Johan",
+      "LastName": "ROOSENBOOM",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Alphen",
+      "BirthDate": "1608",
+      "DeathDate": "1673",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Alida",
+      "LastName": "van Eyck",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Reinier Vsbrantsz.",
+      "LastName": "ROOSENBOOM",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Alphen",
+      "BirthDate": "1575",
+      "DeathDate": "1648",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Geertruyd",
+      "LastName": "Ruyghaver",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Joris Huybertsz",
+      "LastName": "van Eyck",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Belia",
+      "LastName": "van VYselendoorn",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Maurits",
+      "LastName": "de Viry",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Catharina",
+      "LastName": "Cray",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Willem",
+      "LastName": "Backer",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1595",
+      "DeathDate": "1652",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Bregitta",
+      "LastName": "Spiegel",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1606",
+      "DeathDate": "1668",
+      "DeathCity": null
+    }
+  ],
+  "children": [
+    {
+      "FirstName": "Aletta",
+      "LastName": "ROOSENBOOM",
+      "Affix": null,
+      "Gender": null,
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Den Haag",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Brigitta",
+      "LastName": "ROOSENBOOM",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1675-05-15",
+      "DeathDate": "1718",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Huibert Willem",
+      "LastName": "ROOSENBOOM",
+      "Affix": null,
+      "Gender": null,
+      "source": "b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Den Haag",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": null,
+  "BirthCity": "Alphen",
+  "BirthDate": "1634-02-24",
+  "DeathDate": "1722-10-04",
+  "DeathCity": "Den Haag"
+}

@@ -1,0 +1,276 @@
+{
+  "FirstName": "Caspar Janszoon",
+  "LastName": "COOLHAES",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [
+    "KOOLHAES",
+    "KOOLHAAS",
+    "COELAES",
+    "KOULHASTUS",
+    "KOLHAESE",
+    "COOLHAZE"
+  ],
+  "education": [
+    {
+      "subject": "Kenlen",
+      "location": "Keulen",
+      "date": "unknown",
+      "source": "6"
+    },
+    {
+      "subject": "Hogeschool Joh.",
+      "location": "Morhemius D\u00fcigseldorf",
+      "date": "unknown",
+      "source": "2"
+    },
+    {
+      "subject": "Voorbereiding tot de geestelijke stand",
+      "location": "unknown",
+      "date": "unknown",
+      "source": "a"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Karthuizer monnik",
+      "location": "Koblenz",
+      "date": "1554",
+      "source": "9",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hulppred.",
+      "location": "Winningen (Zweibr\u00fccken)",
+      "date": "1560",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Pred.",
+      "location": "Trarbach",
+      "date": "1561",
+      "source": "50",
+      "is_side_job": 0
+    },
+    {
+      "job": "Pred.",
+      "location": "Bielstein",
+      "date": "1563",
+      "source": "b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Pred.",
+      "location": "Siegen (Nassau-Siegen)",
+      "date": "unknown",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Pred.",
+      "location": "Deventer",
+      "date": "1566-09-15/1567-05-06",
+      "source": "b",
+      "is_side_job": 0
+    },
+    {
+      "job": "Pred.",
+      "location": "Essen",
+      "date": "1567",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Pred.",
+      "location": "Monsheim",
+      "date": "1571/1573",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Pred.",
+      "location": "Gorinchem",
+      "date": "1573/1574",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Pred.",
+      "location": "Rotterdam",
+      "date": "1574",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Pred.",
+      "location": "Leiden",
+      "date": "1574",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1575-01-08/1575-07",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Stoker gedistilleerde dranken",
+      "location": "Leiden",
+      "date": "1582",
+      "source": "unknown",
+      "is_side_job": 0
+    },
+    {
+      "job": "Stoker",
+      "location": "Amsterdam",
+      "date": "1591",
+      "source": "6",
+      "is_side_job": 0
+    },
+    {
+      "job": "Uitgever religieuze prenten",
+      "location": "Amsterdam",
+      "date": "unknown",
+      "source": "unknown",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "WELLICHT NOOIT ECHT HOOGLERAAR GEWEEST en slechts les gegeven in theologische faculteit",
+      "location": "unknown",
+      "date": "unknown",
+      "source": "a"
+    },
+    {
+      "particularity": "H.C.Rogge, Caspar Janszoon Coolhaes, de Voorloper van Arminius en der Remonstranten 2 din. Amsterdam, 1856, 1858",
+      "location": "unknown",
+      "date": "unknown",
+      "source": "a"
+    },
+    {
+      "particularity": "Nederland!s Patriciaat 36 (1950), pp. 79 e.v.",
+      "location": "unknown",
+      "date": "unknown",
+      "source": "a"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Griete",
+      "LastName": "Casparsdr.",
+      "Affix": null,
+      "Gender": null,
+      "source": "2, b",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "unknown",
+      "BirthDate": "unknown",
+      "DeathDate": "unknown",
+      "DeathCity": "unknown"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "unknown",
+      "LastName": "COOLHAES",
+      "Affix": null,
+      "Gender": null,
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "unknown",
+      "BirthDate": "unknown",
+      "DeathDate": "unknown",
+      "DeathCity": "unknown"
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Adolf",
+      "LastName": "COOLHAES",
+      "Affix": null,
+      "Gender": null,
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Amsterdam",
+      "BirthDate": "unknown",
+      "DeathDate": "unknown",
+      "DeathCity": "unknown"
+    },
+    {
+      "FirstName": "Caspar",
+      "LastName": "COOLHAES",
+      "Affix": null,
+      "Gender": null,
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Gouda",
+      "BirthDate": "unknown",
+      "DeathDate": "unknown",
+      "DeathCity": "unknown"
+    },
+    {
+      "FirstName": "Johannes",
+      "LastName": "COOLHAES",
+      "Affix": null,
+      "Gender": null,
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Gouda",
+      "BirthDate": "unknown",
+      "DeathDate": "unknown",
+      "DeathCity": "unknown"
+    },
+    {
+      "FirstName": "Dochter",
+      "LastName": "COOLHAES",
+      "Affix": null,
+      "Gender": null,
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "unknown",
+      "BirthDate": "unknown",
+      "DeathDate": "unknown",
+      "DeathCity": "unknown"
+    },
+    {
+      "FirstName": "Dochter",
+      "LastName": "COOLHAES",
+      "Affix": null,
+      "Gender": null,
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "unknown",
+      "BirthDate": "unknown",
+      "DeathDate": "unknown",
+      "DeathCity": "unknown"
+    }
+  ],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Keulen",
+  "BirthDate": "1534-01-24",
+  "DeathDate": "1615-01-15",
+  "DeathCity": "Leiden"
+}

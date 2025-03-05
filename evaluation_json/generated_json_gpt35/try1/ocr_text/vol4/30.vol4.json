@@ -1,0 +1,232 @@
+{
+  "FirstName": "Simon",
+  "LastName": "SPEYERT VAN DER EYK",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud.Iur.",
+      "location": "Leiden",
+      "date": "1789-09-01",
+      "source": "14"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Diaken Waalse kerk",
+      "location": "Den Briel",
+      "date": "1771",
+      "source": "32",
+      "is_side_job": 0
+    },
+    {
+      "job": "Lector Natuurkunde en Leijen",
+      "location": "Leijen",
+      "date": "1796-06-11",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hogere Wiskunde",
+      "location": "Leijen",
+      "date": "1796-10-08",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar",
+      "location": "Leiden",
+      "date": "1797-06-03",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Natuurkunde en Hogere Wiskunde",
+      "location": "Leiden",
+      "date": "1799-05-31",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Onderwijs Mathesis en Physiologie",
+      "location": "Leiden",
+      "date": "1812",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Bevestigd",
+      "location": "Leiden",
+      "date": "1815-10-16",
+      "source": "18",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1807 - 1813",
+      "source": "13",
+      "is_side_job": 0
+    },
+    {
+      "job": "Emeritus",
+      "location": "Leiden",
+      "date": "1835",
+      "source": "13",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Lid Genootschap der proefondervindelijke wijsbegeerte te Rotterdam en Zeeuwsch Genootschap der NWetenschappen te Vlissingen",
+      "location": null,
+      "date": null,
+      "source": "3"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Jacoba Christina",
+      "LastName": "Sprecher de Bernegg",
+      "Affix": null,
+      "Gender": null,
+      "source": "32",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Breda",
+      "BirthDate": "1797-07-09",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Adriaan Dirk",
+      "LastName": "van der Eyk",
+      "Affix": null,
+      "Gender": null,
+      "source": "32,49",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1741",
+      "DeathDate": "1817",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Elisabeth",
+      "LastName": "Speyert",
+      "Affix": null,
+      "Gender": null,
+      "source": "32,49",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1737",
+      "DeathDate": "1802",
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Adriaan",
+      "LastName": "van der Eyk",
+      "Affix": null,
+      "Gender": null,
+      "source": "32",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "unknown",
+      "DeathDate": "unknown",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna Jacoba",
+      "LastName": "van der Burg",
+      "Affix": null,
+      "Gender": null,
+      "source": "32",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "unknown",
+      "DeathDate": "unknown",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Simon",
+      "LastName": "Speyert",
+      "Affix": null,
+      "Gender": null,
+      "source": "32",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "unknown",
+      "DeathDate": "unknown",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Wijnanda Maria",
+      "LastName": "van Haaften",
+      "Affix": null,
+      "Gender": null,
+      "source": "32",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "unknown",
+      "DeathDate": "unknown",
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [
+    {
+      "FirstName": "Johaan Andreas",
+      "LastName": "Sprecher von Bernegg",
+      "Affix": null,
+      "Gender": null,
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Jacoba Christina",
+      "LastName": "Baker",
+      "Affix": null,
+      "Gender": null,
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Wiskunde En Natuurwetenschappen",
+  "BirthCountry": null,
+  "BirthCity": "Den Briel",
+  "BirthDate": "1771-03-26",
+  "DeathDate": "1837-09-20",
+  "DeathCity": "Leiden"
+}

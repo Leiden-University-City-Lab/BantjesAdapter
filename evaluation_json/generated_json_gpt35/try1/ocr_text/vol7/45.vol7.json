@@ -1,0 +1,39 @@
+{
+  "FirstName": "Laurens",
+  "LastName": "VAN SANEN",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [],
+  "careers": [],
+  "particularities": [],
+  "spouses": [
+    {
+      "FirstName": "Catharina",
+      "LastName": "Bosch",
+      "Affix": null,
+      "Gender": null,
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Leiden",
+      "BirthDate": "1791-12-22",
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 3,
+  "faculty": "Curatoren",
+  "BirthCountry": null,
+  "BirthCity": "Amsterdam",
+  "BirthDate": "1746-02-01",
+  "DeathDate": "1798-04-09",
+  "DeathCity": null
+}

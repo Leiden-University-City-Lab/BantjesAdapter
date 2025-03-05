@@ -1,0 +1,37 @@
+{
+  "FirstName": "Adrianus",
+  "LastName": "MUNNEKEMOLEN",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [],
+  "careers": [],
+  "particularities": [
+    {
+      "particularity": "Algemeen Nederlands Familieblad 1888, p.217",
+      "location": "unknown",
+      "date": "unknown",
+      "source": null
+    },
+    {
+      "particularity": "DTB GA Leiden",
+      "location": "unknown",
+      "date": "unknown",
+      "source": null
+    }
+  ],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 4,
+  "faculty": "Addenda",
+  "BirthCountry": null,
+  "BirthCity": "Edam",
+  "BirthDate": "1734-01-19",
+  "DeathDate": "1787",
+  "DeathCity": "Leiden"
+}

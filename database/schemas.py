@@ -1,8 +1,8 @@
+
 from typing import Optional, List, Literal
 from enum import IntEnum
 from instructor import OpenAISchema
 from pydantic import Field, ConfigDict
-
 
 class Particularity(OpenAISchema):
     """Identifying extra information about a person."""

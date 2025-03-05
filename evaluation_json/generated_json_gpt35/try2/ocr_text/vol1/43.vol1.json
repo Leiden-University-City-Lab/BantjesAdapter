@@ -1,0 +1,31 @@
+{
+  "FirstName": "Hermannus",
+  "LastName": "SCHOLTEN",
+  "Affix": "Herman",
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [],
+  "careers": [],
+  "particularities": [
+    {
+      "particularity": "Aantekening in Leidse Universiteitsbibliotheek",
+      "location": null,
+      "date": null,
+      "source": "5"
+    }
+  ],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Haaksbergen",
+  "BirthDate": "1726-05-28",
+  "DeathDate": "1783-10-10",
+  "DeathCity": "Leiden"
+}

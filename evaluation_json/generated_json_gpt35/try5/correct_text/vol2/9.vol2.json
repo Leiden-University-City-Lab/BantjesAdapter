@@ -1,0 +1,150 @@
+{
+  "FirstName": "Sebald Justinus",
+  "LastName": "BRUGMANS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Huisles vader",
+      "location": "Franeker",
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "Latijnse School",
+      "location": "Groningen",
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "Stud.Phil.",
+      "location": "Groningen",
+      "date": null,
+      "source": null
+    },
+    {
+      "subject": "Stud.Med.",
+      "location": "Groningen",
+      "date": "1778-02-02",
+      "source": null
+    },
+    {
+      "subject": "Doct.Phil.",
+      "location": "Groningen",
+      "date": "1781-06-23",
+      "source": null
+    },
+    {
+      "subject": "Cand.Med.",
+      "location": "Groningen",
+      "date": "1783",
+      "source": null
+    },
+    {
+      "subject": "Stud.h.c.",
+      "location": "Leiden",
+      "date": "1783-09-07",
+      "source": null
+    },
+    {
+      "subject": "Doct.Med.",
+      "location": "Groningen",
+      "date": "1785-06-15",
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hoogleraar Natuurkunde, Logica",
+      "location": "Franeker",
+      "date": "1785-11-01",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Botanie (niet in Leiden)",
+      "location": "Groningen",
+      "date": "1786-06-01",
+      "source": "19,90",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Natuurlijke Historie",
+      "location": "Leiden",
+      "date": "1787-03-10",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Medicijnen (zonder Ledden plichten of rechten)",
+      "location": null,
+      "date": "1791-05-13",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Medicijnen (met Leiden rechten en emolumenten)",
+      "location": "Leiden",
+      "date": "1795-09-19",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Les Chemie",
+      "location": "Leiden",
+      "date": "1795-10-10",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Chemie",
+      "location": "Leiden",
+      "date": "1799-11-09",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar in de Faculteit van Leiden Wis-en Natuurkunde (Botanie, Chemie, Natuurlijke Historie)",
+      "location": null,
+      "date": "1815-10-16",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus Leiden",
+      "location": null,
+      "date": "1813, 1814",
+      "source": "2",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Diss.Phil. De lapidibus et saxris: agri Groningani",
+      "location": "Groningen",
+      "date": "15",
+      "source": null
+    },
+    {
+      "particularity": "Diss.Med. De puogeni=sive mediis quibus natura utitur in creando pure",
+      "location": null,
+      "date": "15",
+      "source": null
+    }
+  ],
+  "spouses": [],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Medicijnen",
+  "BirthCountry": null,
+  "BirthCity": "Franeker",
+  "BirthDate": "1763-03-24",
+  "DeathDate": "1819-07-22",
+  "DeathCity": "Leiden"
+}

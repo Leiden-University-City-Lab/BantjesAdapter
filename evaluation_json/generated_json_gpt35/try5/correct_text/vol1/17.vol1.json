@@ -1,0 +1,131 @@
+{
+  "FirstName": "Gulielmus",
+  "LastName": "FEUGERAEUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [],
+  "careers": [
+    {
+      "job": "Predikant",
+      "location": "Dieppe, Vire, Qu\u00e9villy",
+      "date": "1562",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Esneval (bij Pavilly)",
+      "date": "1565",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Longuevilie",
+      "date": null,
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Vlucht",
+      "location": "Londen",
+      "date": "1572",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Rouen",
+      "date": null,
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theologie",
+      "location": "Leiden",
+      "date": "1575-07-17",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Waals Predikant",
+      "location": "Leiden",
+      "date": null,
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Opvoeder",
+      "location": "Justinus van Nassau, zn. Prins Willem",
+      "date": "Leiden",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1576-1577",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag genomen",
+      "location": "Leiden",
+      "date": "23-03-1579",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Rouen",
+      "date": "1583",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Verblijf",
+      "location": "Dieppe",
+      "date": "1590",
+      "source": null,
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Salaris: f 600 en huishuur",
+      "location": "Leiden",
+      "date": null,
+      "source": "2"
+    }
+  ],
+  "spouses": [],
+  "parents": [
+    {
+      "FirstName": "Adellijk Normandisch geslacht",
+      "LastName": "FEUGERAEUS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": null,
+  "BirthCity": "Rouen",
+  "BirthDate": null,
+  "DeathDate": "1613",
+  "DeathCity": "Rouen (of Dieppe)"
+}

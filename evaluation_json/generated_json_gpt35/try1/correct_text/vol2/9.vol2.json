@@ -1,0 +1,275 @@
+{
+  "FirstName": "Sebald Justinus",
+  "LastName": "BRUGMANS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Huisles vader",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Latijnse School",
+      "location": "Groningen",
+      "date": null,
+      "source": "90"
+    },
+    {
+      "subject": "Stud.Phil.",
+      "location": "Groningen",
+      "date": null,
+      "source": "2"
+    },
+    {
+      "subject": "Stud.Med.",
+      "location": "Groningen",
+      "date": "1778-02-02",
+      "source": "15"
+    },
+    {
+      "subject": "Doct.Phil.",
+      "location": "Groningen",
+      "date": "1781-06-23",
+      "source": "15"
+    },
+    {
+      "subject": "Cand.Med.",
+      "location": "Groningen",
+      "date": "1783",
+      "source": "2"
+    },
+    {
+      "subject": "Stud.h.c.",
+      "location": "Leiden",
+      "date": "1783-09-07",
+      "source": "20"
+    },
+    {
+      "subject": "Doct.Med.",
+      "location": "Groningen",
+      "date": "1785-06-15",
+      "source": "15"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hoogleraar Natuurkunde,Logica,Astronomie en Metafysica",
+      "location": "Franeker",
+      "date": "1785-11-01",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Botanie",
+      "location": "Groningen",
+      "date": "1786-06-01",
+      "source": "19,90",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Natuurlijke Historie en prefectus van het cabinet van natuurlijke historie",
+      "location": "Leiden",
+      "date": "1787-03-10",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Medicijnen",
+      "location": null,
+      "date": "1791-05-13",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Medicijnen",
+      "location": "Leiden",
+      "date": "1795-09-19",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Les Chemie",
+      "location": "Leiden",
+      "date": "1795-10-10",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Chemie",
+      "location": "Leiden",
+      "date": "1799-11-09",
+      "source": "19",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus",
+      "location": "Leiden",
+      "date": "1813, 1814",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Wis-en Natuurkunde,Botanie,Chemie,Natuurlijke Historie",
+      "location": "Leiden",
+      "date": "1815-10-16",
+      "source": "19",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Dissertation in Philosophy: De lapidibus et saxris: agri Groningani",
+      "location": null,
+      "date": null,
+      "source": "15"
+    },
+    {
+      "particularity": "Dissertation in Medicine: De puogeni=,sive mediis quibus natura utitur in creando pure",
+      "location": null,
+      "date": null,
+      "source": "15"
+    },
+    {
+      "particularity": "Wint prijsvragen Dijon,Bordeaux en Berlijn",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Rejects offer of Ministry of War by Executive Board on 02-02-1798",
+      "location": null,
+      "date": null,
+      "source": "2"
+    },
+    {
+      "particularity": "Member of 23 societies including Koninklijke Academie van Wetenschappen Dijon, Koninklijke Academie Geneeskunde Edinburgh, Natuurhistorische Soci\u00ebteit Edinburgh, Geneeskundige Soci\u00ebteit Londen, Gronings Genootschap ex colendo solo patrio, Natuur-Geneeskundig Gezelschap Den Haag.",
+      "location": null,
+      "date": null,
+      "source": "2,90"
+    },
+    {
+      "particularity": "Moderate Orangist",
+      "location": null,
+      "date": null,
+      "source": "2"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Catharina Maria",
+      "LastName": "van Dar",
+      "Affix": null,
+      "Gender": null,
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Leiden",
+      "BirthDate": "1761-10-17",
+      "DeathDate": "1836-03-13",
+      "DeathCity": "Leiden"
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Antonius",
+      "LastName": "BRUGMANS",
+      "Affix": null,
+      "Gender": null,
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Franeker",
+      "BirthDate": "1732-1789",
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna Frederika",
+      "LastName": "Manger",
+      "Affix": null,
+      "Gender": null,
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [
+    {
+      "FirstName": "Piebo",
+      "LastName": "Brugmans",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "2",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Petronella",
+      "LastName": "Wiersema",
+      "Affix": null,
+      "Gender": null,
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sebald Gottfried",
+      "LastName": "Manger",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Delft",
+      "BirthDate": "1703-1795",
+      "DeathDate": "1795",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Eva Justina",
+      "LastName": "von Schweidnitz",
+      "Affix": null,
+      "Gender": null,
+      "source": "a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Medicijnen",
+  "BirthCountry": null,
+  "BirthCity": "Franeker",
+  "BirthDate": "1763-03-24",
+  "DeathDate": "1819-07-22",
+  "DeathCity": "Leiden"
+}

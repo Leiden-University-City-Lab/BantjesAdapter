@@ -1,0 +1,198 @@
+{
+  "FirstName": "Franciscus (Francois)",
+  "LastName": "GOMARUS",
+  "Affix": "GOMAIR",
+  "Gender": "Man",
+  "second_names": [
+    "Francois"
+  ],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Stud. Litt., Phil., en Theol.",
+      "location": "Straatsburg",
+      "date": "1577",
+      "source": "33"
+    },
+    {
+      "subject": "Stud. Theol., Phil., Oosterse en Klassieke Talen",
+      "location": "Neustadt",
+      "date": "1580",
+      "source": null
+    },
+    {
+      "subject": "Stud. Oxford",
+      "location": "",
+      "date": "1582",
+      "source": null
+    },
+    {
+      "subject": "BA Magdalene Col1. Camnbridge",
+      "location": "Cambridge",
+      "date": "1583-03-02",
+      "source": "19"
+    },
+    {
+      "subject": "MA",
+      "location": "Cambridge",
+      "date": "1583-03-22",
+      "source": "19"
+    },
+    {
+      "subject": "Stud. Theol.",
+      "location": "Heidelberg",
+      "date": "1585-06-03",
+      "source": null
+    },
+    {
+      "subject": "Doct. TFheol.",
+      "location": "Heidelberg",
+      "date": "1594-06-14",
+      "source": "a"
+    }
+  ],
+  "careers": [
+    {
+      "job": "Pred. Ned. Gemeente Frankfurt a/d Main",
+      "location": "Frankfurt",
+      "date": "1586-11-13",
+      "source": "a",
+      "is_side_job": 0
+    },
+    {
+      "job": "Pred. Ned. Gemeente Hanau",
+      "location": "Hanau",
+      "date": "1594",
+      "source": "54",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Leiden",
+      "date": "1594-01-25",
+      "source": "14",
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred. Leiden",
+      "location": "Leiden",
+      "date": "1594-02",
+      "source": null,
+      "is_side_job": 1
+    },
+    {
+      "job": "Rector Magnificus Leiden",
+      "location": "Leiden",
+      "date": "1597-1598",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Geref. Pred. Middelburg",
+      "location": "Middelburg",
+      "date": "1611-05-28",
+      "source": "54",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol. en Hebreeuws Collegium Theologicum",
+      "location": "Middelburg",
+      "date": "1611-05-28",
+      "source": "952t1e",
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol.",
+      "location": "Saumur",
+      "date": "1614-1618",
+      "source": "62",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus Saumur",
+      "location": "Saumur",
+      "date": "1615-1617",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Theol. en Hebreeuws",
+      "location": "Groningen",
+      "date": "1618-02-28",
+      "source": "54",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Magnificus Groningen",
+      "location": "Groningen",
+      "date": "1618-1624, 1630, 1635",
+      "source": null,
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Salaris: bij aanvang f 800",
+      "location": "s-Gravenhage",
+      "date": null,
+      "source": "6"
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Anna Emerentia",
+      "LastName": "MUSENHOLE",
+      "Affix": null,
+      "Gender": null,
+      "source": "6,a",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Frankfurt",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Franciscus",
+      "LastName": "GOMARUS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "MOERMANS",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Theologie",
+  "BirthCountry": "Nederland",
+  "BirthCity": "Brugge",
+  "BirthDate": "1563-01-30",
+  "DeathDate": "1641-01-11",
+  "DeathCity": null
+}

@@ -1,0 +1,132 @@
+{
+  "FirstName": "Philippus",
+  "LastName": "FERDINANDUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": "Reis Oost-Europa",
+      "location": "Oost-Europa",
+      "date": "79",
+      "source": null
+    },
+    {
+      "subject": "Verblijf Constantinopel",
+      "location": "Constantinopel",
+      "date": "1580-1585",
+      "source": null
+    }
+  ],
+  "careers": [
+    {
+      "job": "Hoogleraar Hebreeuws",
+      "location": "Oxford",
+      "date": "1595-06-21",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Stud. Cambridge",
+      "location": null,
+      "date": "1596-12-16",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Mag.art.lib.",
+      "location": "Engeland",
+      "date": null,
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Docent Hebreeuws",
+      "location": "Cambridge",
+      "date": "1597",
+      "source": null,
+      "is_side_job": 0
+    },
+    {
+      "job": "Hoogleraar Arabisch voor Leiden",
+      "location": null,
+      "date": "1599-10-08",
+      "source": null,
+      "is_side_job": 1
+    },
+    {
+      "job": "Hoogleraar Arabisch, verlengd Leiden",
+      "location": null,
+      "date": "1599-11-06",
+      "source": null,
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [
+    {
+      "particularity": "Bekeerd",
+      "location": null,
+      "date": "1585",
+      "source": null
+    },
+    {
+      "particularity": "Woonde bij R.Snellius",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "In nov.1599 verzoek om meer geld voor laten overkomen gezin uit Engeland",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Laat slechts schulden na",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Steun van Scaliger, Drusius en Snellius",
+      "location": null,
+      "date": null,
+      "source": null
+    },
+    {
+      "particularity": "Salaris: f300 (1599)",
+      "location": null,
+      "date": null,
+      "source": null
+    }
+  ],
+  "spouses": [
+    {
+      "FirstName": "Elisabeth (Sara?)",
+      "LastName": "Furdinando",
+      "Affix": null,
+      "Gender": null,
+      "source": null,
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [],
+  "far_family": [],
+  "type_of_person": 1,
+  "faculty": "Letteren",
+  "BirthCountry": "Polen",
+  "BirthCity": null,
+  "BirthDate": "1555",
+  "DeathDate": "1599-12",
+  "DeathCity": "Leiden"
+}

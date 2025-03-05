@@ -1,0 +1,299 @@
+{
+  "FirstName": "Petrus",
+  "LastName": "MOLINAEUS",
+  "Affix": null,
+  "Gender": "Man",
+  "second_names": [],
+  "alternative_last_names": [],
+  "education": [
+    {
+      "subject": null,
+      "location": "Sedan",
+      "date": "1578-1588",
+      "source": "66"
+    },
+    {
+      "subject": "Bediende graaf Rutland",
+      "location": "Londen",
+      "date": "1589",
+      "source": "66"
+    },
+    {
+      "subject": "Stud.Theol. (Bennett college)",
+      "location": "Cambridge",
+      "date": "1589-1592",
+      "source": "66"
+    },
+    {
+      "subject": "Doct.Theol",
+      "location": "Cambridge",
+      "date": "1615",
+      "source": "66"
+    }
+  ],
+  "careers": [
+    {
+      "job": null,
+      "location": "Repbuliek",
+      "date": "09-1592",
+      "source": "66",
+      "is_side_job": 0
+    },
+    {
+      "job": "Rector Latijnse school, Repetitor Grieks",
+      "location": "Leiden",
+      "date": "1593",
+      "source": "2",
+      "is_side_job": 0
+    },
+    {
+      "job": "Buitengewoon Hoogleraar",
+      "location": "Leiden",
+      "date": "11-06-1593",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Ontslag wegens vertrek",
+      "location": "Leiden",
+      "date": "24-02-1598",
+      "source": "27",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant",
+      "location": "Parijs",
+      "date": "1599-1620",
+      "source": "66",
+      "is_side_job": 0
+    },
+    {
+      "job": "Reis naar hof James I",
+      "location": "Londen",
+      "date": "1615,1625",
+      "source": "66",
+      "is_side_job": 0
+    },
+    {
+      "job": "Predikant en Hoogleraar Theologie",
+      "location": "Sedan",
+      "date": "1621",
+      "source": "66",
+      "is_side_job": 0
+    }
+  ],
+  "particularities": [],
+  "spouses": [
+    {
+      "FirstName": "Marie",
+      "LastName": "COLIGNON",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "66",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": "1622-08-12",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Sara",
+      "LastName": "DE GELHAY",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "66",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": "Sedan",
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "parents": [
+    {
+      "FirstName": "Joachim",
+      "LastName": "MOLINAEUS",
+      "Affix": "seigneur de Lorme Grigny",
+      "Gender": "Man",
+      "source": "66",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Frangoise",
+      "LastName": "GABET",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "66",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "grand_parents": [],
+  "in_laws": [],
+  "children": [
+    {
+      "FirstName": "Louis",
+      "LastName": "MOLINAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "66",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1606",
+      "DeathDate": "1683-10-20",
+      "DeathCity": "Londen"
+    },
+    {
+      "FirstName": "Cyrus",
+      "LastName": "MOLINAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "66",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Pierre",
+      "LastName": "MOLINAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "66",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": "1600",
+      "DeathDate": "1684-10-20",
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Theophile",
+      "LastName": "MOLINAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "66",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Daniel",
+      "LastName": "MOLINAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "66",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Henri",
+      "LastName": "MOLINAEUS",
+      "Affix": null,
+      "Gender": "Man",
+      "source": "66",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Marthe",
+      "LastName": "MOLINAEUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "66",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Esther",
+      "LastName": "MOLINAEUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "66",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    },
+    {
+      "FirstName": "Marie",
+      "LastName": "MOLINAEUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "66",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "far_family": [
+    {
+      "FirstName": "Marie",
+      "LastName": "MOLINAEUS",
+      "Affix": null,
+      "Gender": "Vrouw",
+      "source": "66",
+      "second_names": [],
+      "alternative_last_names": [],
+      "BirthCountry": null,
+      "BirthCity": null,
+      "BirthDate": null,
+      "DeathDate": null,
+      "DeathCity": null
+    }
+  ],
+  "type_of_person": 1,
+  "faculty": "Curatoren",
+  "BirthCountry": null,
+  "BirthCity": "Vexin",
+  "BirthDate": "1568-10-16",
+  "DeathDate": "1658-03-10",
+  "DeathCity": "Sedan"
+}

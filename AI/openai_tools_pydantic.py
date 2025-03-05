@@ -1,3 +1,4 @@
+
 import json
 import os
 import re
@@ -13,11 +14,11 @@ from helpers.person import save_person_info, extract_birth_year, enrich_personal
 
 main_model_schema = Person.model_json_schema()
 
-
 # print(json.dumps(main_model_schema, indent=2))
 # sys.exit()
 
 def chat_completion(person_info):
+
     # Pass person_data to OpenAI
     return client.chat.completions.create(
         model="gpt-3.5-turbo",  # Specify the model to use for the completion
@@ -46,11 +47,63 @@ def chat_completion(person_info):
 # Define a dictionary to store enrichment information
 enrichment_info = {}
 
+def convert_json_to_sql(filename, person):
+
+    # Extract the birth year from the person's birth date
+    extracted_birth_year = extract_birth_year(person.BirthDate)
+
+    # Join the string array by a space for alternative last names and second names
+    alternative_last_names, second_names = join_person_names(person)
+    person.alternative_last_names = alternative_last_names
+    person.second_names = second_names
+
+    # Get the person from the database
+    get_person_from_db = get_person(person, extracted_birth_year)
+
+    if get_person_from_db:
+        print(f'Processing existing person with ID {get_person_from_db.personPersonID}')
+        person_db = get_person_from_db
+        enrich_personal_information(person, person_db)
+
+        # Update relations in the database
+        update_relations(person, person_db)
+
+        # Update enrichment_info dictionary
+        enrichment_info[filename] = {'person_id': person_db.personPersonID, 'new_person': False,
+                                     'maybe_same_person': False}
+
+    else:
+        get_maybe_same_person_from_db = get_maybe_same_person(person, extracted_birth_year)
+        if get_maybe_same_person_from_db:
+            print(f'Processing existing potential person with ID {get_maybe_same_person_from_db.personPersonID}')
+            maybe_same_person_db = create_person(person)
+            enrich_personal_information(person, maybe_same_person_db)
+
+            # Update relations in the database
+            update_relations(person, maybe_same_person_db, True)
+
+            # Update enrichment_info dictionary
+            enrichment_info[filename] = {'person_id': maybe_same_person_db.personPersonID,
+                                         'new_person': True, 'maybe_same_person': True}
+
+        else:
+            new_person_db = create_person(person)
+            print(f'Processing new person with ID {new_person_db.personPersonID}')
+            enrich_personal_information(person, new_person_db)
+
+            # Update relations in the database
+            update_relations(person, new_person_db)
+
+            # Update enrichment_info dictionary
+            enrichment_info[filename] = {'person_id': new_person_db.personPersonID, 'new_person': True,
+                                         'maybe_same_person': False}
+
 
 def process_person_data(path, volume):
-    # Define input and output directories
+
+    # Define input and output directories (txt -> json)
     input_directory = f'{path}{volume}'
-    output_dir = 'evaluation_json/generated_json/try1/ocr_text/vol1'
+    output_dir = 'evaluation_json/generated_json_gtp4o/try1/ocr_text/vol1'
 
     # Get a sorted list of person files in the input directory
     person_files = sorted(os.listdir(input_directory),
@@ -58,8 +111,13 @@ def process_person_data(path, volume):
 
     # Iterate over each file in the person_files list
     for filename in person_files:
+
+        print(filename)
+
         if filename.endswith('.txt'):
+
             with open(os.path.join(input_directory, filename), 'r') as input_file:
+
                 # Read the person data from the file
                 person_data = input_file.read()
 
@@ -83,62 +141,15 @@ def process_person_data(path, volume):
                         except ValueError as e:
                             print(e)
                     else:
+
                         print("Get person from OpenAI")
                         person = chat_completion(person_data)
                         save_person_info(json.dumps(person.model_dump(), indent=2), output_dir, file_count, volume)
 
-                    print(f'Processing person {file_count} with name {person.FirstName} {person.LastName}')
-
-                    # Extract the birth year from the person's birth date
-                    extracted_birth_year = extract_birth_year(person.BirthDate)
-
-                    # Join the string array by a space for alternative last names and second names
-                    alternative_last_names, second_names = join_person_names(person)
-                    person.alternative_last_names = alternative_last_names
-                    person.second_names = second_names
-
-                    # Get the person from the database
-                    get_person_from_db = get_person(person, extracted_birth_year)
-
-                    if get_person_from_db:
-                        print(f'Processing existing person with ID {get_person_from_db.personPersonID}')
-                        person_db = get_person_from_db
-                        enrich_personal_information(person, person_db)
-
-                        # Update relations in the database
-                        update_relations(person, person_db)
-
-                        # Update enrichment_info dictionary
-                        enrichment_info[filename] = {'person_id': person_db.personPersonID, 'new_person': False,
-                                                     'maybe_same_person': False}
-
-                    else:
-                        get_maybe_same_person_from_db = get_maybe_same_person(person, extracted_birth_year)
-                        if get_maybe_same_person_from_db:
-                            print(f'Processing existing potential person with ID {get_maybe_same_person_from_db.personPersonID}')
-                            maybe_same_person_db = create_person(person)
-                            enrich_personal_information(person, maybe_same_person_db)
-
-                            # Update relations in the database
-                            update_relations(person, maybe_same_person_db, True)
-
-                            # Update enrichment_info dictionary
-                            enrichment_info[filename] = {'person_id': maybe_same_person_db.personPersonID,
-                                                         'new_person': True, 'maybe_same_person': True}
-
-                        else:
-                            new_person_db = create_person(person)
-                            print(f'Processing new person with ID {new_person_db.personPersonID}')
-                            enrich_personal_information(person, new_person_db)
-
-                            # Update relations in the database
-                            update_relations(person, new_person_db)
-
-                            # Update enrichment_info dictionary
-                            enrichment_info[filename] = {'person_id': new_person_db.personPersonID, 'new_person': True,
-                                                         'maybe_same_person': False}
-
-                    print(f'Finished processing person {file_count} with name {person.FirstName} {person.LastName}')
+                        # json -> sql
+                        print(f'Processing person {file_count} with name {person.FirstName} {person.LastName}')
+                        convert_json_to_sql(filename, person)
+                        print(f'Finished processing person {file_count} with name {person.FirstName} {person.LastName}')
 
                 except InstructorRetryException as e:
                     print(e)
@@ -147,6 +158,8 @@ def process_person_data(path, volume):
                     pass
 
     print(enrichment_info)
+
     # Save enrichment_info to a JSON file
     with open('enrichment_info_vol1n.json', 'w') as json_file:
         json.dump(enrichment_info, json_file, indent=2)
+
